@@ -1,0 +1,1379 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=176 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:47:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Horizon &raquo; Running Reggie Next from Source</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<meta name="description" content="The source version of Reggie Next adds many more improvements to the latest compiled version, so here's a guide on how to run it. The pictures only apply to the...">
+	<meta name="keywords" content="running reggie next from source">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" id="theme_css" href="themes/horizondark/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tricks.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd_0_5.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jscolor/jscolor.js"></script>
+	<script type="text/javascript">boardroot = "#\/";</script>
+
+		
+	</head>
+<body style="width:100%; font-size: 80%;">
+<form action="https://horizonwii.net/?page=login" method="post" id="logout" style="display:none;"><input type="hidden" name="action" value="logout"></form>
+<table id="main" class="layout-table">
+<tr>
+<td id="main-header" colspan="2">
+    <table id="header" class="outline">
+        <tr>
+            <td class="cell0 left">
+                <table class="layout-table">
+                <tr>
+                <td><center>
+                   <a href="index.html"><img id="theme_banner" src="img/logo.png" alt="Horizon" title="Horizon"></a> 
+				   </center>
+                </td>
+                <!-- Box Shit -->
+					
+                </tr>
+                </table>
+            </td>
+        </tr>
+		<tr class="header1">
+			<th id="navBar center">
+				<div style="display:inline-block;">
+                                        <span class="navButton">
+                        <a href="index6bf6.html?page=register">Register</a>
+					</span>
+                    <span class="navButton">
+                        <a href="index6f31.html?page=login">Log in</a>
+                    </span>
+                                    </div>
+			</th>
+		</tr>
+		<tr class="cell1">
+			<th id="cell2 center" style="float:left">
+				<font size="1.5"><span id="viewCount">1,121,726</span> views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font>
+			</th>
+			<th id="cell2 center" style="float:right">
+				<font size="1.5">08-07-18, 08:24 pm </font>
+			</th>
+		</tr>
+        <tr class="header1">
+			<th id="navBar center">
+                <div id="navMenuContainer">
+					
+                    <span class="navButton"><a href="index.html">Home</a></span>
+					<span class="navButton"><a href="index4650.html?page=board">Forums</a></span>
+                    
+					 <span class="navButton"><a href="index2ada.html?page=discord">Discord</a></span>
+                      <span class="navButton"> <a href="index8204.html?page=leveldepo">Level Depot</a></span>
+					 <span class="navButton"> <a href="index8689.html?page=youtube">Youtube</a></span>
+                </div>
+            </th>
+        </tr>
+        <tr class="cell0">
+            <td class="smallFonts center">
+                <div style="min-height:16px;" id="onlineUsers">0 users browsing Tutorials and Info. | 1 guest</div>
+		<script type="text/javascript">
+			onlineFID = 8;
+			window.addEventListener("load",  startOnlineUsers, false);
+		</script>
+	
+            </td>
+        </tr>
+        <tr class="header1"><th id="header-sep"></th></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+
+
+<td id="main-sidebar">
+
+	<table id="sidebar" class="outline">
+
+		<tr>
+
+			<td class="cell1">
+
+				<table class="outline margin">
+
+					
+					<tr class="header0"><th>Navigation Bar</th></tr>
+
+						
+							<tr class="cell2"><td><a href="index.html">Home page</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexbc7f.html?page=news">News</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index4650.html?page=board">Forums</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexfe9c.html?page=faq">FAQ</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index00ff.html?page=memberlist">Member list</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexcb8c.html?page=ranks">Ranks</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index06de.html?page=online">Online users</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexe1ae.html?page=lastposts">Last posts</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index062e.html?page=search">Search</a></td></tr>
+
+						
+					
+					<tr class="header0"><th>Quick Access</th></tr>
+
+						
+							<tr class="cell1"><td><a href="index8204.html?page=leveldepo">Level Depot</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index8689.html?page=youtube">Youtube</a></td></tr>
+
+						
+					
+				</table>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</td>
+
+ 
+<td id="main-page">
+    <table id="page-container" class="layout-table">
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index43ea.html?page=thread&amp;id=176">Running Reggie Next from Source</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+		<!---->
+    <tr><td class="contents-container">
+        <div id="page_contents"><script type="text/javascript">window.addEventListener("load", hookUpControls, false);</script>		<div class="smallFonts pages">
+		Pages: <span class="pagelink curpage">1</span><a class="pagelink"  href="indexcfa2.html?page=thread&amp;id=176&amp;from=20">2</a> <a class="pagelink nextpage"  href="indexcfa2.html?page=thread&amp;id=176&amp;from=20">&#x203A;</a> <a class="pagelink lastpage"  href="indexcfa2.html?page=thread&amp;id=176&amp;from=20">&#x00BB;</a>
+	</div>
+		<table class="post margin" id="post3220">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3220">
+									Posted on 09-30-17, 04:50 pm
+										 (rev. 15 by <a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a> on 06-10-18, 01:56 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3220">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexba6c.html?page=post&amp;id=3220">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3220									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 336/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3220">
+				The source version of Reggie Next adds many more improvements to the latest compiled version, so here's a guide on how to run it. The pictures only apply to the Windows version.<br />
+<br />
+<strong><u>Prerequisites</u></strong><br />
+- <a href="https://github.com/aboood40091/Reggie-Next-M3/archive/master.zip">Reggie! Next M3 Source</a><br />
+- <a href="https://www.python.org/downloads/release/python-344/">Python 3.4.4</a><br />
+- <a href="https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.4.1/">PyQt 5.4.1</a><br />
+- <a href="http://tdm-gcc.tdragon.net/" target="_blank">TDM-GCC</a> (Windows ONLY, skip the related steps if you're on OS X/Linux)<br />
+- Cython<br />
+- <a href="index2326.html?page=thread&amp;id=56">NSMBW's</a> or <a href="https://www.dropbox.com/s/ijkwcrjfy66l7ke/DecompressedNewer_v1.2.0.7z?dl=0">NewerSMBW's</a> Stage Folders<br />
+<br />
+<strong><u>Installing Python</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Go to the directory you downloaded the installer to and open it. You will be welcomed with this :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/pgmkb10q5/" alt=""/><br />
+<br />
+Now press Next and again Next, and you will see this screen :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/der6h09j1/" alt=""/><br />
+<br />
+Click on the disk (or cross) icons to match the settings in the picture above, then click on Next and let the installation complete itself, then press Finish to close the installer. To test if Python was installed correctly, press WIN+R, type <em>cmd</em> and press OK.<br />
+<br />
+<img class="imgtag" src="../www.isunshare.com/images/article/windows-8/enable-command-pompt-on-windows-8-computer/input-cmd-and-tap-ok.png" alt=""/><br />
+<br />
+After that, type "<em>python</em>" in the terminal window. This is what you should get (exact text may vary between systems) :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/wdlc1lrn1/" alt=""/></div></div><br />
+<strong><u>Installing PyQt</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Go to the directory you downloaded the installer to and open it. You will be welcomed with this :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/3k4mopi5p/" alt=""/><br />
+<br />
+Press Next and then I Agree. After that, you will see this screen :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/uj8hji9nx/" alt=""/><br />
+<br />
+Set the checkboxes as in the image above, then click on Next and again Next, and let the installation complete itself, then press Finish to close the installer. To test if PyQt was installed correctly, open cmd (you know how to do it now), and once it opens, first type "<em>python</em>" and then "<em>import PyQt5</em>". If nothing happens, it's installed correctly.<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/4u2g3942l/" alt=""/></div></div><br />
+<strong><u>Installing TDM-GCC</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><u><em>If you are on OS X/Linux, skip all the steps inside this spoiler and go to the next one.</em></u><br />
+<br />
+Go to the directory you downloaded the installer to and open it. You will be welcomed with this :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/p3zrivahp/" alt=""/><br />
+<br />
+Press <em>Create</em> to make a new installation, then press Next and again Next. You will see this screen :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/8u9lfmzq5/" alt=""/><br />
+<br />
+Edit the installation path to be the same as in the picture above, then press Next and again Next. You will now be shown this screen :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/vbfqwfvj1/" alt=""/><br />
+<br />
+Toggle the options as shown in the picture above, then click Next and let the installation complete. On the window that appears, toggle the checkbox and press Finish.<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/t85bott65/" alt=""/><br />
+<br />
+To test if GCC was installed correctly, open cmd (you know how to do it now), and once it opens, type "<em>gcc --version</em>". You should get something similar to this :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/dzfebeugd/" alt=""/></div></div><br />
+<strong><u>Installing Cython</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><u><em>If you are on OS X/Linux, skip to the last step inside this spoiler.</em></u><br />
+<br />
+<br />
+Go to the folder <em>C:/Python34/Lib/distutils</em> and create a file named "<em>distutils.cfg</em>".<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/jeo4c3ysd/" alt=""/><br />
+<br />
+Open the newly created file in Notepad, place inside the following and save it :<br />
+<div class="codeblock">[build]
+compiler = mingw32</div><br />
+<img class="imgtag" src="https://postimg.cc/image/u41t4cfq5/" alt=""/><br />
+<br />
+Now open cmd and type "<em>pip install Cython==0.25.2</em>"<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/3vqof8ya5/" alt=""/><br />
+</div></div><br />
+<strong><u>Opening Reggie! Next</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Double click reggie.py to open the program. It will ask you for the Stage folder from NSMBW, of which you should have a copy if you have followed the tutorial linked earlier. Open the dump folder, and choose the folder named "Stage".</div></div><br />
+<strong><u>Importing NewerSMBW's Stage Folder</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Extract the .7z file you've downloaded earlier (only the folder "Stages" and "Tilesets" are required)<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/e9ri8hj0t/" alt=""/><br />
+<br />
+Now move the "Tilesets" folder inside the "Stages" folder, then rename it to "Texture". This should be the result :<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/6ias9ier1/" alt=""/><br />
+<br />
+Open Reggie! Next, click on <em>File </em> > <em>Change Game</em> > <em>Newer Super Mario Bros. Wii</em>, then point the program to the "Stages" folder you've just prepared.<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/muktzaist/" alt=""/></div></div><br />
+<strong><u>Troubleshooting</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Did you get the "failed to execute script reggie" error ? It can be fixed by resetting the program through the registry editor. To open it, press WIN+R, type "<em>regedit</em>" and click OK.<br />
+<br />
+<img class="imgtag" src="../www.maketecheasier.com/assets/uploads/2015/04/registry-ownership-un-command.html" alt=""/><br />
+<br />
+Once in, browse to <em>HKEY_CURRENT_USER</em> > <em>Software </em>> <em>Reggie</em>, right click on "<em>Milestone 3 Alpha 2</em>" and press Delete.<br />
+<br />
+<img class="imgtag" src="https://postimg.cc/image/hurz53a9p/" alt=""/><br />
+<br />
+Now you can reopen Reggie! Next, which should work properly now.</div></div><br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3238">
+		<tr>
+			<td class="side userlink">
+				<a href="indexa63b.html?page=profile&amp;id=58"><span style="color: #7C60B0;" class="userlink" title="Zementblock (58) [Normal user]">Zementblock</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3238">
+									Posted on 10-01-17, 12:27 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3238">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index15cb.html?page=post&amp;id=3238">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3238									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										<b>Tegotae!</b><br>Master of Events<br>Wayoshi<br>Nintendo ♥<br>Kondo / Miyamoto ♥<br>
+										<img src="data/avatars/58_1506209806.html" alt=""><br>					<br>
+					Posts: 34/72<br>
+					Since: 09-11-17<br>
+										<br>
+					Last post: 128 days<br>
+					Last view: 3 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3238">
+				Great tutorial!!<br />
+There's one paragraph from the KB with additional info:<br />
+<br />
+<div class='quote'><div class='quotecontent'>If you have installed Python 2.7 after 3.4.x, or you did not associate .py files with Python 3.4.x, then Reggie! might not start up, because .py files are still associated with Python 2.7. In this case, you have to use the following command to run Reggie!:<br />
+"c:\python34\python.exe reggie.py"<br />
+Run this command from the folder where Reggie! was extracted.<br />
+You can also create a .bat file to automate the process.</div></div><br>_________________________<br><div class="signature">Signed: Zementblock</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3254">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3254">
+									Posted on 10-01-17, 06:46 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3254">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexe1d1.html?page=post&amp;id=3254">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3254									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 339/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3254">
+				Well, RN M3 already has that command as a bat file, and i already told to run it, so i think it's pointless <img class="smiley" alt="" src="img/smilies/tongue.png" /><br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3529">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3529">
+									Posted on 11-05-17, 03:04 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3529">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index58bd.html?page=post&amp;id=3529">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3529									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 3/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3529">
+				What's the equivalent of "import cx_Freeze" on windows?<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3531">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3531">
+									Posted on 11-05-17, 11:39 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3531">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index159d.html?page=post&amp;id=3531">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3531									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 359/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3531">
+				Why alternative ? It's done that way on every OS. If the command doesn't work, something else is wrong.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3533">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3533">
+									Posted on 11-05-17, 05:28 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3533">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index88ba.html?page=post&amp;id=3533">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3533									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 4/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3533">
+				I extracted PyQt5 to C:\Python34\Lib\site-packages\PyQt5 and "import PyQt5" worked fine but libEGL.dll was missing and when I run reggie.py, an error message appears for a few frames that says PyQt5 isn't even installed. How do I fix this?<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3535">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3535">
+									Posted on 11-05-17, 05:30 pm
+										 (rev. 5 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 11-05-17, 05:53 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3535">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexed44.html?page=post&amp;id=3535">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3535									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 529/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3535">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">If <code>libEGL.dll</code> is missing, you didn't copy it to the Reggie! Next folder: <div class='quote'><div class='quoteheader'><a href="indexba6c.html?page=post&amp;id=3220">Posted by customlevelfan78</a></div><div class='quotecontent'>- Go to the Python installation folder > Lib > site-packages > PyQt5 and copy the file "libEGL.dll" to the Reggie folder</div></div><br />
+If copying the <code>libEGL.dll</code> file doesn't work, then try to run Reggie! Next, using the included <code>.bat</code> file (in the Reggie! Next folder).<br />
+<br />
+If it still doesn't work (and you've tried running Reggie! Next with the <code>.bat</code> file), and you're running the 64-bit version of Python/PyQt/cx_Freeze/etc., try uninstalling Python/PyQt/cx_Freeze/etc., and try installing the 32-bit (x86/x32/Win32) version of Python/PyQt/cx_Freeze/etc., and try re-compiling Reggie! Next again.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3537">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3537">
+									Posted on 11-05-17, 08:50 pm
+										 (rev. 1 by <a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a> on 11-05-17, 08:52 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3537">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexadc7.html?page=post&amp;id=3537">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3537									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 5/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3537">
+				I installed the 32-bit version and it worked but when I tried to run the batch file to select the stage folder it said<br />
+<br />
+C:\Users\(my username)\Desktop\Reggie-Next-master\Reggie-next-master>C:/Python34/python.exe reggie.py<br />
+  File "reggie.py", line 3<br />
+    Reggie Next - New Super Mario Bros. Wii / New Super Mario Bros 2 Level Editor<br />
+    ^<br />
+IndentationError: unexpected indent<br />
+<br />
+C:\Users\(m username)\Desktop\Reggie-Next-master\Reggie-Next-master>pause<br />
+Press any key to continue . . .<br />
+<br />
+Pressing a key closes the program. How do I fix the indentation issue?<br />
+<br />
+Edit: there were 2 spaces before the second line and 4 before the third and fourth lines but they don't show here.<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3539">
+		<tr>
+			<td class="side userlink">
+				<a href="index45c0.html?page=profile&amp;id=54"><span style="color: #97ACEF;" class="userlink" title="Chickensaver (54) [Normal user]">Chickensaver</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3539">
+									Posted on 11-05-17, 09:07 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3539">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index1650.html?page=post&amp;id=3539">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3539									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/koopa.png" alt="" /><br>Koopa<br>					Sprite Ripper<br>
+										<img src="data/avatars/54_1518387639.png" alt=""><br>					<br>
+					Posts: 54/113<br>
+					Since: 08-31-17<br>
+										<br>
+					Last post: 21 days<br>
+					Last view: 3 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3539">
+				I get indentation errors a lot too and it is because I am not using the absolute latest python.  The version numbers it says you need sometimes lie, so just use the latest.  I simply delete the comments at the beginning of the code and it works fine.
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3541">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3541">
+									Posted on 11-05-17, 09:23 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3541">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexc6cb.html?page=post&amp;id=3541">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3541									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 6/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3541">
+				I deleted all the comments and now it says there is a problem with this line<br />
+<br />
+    from PyQtRibbon.FileMenu import QFileMenu, QFileMenuPanel<br />
+<br />
+says it couldnt import because there is no module named 'PyQtRibbon'<br />
+<br />
+and 5 lines later it says<br />
+<br />
+    raise Exception(errormsg)<br />
+<br />
+and that I haven't installed PyQtRibbon or it is broken.<br />
+<br />
+Is pyqtribbon the same as PyQt or do I have to install that too<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3543">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3543">
+									Posted on 11-05-17, 09:28 pm
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 11-05-17, 09:30 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3543">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index7426.html?page=post&amp;id=3543">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3543									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 530/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3543">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">PyQtRibbon isn't the same as PyQt, and you'll have to install PyQtRibbon, too: <a href="https://github.com/RoadrunnerWMC/PyQtRibbon">https://github.com/RoadrunnerWMC/PyQtRibbon</a><br />
+(look at the "README" file, of PyQtRibbon, for installation instructions).<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3545">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3545">
+									Posted on 11-05-17, 09:39 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3545">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexf026.html?page=post&amp;id=3545">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3545									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 7/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3545">
+				Under the comment local imports in reggie.py it says 'import TPLLib' but it said there was no module with that name when I ran the batch file. Does that mean it somehow wasn't extracted from the zipped folder containing reggie next? Also, if I have any more questions would it be better to ask them in the discord than here?<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3547">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3547">
+									Posted on 11-05-17, 10:00 pm
+										 (rev. 4 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 11-05-17, 10:22 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3547">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index90a5.html?page=post&amp;id=3547">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3547									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 531/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3547">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">I also forgot to mention that you need to install TPLLib, too: <a href="https://github.com/RoadrunnerWMC/TPLLib">https://github.com/RoadrunnerWMC/TPLLib</a><br />
+(look at the "README" file, of TPLLib, for installation instructions).<br />
+<br />
+<div class='quote'><div class='quoteheader'><a href="indexf026.html?page=post&amp;id=3545">Posted by Buddermario7</a></div><div class='quotecontent'>Under the comment local imports in reggie.py it says 'import TPLLib' but it said there was no module with that name when I ran the batch file. Does that mean it somehow wasn't extracted from the zipped folder containing reggie next?</div></div>That's incorrect. PyQtRibbon was extracted correctly from the ZIP file into the Reggie! Next folder (and nothing went wrong).<br />
+TPLLib isn't included in PyQtRibbon's source code.<br />
+<br />
+<div class='quote'><div class='quoteheader'><a href="indexf026.html?page=post&amp;id=3545">Posted by Buddermario7</a></div><div class='quotecontent'>Also, if I have any more questions would it be better to ask them in the discord than here?</div></div>I don't think it really matters where you ask any further questions. But I'd generally recommend asking further questions here, though.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3549">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3549">
+									Posted on 11-05-17, 10:42 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3549">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index8d17.html?page=post&amp;id=3549">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3549									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 8/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3549">
+				it doesn't detect NSMBW or Newer's stage folder as a stage folder. I tried the stage folder from the decompressed 7z of newer and NSMBW with a few of the stages edited, but mostly the same. Does it have to be an unedited stage folder?<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3551">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3551">
+									Posted on 11-05-17, 10:57 pm
+										 (rev. 4 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 11-05-17, 11:05 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3551">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index6937.html?page=post&amp;id=3551">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3551									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 532/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3551">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">While you were trying to get the NewerSMBW Stage folder to work in Reggie! Next, did you follow <a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>'s instructions?: <div class='quote'><div class='quoteheader'><a href="indexba6c.html?page=post&amp;id=3220">Posted by customlevelfan78</a></div><div class='quotecontent'><strong><u>Importing Newer's Stage Folder</u></strong><br />
+- Extract the .7z file you've downloaded earlier (only the folder "Stages" and "Tilesets" are required)<br />
+- Move the "Tilesets" folder inside the "Stages" folder and rename it to "Texture"<br />
+- Rename the "Stages" folder to "Stage"<br />
+- Open Reggie! Next, click on File > Change Game > Newer Super Mario Bros. Wii<br />
+- Point the program to the folders you've made earlier</div></div><br />
+<hr><br />
+<div class='quote'><div class='quoteheader'><a href="index8d17.html?page=post&amp;id=3549">Posted by Buddermario7</a></div><div class='quotecontent'>Does it have to be an unedited stage folder?</div></div>Normally, Reggie! Next, wouldn't give you any errors if the Stage/Tileset files are modified (at least to my experience). If it does give you an error, you can try using the original unmodified NSMBW/NewerSMBW Stage folders with it.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3553">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3553">
+									Posted on 11-06-17, 03:00 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3553">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexe22b.html?page=post&amp;id=3553">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3553									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 9/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3553">
+				I used wiiscrubber to extract the unencrypted partition of an unmodified iso of NSMBW and pointed Reggie! Next to the folder labeled 'Stage' with the tileset folder and all the levels inside it but it doesn't get recognized as the right folder.<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3555">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3555">
+									Posted on 11-06-17, 03:04 am
+										 (rev. 2 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 11-06-17, 03:09 am)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3555">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index915e.html?page=post&amp;id=3555">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3555									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 533/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3555">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">In Reggie! Next, did you click <code>File</code> --&gt; <code>Change Game</code> --&gt; <code>New Super Mario Bros. Wii</code>, first, before selecting/loading the unmodified/original NSMBWii Stage Folder you extracted from the ISO?<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3557">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3557">
+									Posted on 11-06-17, 04:36 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3557">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index81ce.html?page=post&amp;id=3557">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3557									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 10/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3557">
+				I'm on this part<div class='quote'><div class='quoteheader'><a href="indexba6c.html?page=post&amp;id=3220">Posted by customlevelfan78</a></div><div class='quotecontent'><strong><u>Opening Reggie! Next</u></strong><br />
+- Run the included .bat file in Reggie! Next's folder.<br />
+- The program will ask for the Stage folder, point it to NSMBW's Stage folder you've obtained earlier.<br />
+</div></div>When it asks for the stage folder and I point it to NSMBW's stage folder, it says the folder I pointed to doesn't have the required files. Does it have to be a certain encoding or the right version?<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3561">
+		<tr>
+			<td class="side userlink">
+				<a href="indexa63b.html?page=profile&amp;id=58"><span style="color: #7C60B0;" class="userlink" title="Zementblock (58) [Normal user]">Zementblock</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3561">
+									Posted on 11-06-17, 09:04 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3561">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexa1cd.html?page=post&amp;id=3561">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3561									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										<b>Tegotae!</b><br>Master of Events<br>Wayoshi<br>Nintendo ♥<br>Kondo / Miyamoto ♥<br>
+										<img src="data/avatars/58_1506209806.html" alt=""><br>					<br>
+					Posts: 51/72<br>
+					Since: 09-11-17<br>
+										<br>
+					Last post: 128 days<br>
+					Last view: 3 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3561">
+				No, if you extracted the unencrypted partition with Wiiscrubber and took only the \Stage\*.* folder then everything should be ok.<br />
+Maybe the paths are somehow screwed up, you can check them with the registry editor.<br />
+<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><img class="imgtag" src="../images2.imgbox.com/0d/b0/56wHHMBb_o.png" alt=""/></div></div><br>_________________________<br><div class="signature">Signed: Zementblock</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3565">
+		<tr>
+			<td class="side userlink">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3565">
+									Posted on 11-06-17, 10:14 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3565">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexdfb9.html?page=post&amp;id=3565">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3565									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/38_1509918984.html" alt=""><br>					<br>
+					Posts: 11/14<br>
+					Since: 07-11-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 237 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3565">
+				all i see is 'Milestone 2 Alpha 4' and 'Reggie Level Editor'. I have the normal Reggie from <a href="http://rvlution.net/reggie/" target="_blank">http://rvlution.net/reggie/</a> if that's what it is, but it only has '(default)' and 'GamePath2'. GamePath2 is the folder for Reggie! Next. Is there a way I can manually insert a value as the directory for the stages folder to get it to work?<br>_________________________<br><div class="signature">This is my signature.</div>
+			</td>
+		</tr>
+	</table>
+		<div class="smallFonts pages">
+		Pages: <span class="pagelink curpage">1</span><a class="pagelink"  href="indexcfa2.html?page=thread&amp;id=176&amp;from=20">2</a> <a class="pagelink nextpage"  href="indexcfa2.html?page=thread&amp;id=176&amp;from=20">&#x203A;</a> <a class="pagelink lastpage"  href="indexcfa2.html?page=thread&amp;id=176&amp;from=20">&#x00BB;</a>
+	</div>
+	</div>
+    </td></tr>
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index43ea.html?page=thread&amp;id=176">Running Reggie Next from Source</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+<td id="main-footer" colspan="2">
+ 
+    <table id="footer" class="outline">
+    <tr>
+    <td class="cell2">
+        <table class="layout-table" style="line-height: 1.4em;">
+            <tr>
+            <td style="text-align: left;">
+                <img src="img/poweredbyblarg.png" style="float: left; margin-right: 3px;">
+<a href="http://kuribo64.net/blargboard/" target="_blank">Blargboard 1.1</a> &middot; by StapleButter<br>
+Based off <a href="http://abxd.dirbaio.net/" target="_blank">ABXD</a> by Dirbaio, Kawa &amp; co.<br>
+                <!-- Page rendered in 0.029 seconds (with 39 SQL queries and 943.844K of RAM) -->
+            </td>
+        </table>
+    </td>
+    </tr>
+    </table>
+ 
+</td>
+</tr>
+</table>
+</body>
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=176 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:47:20 GMT -->
+</html>
+

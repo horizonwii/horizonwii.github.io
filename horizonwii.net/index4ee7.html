@@ -1,0 +1,2256 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=59 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:45:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Horizon &raquo; Setting Up and Compiling the Newer Sources</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<meta name="description" content="This is the original post made by Tempus and recovered from RVLution. I added a few edits to the original post, while 9211tr made the Windows and Linux tutorials, props...">
+	<meta name="keywords" content="setting compiling newer sources">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" id="theme_css" href="themes/horizondark/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tricks.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd_0_5.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jscolor/jscolor.js"></script>
+	<script type="text/javascript">boardroot = "#\/";</script>
+
+		
+	</head>
+<body style="width:100%; font-size: 80%;">
+<form action="https://horizonwii.net/?page=login" method="post" id="logout" style="display:none;"><input type="hidden" name="action" value="logout"></form>
+<table id="main" class="layout-table">
+<tr>
+<td id="main-header" colspan="2">
+    <table id="header" class="outline">
+        <tr>
+            <td class="cell0 left">
+                <table class="layout-table">
+                <tr>
+                <td><center>
+                   <a href="index.html"><img id="theme_banner" src="img/logo.png" alt="Horizon" title="Horizon"></a> 
+				   </center>
+                </td>
+                <!-- Box Shit -->
+					
+                </tr>
+                </table>
+            </td>
+        </tr>
+		<tr class="header1">
+			<th id="navBar center">
+				<div style="display:inline-block;">
+                                        <span class="navButton">
+                        <a href="index6bf6.html?page=register">Register</a>
+					</span>
+                    <span class="navButton">
+                        <a href="index6f31.html?page=login">Log in</a>
+                    </span>
+                                    </div>
+			</th>
+		</tr>
+		<tr class="cell1">
+			<th id="cell2 center" style="float:left">
+				<font size="1.5"><span id="viewCount">1,121,704</span> views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font>
+			</th>
+			<th id="cell2 center" style="float:right">
+				<font size="1.5">08-07-18, 08:24 pm </font>
+			</th>
+		</tr>
+        <tr class="header1">
+			<th id="navBar center">
+                <div id="navMenuContainer">
+					
+                    <span class="navButton"><a href="index.html">Home</a></span>
+					<span class="navButton"><a href="index4650.html?page=board">Forums</a></span>
+                    
+					 <span class="navButton"><a href="index2ada.html?page=discord">Discord</a></span>
+                      <span class="navButton"> <a href="index8204.html?page=leveldepo">Level Depot</a></span>
+					 <span class="navButton"> <a href="index8689.html?page=youtube">Youtube</a></span>
+                </div>
+            </th>
+        </tr>
+        <tr class="cell0">
+            <td class="smallFonts center">
+                <div style="min-height:16px;" id="onlineUsers">0 users browsing Tutorials and Info. | 1 guest</div>
+		<script type="text/javascript">
+			onlineFID = 8;
+			window.addEventListener("load",  startOnlineUsers, false);
+		</script>
+	
+            </td>
+        </tr>
+        <tr class="header1"><th id="header-sep"></th></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+
+
+<td id="main-sidebar">
+
+	<table id="sidebar" class="outline">
+
+		<tr>
+
+			<td class="cell1">
+
+				<table class="outline margin">
+
+					
+					<tr class="header0"><th>Navigation Bar</th></tr>
+
+						
+							<tr class="cell2"><td><a href="index.html">Home page</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexbc7f.html?page=news">News</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index4650.html?page=board">Forums</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexfe9c.html?page=faq">FAQ</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index00ff.html?page=memberlist">Member list</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexcb8c.html?page=ranks">Ranks</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index06de.html?page=online">Online users</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexe1ae.html?page=lastposts">Last posts</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index062e.html?page=search">Search</a></td></tr>
+
+						
+					
+					<tr class="header0"><th>Quick Access</th></tr>
+
+						
+							<tr class="cell1"><td><a href="index8204.html?page=leveldepo">Level Depot</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index8689.html?page=youtube">Youtube</a></td></tr>
+
+						
+					
+				</table>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</td>
+
+ 
+<td id="main-page">
+    <table id="page-container" class="layout-table">
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index4ee7.html?page=thread&amp;id=59">Setting Up and Compiling the Newer Sources</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+		<!---->
+    <tr><td class="contents-container">
+        <div id="page_contents"><script type="text/javascript">window.addEventListener("load", hookUpControls, false);</script>		<div class="smallFonts pages">
+		Pages: <span class="pagelink curpage">1</span><a class="pagelink"  href="index7858.html?page=thread&amp;id=59&amp;from=20">2</a><a class="pagelink"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">3</a> <a class="pagelink nextpage"  href="index7858.html?page=thread&amp;id=59&amp;from=20">&#x203A;</a> <a class="pagelink lastpage"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">&#x00BB;</a>
+	</div>
+		<table class="post margin" id="post459">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_459">
+									Posted on 07-04-17, 08:04 pm
+										 (rev. 7 by <a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a> on 07-02-18, 01:57 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_459">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexaff6.html?page=post&amp;id=459">Link</a>
+																									<li>
+					<li><font color="green" size="4">1</font>
+														<li>#459									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 7/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_459">
+				This is the original post made by Tempus and recovered from RVLution. I added a few edits to the original post, while 9211tr made the Windows and Linux tutorials, props to them !<br />
+<br />
+Windows 10 (made by 9211tr) :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class='quote'><div class='quoteheader'><a href="index6c38.html?page=post&amp;id=1360">Posted by 9211tr</a></div><div class='quotecontent'>OK, finally there is a way to get the NewerSMBW sources to compile on Windows (although it needs Windows 10).<br />
+<br />
+There's this feature called <a href="https://msdn.microsoft.com/commandline/wsl/about">WSL (Windows Subsystem for Linux)</a> on Windows 10, which brings a Linux subsystem to Windows (AND NO, THIS IS NOT a virtual machine, a compiled Linux emulator {like Cygwin}, or anything--this is A REAL subsystem on Windows).<br />
+<br />
+<b style="color:#FF0000;">WARNING: Even though the WSL subsystem is no longer in beta, some things may work (but probably improperly), some things may not work at all.<br />
+<br />
+If something doesn't work or works improperly (<em>and you've read this tutorial properly, and already asked me for help and I wasn't able to help you out</em>), you're free to report it to Microsoft on Github: <a href="https://github.com/Microsoft/BashOnWindows/">https://github.com/Microsoft/BashOnWindows/</a> (the Github page DOES NOT link to the source code of the WSL subsystem).<br />
+<br />
+Plus, the WSL subsystem is only available/compatible on the 64-bit version of Windows 10 (and it requires that your machine also has an 64-bit {x64-based} processor/CPU, too!). However, I was able to successfully compile the NewerSMBW sources on the WSL subsystem and I decided to write my own tutorial here in this thread for you all.</b><br />
+<br />
+<b style="font-size:140%;">Requirements</b><br />
+<br />
+- Windows 10 Anniversary Update BUILD 14393.0, Version 1607 (or higher).<br />
+<br />
+- The 64-bit (x64 or x86-64) version of Windows 10 + an x64-based processor on your computer, as the WSL subsystem requires this in order for it to enable, install, and work (as I stated before). It WILL NOT work on the 32-bit (x32 or x86) version of Windows 10 and/or an x86-based processor on your computer.<br />
+<br />
+- An internet connection.<br />
+<br />
+- At least 22 GB of free disk space.<br />
+<br />
+- ESTIMATED time required: 2 or 3 hours.<br />
+(The reason why I say "ESTIMATED" is because the time required may be different for you, depending on your computer specs, internet connection speed, etc.)<br />
+<br />
+<strong>HINT: To tell if your Windows 10 PC is 64-bit (and is running Anniversary Update BUILD 14393.0 Version 1607 or higher, and on an x64-based processor), go to the <code>Start Menu</code> --&gt; <code>Settings</code> --&gt; <code>System</code> --&gt; <code>About:</code><br />
+<img class="imgtag" src="https://ucb61fdd4c85dd89d70db549fc0a.dl.dropboxusercontent.com/cd/0/get/ANX_tq12eKqjgt7Ed26iUV0WuJKlUHPkXmlQgsmmbySSzQGOed1LPMEpy7wnWMC8WstXgYoCswVj73axPj5E-mPsJgC7hIh023Qx6h85BG_WRP6OBmhOiab_qSexmVwefCGl_tdO5NI-Nn6UNBua-GBKyau95BsS0X5l_zj6vWvT5IAadeVsThdlbM9m_79rNqo/file?dl=1" alt=""/><br />
+If your PC is below build 14393.0 Version 1607, then I'd suggest you update your computer to the newest build.<br />
+Since mine is build 17134.112 Version 1803 (as shown in the photo above; plus, I have the Fall Creators Update installed), it is higher than 14393.0 Version 1607, so I'm good to go.</strong><br />
+<br />
+<b style="font-size:140%;">Tutorial</b><br />
+<br />
+<b style="text-decoration:underline;">Installing/Enabling the WSL subsystem:</b><br />
+<br />
+STEP 1: Go to <code>Start Menu</code> --&gt; <code>Settings</code> --&gt; <code>Update & Security</code> --&gt; <code>For Developers.</code> Set it to <code>Developer Mode.</code><br />
+<br />
+STEP 2: Go to the Cortana Menu (the circle icon near the Start Menu icon) and in the search box, type <code>Turn Windows features on or off.</code> Check the box that says <code>Windows Subsystem for Linux</code> and click OK.<br />
+<br />
+STEP 3: Once you're done enabling the WSL subsystem, restart your computer.<br />
+<br />
+STEP 4: After restarting, we'll need to install the WSL subsystem:<br />
+<div class="spoiler"><button class="spoilerbutton named">Windows Store method (installs a much improved version of the WSL subsystem, recommended)</button><div class="spoiled hidden"><b style="color:#FF0000;">NOTE: You need the Windows 10 Fall Creators Update, build 16215.0 or higher, in order to use this method, or it won't work.</b><br />
+<br />
+Go to: <a href="https://aka.ms/wslstore">https://aka.ms/wslstore</a>, and the Microsoft Store should appear:<br />
+<img class="imgtag" src="https://uc01d7aa9302a3fd49a38be246a2.dl.dropboxusercontent.com/cd/0/get/ANWXhK4nxCgUXps6rlZO5fEmvFalc5fqnW6hnn-1gBqmX26OEciDwNYMX9-qIEfxwiS5XfG6LHAMN1TKYTgXUUlCKhgYi-SnD_j91ZO2HbnmzwWb-Uy11oO9AOMuHfGp7Kl269rHsXUU9RMw7T_2SU0h6LbYCdFb1EAWjC_Zf2oh2jkxe9SuLcN918ecDCYxH30/file?dl=1" alt=""/><br />
+You'll get to choose 5 (or probably more, if you're reading this in future years) different Linux distros for the WSL subsystem. Choose only Ubuntu (not any other distro), in order for everything to work out properly.<br />
+<br />
+Once you select the Ubuntu distro, hit <code>Get</code> to download it.<br />
+When it's finished downloading, hit <code>Launch</code> (you can also choose to pin it to the Start Menu if you like):<br />
+<img class="imgtag" src="https://uca7bb09eee869002887897567d1.dl.dropboxusercontent.com/cd/0/get/ANXZ86xCWI6BZzxFtC4xBcR2WoWmZw31B2hHOrPpbuhHfsfRS_tdmXNPu8hokU-Pq01QK2XmlfhCLwQ8R1sctyigT7bn8doxwsQPefh3P5Cgr2qRGttqsWpKb2KGiYRaH2yzHhcL-98rF1B3btVJj8gazqK9YCkhzJLPgZeldv70Wgu6YAp8wawrpTVHA_NrGBo/file?dl=1" alt=""/><br />
+After hitting <code>Launch</code>, it'll say that it's installing and it may take a few minutes.</div></div><div class="spoiler"><button class="spoilerbutton named">Command-line method (installs a legacy version of the WSL subsystem)</button><div class="spoiled hidden"><b style="color:#FF0000;">NOTE: This method is not recommended as it installs a legacy version of the WSL subsystem, but if you're not using the Windows 10 Fall Creators Update, build 16215.0 or higher, then this is the only method that will work.</b><br />
+<br />
+Go to the Cortana Menu and in the search box, type <div class="codeblock">bash</div> to install the WSL subsystem.<br />
+If you get an error after typing <code>bash</code>, saying <code>"Windows Subsystem for Linux has no installed distributions",</code> either:<br />
+<ul style="list-style-type:square;"><li>You go to the Cortana Menu and in the search box, type instead <div class="codeblock">lxrun /install</div> and hopefully, you shouldn't have any errors.</li><br />
+<li>You have the Windows 10 Fall Creators Update, build 16215.0 or higher installed, and should instead use the Windows Store method.</li></ul><br />
+Read the license agreement, and if you accept it, type <div class="codeblock">y</div> (for "Yes", to accept), and it will install.</div></div><b style="font-style:italic;">ESTIMATED:</b> The WSL subsystem installation may take about 10 minutes to complete.<br />
+<br />
+Once it's done installing, it will ask you for what the username should be called, just type <div class="codeblock">root</div> in all lowercase, and for the password (IF PROMPTED), that's all up to you.<br />
+<br />
+Now type <div class="codeblock">exit</div> to exit out of the WSL subsystem.<br />
+If you get an error saying that the <code>"root"</code> username already exists, then close the WSL subsystem by hitting Ctrl-C on the keyboard, don't enter in a username.<br />
+<br />
+Go to the Cortana Menu and in the search box, type <div class="codeblock">bash</div> to launch the WSL subsystem.<br />
+Normally, if the <code>"root"</code> username already exists, it will instead use that username, but if it still prompts you to enter in the username, then you have no choice but to use a different username.<br />
+<br />
+Type the commands <div class="codeblock">apt-get update -y
+apt-get upgrade -y
+exit</div><br />
+Go to the Cortana Menu and in the search box, type <div class="codeblock">bash</div> to launch the WSL subsystem, then type <div class="codeblock">cd /</div><br />
+<b style="text-decoration:underline;">Setting up and Compiling the NewerSMBW sources:</b><br />
+<br />
+STEP 1: Type in: <div class="codeblock">sh &lt;(wget -O - https://www.dropbox.com/s/xflv6knhk953vmy/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1)</div>And it'll prompt you on what you want to do, type <div class="codeblock">install</div> or simply <div class="codeblock">i</div> and hit ENTER on your keyboard, and it should start installing, and just wait for it to complete. And as I said before, the estimated time for this to take is about 2 or 3 hours, so find something to do in the meantime, unless if you have the patience to watch the screen until the script is finished running.<br />
+The script installs everything automatically, so there's no need for you to install anything manually.<br />
+<br />
+STEP 2: Once the installation is complete/finished, it'll do a TEST compile on the NewerSMBW sources (to see if everything was installed/done properly) and once that's finished and no syntax errors (or whatever errors) occurred, you're all done.<br />
+To simply compile NewerSMBW at any time, simply type in the commands: <div class="codeblock">cd /
+./newersmbw_compile.sh --autorename</div> The <code>--autorename</code> option isn't required, but with the <code>--autorename</code> option, your compiled NewerSMBW <code>.bin</code> files will be automatically renamed to their NewerSMBW-readable names.<br />
+<br />
+<br />
+STEP 3: You'll need to go into the folder of where the WSL subsystem files are located.<br />
+If you installed the WSL subsystem via the Windows Store method, then the folder is: <div class="codeblock">C:\Users\%USERNAME%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\Local&lt;wbr&gt;State\rootfs</div> If you installed it via the Command-line method, then the folder is: <div class="codeblock">C:\Users\%USERNAME%\AppData\Local\lxss\rootfs</div><br />
+Go to the <code>&lt;NewerSourcesFolder>\Kamek\NewerASM\renamed</code>, <strong>or if you used the <code>--autorename</code> option:</strong> <code>&lt;NewerSourcesFolder>\Kamek\NewerASM\renamed</code> folder (where <code>&lt;NewerSourcesFolder></code> is the path or folder name to the NewerSMBW source code folder).<br />
+You should see all the DLCode/DLRelocs/System <code>.bin</code> files for US(NTSC)/EU(PAL)/JP(JPN) {v1 and v2} if no syntax errors (or whatever errors occurred) when compiling the NewerSMBW sources.<br />
+<br />
+Then drag the <code>.bin</code> files to your <code>/NewerRes</code> folder in your NewerSMBW game patch folder and test your mods out!<br />
+<strong>>> If you haven't used the <code>--autorename</code> option, you'll need to manually rename the <code>.bin</code> files to their NewerSMBW-readable names before you drag them to the <code>/NewerRes</code> folder.</strong><br />
+<br />
+<b style="font-size:140%;">Questions</b><br />
+<br />
+<strong>1: Can I uninstall the NewerSMBW sources?</strong><br />
+Yes, run the script via the command: <div class="codeblock">sh &lt;(wget -O - https://www.dropbox.com/s/xflv6knhk953vmy/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1)</div> and type <div class="codeblock">uninstall</div> or simply <div class="codeblock">u</div> and it'll remove it, among the other tools/compilers/etc.<br />
+<br />
+<b style="color:#FF0000;">NOTE: This will remove everything in the NewerSMBW sources folder, so make sure you backup any source files/etc. from the NewerSMBW sources folder <em>before uninstalling it.</em></b><br />
+<br />
+<br />
+<strong>2: Can I reinstall the NewerSMBW sources?</strong><br />
+Uninstall it, FIRST (see question #1), and then install it back again.<br />
+<br />
+<strong>3: Can I have multiple folders for the NewerSMBW sources?</strong><br />
+Yes, copy the existing folder by typing the commands in the WSL subsystem: <div class="codeblock">cd /
+cp -r NewerSMBW-no-translations &lt;NewFolderName&gt;</div> Or if you need an unmodified and fresh copy, you can simply redownload it by typing these commands in the WSL subsystem: <div class="codeblock">cd /
+svn co https://github.com/Treeki/NewerSMBW/branches/no-translations &lt;NewFolderName&gt;</div> (where <code>&lt;NewFolderName></code> is the folder name of the copy of the NewerSMBW sources folder).<br />
+<b style="color:#FF0000;">NOTE: Do not have <code>&lt;NewFolderName></code> as <code>NewerSMBW-no-translations</code> or your current NewerSMBW sources will be <em>OVERWRITTEN</em>.</b><br />
+<br />
+You will also need to copy the <code>newersmbw_compile.sh</code> file, so type these commands in the WSL subsystem: <div class="codeblock">cp newersmbw_compile.sh &lt;NewFileName&gt;</div> (where <code>&lt;NewFileName></code> is the file name of the copy of the <code>newersmbw_compile.sh</code> file).<br />
+<br />
+Then you'll need to modify the copy of the file with a text editor that supports the Unix (LF) line feed format (<a href="https://www.dropbox.com/s/gvo3393g3wzq87i/PSPad Hex Editor.zip?dl=0">I would recommend PSPad if you don't have one</a>), then replace the text <code>NewerSMBW-no-translations</code> with <code>&lt;NewFolderName></code> and save the changes.<br />
+<br />
+Now in the WSL subsystem, type: <div class="codeblock">chmod +x &lt;NewFileName&gt;</div> If you want to compile the NewerSMBW sources, type: <div class="codeblock">./&lt;NewFileName&gt;</div></div></div></div></div><br />
+Mac OS X (made by tempus) :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class='quote'><div class='quoteheader'>Posted by Tempus</div><div class='quotecontent'>If you're running a Mac system, this should work as is. If you're on Linux, no doubt you can figure it out, it's about the same. Windows, good luck with cygwin >.>. I will also be including a partial shell script for Linux, courtesy of megazig.<br />
+<br />
+Without further ado...let's go !<br />
+<br />
+(Additional Instructions in brackets for users unfamiliar with the terminal)<br />
+Total Time : about 3 hours, depending on your download speeds<br />
+<br />
+<strong><u>Installing GCC:</u></strong><br />
+- Install XCode via Mac App Store<br />
+- Run XCode once, and click all the agreement things that pop up<br />
+<br />
+<strong><u>Installing cmake:</u></strong><br />
+- Open a terminal<br />
+- Install homebrew with : <div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">ruby -e &quot;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)&quot;</div></div></div>- Follow instructions<br />
+- In terminal, run : <div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">brew install cmake</div></div></div><br />
+<strong><u>Installing DevKitPPC :</u></strong><br />
+- Download DevKit PPC <a href="http://sourceforge.net/projects/devkitpro/files/devkitPPC/" target="_blank">here</a><br />
+- Extract the archive<br />
+- Place devkitPPC folder into /usr/local/ (use the "Go to Folder" menu item in the finder and type /usr/local/)<br />
+<br />
+<strong><u>Installing PyElfTools and PyYAML:</u></strong><br />
+- Open a terminal<br />
+- Type: <div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">easy_install pyelftools</div></div></div> If it errors, type : <div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">sudo -i</div></div></div> And type your password when prompted<br />
+<br />
+- Type : <div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">easy_install pyyaml</div></div></div>(if it errors, see above)<br />
+<br />
+<strong><u>Downloading the Newer Sources:</u></strong><br />
+- Download the Newer sources <a href="https://github.com/Treeki/NewerSMBW/tree/no-translations">here</a><br />
+- Choose either the 'Clone to Desktop' or the 'Download zip' options on the right side<br />
+- If you downloaded the zip, extract it<br />
+<br />
+<strong><u>Downloading, Patching, and compiling Clang/LLVM</u>:</strong><br />
+- Open a terminal (or use one you already have open, whatever)<br />
+- Type the following commands :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">svn co -r 184655 http://llvm.org/svn/llvm-project/llvm/trunk llvm
+cd llvm/tools
+svn co -r 184655 http://llvm.org/svn/llvm-project/cfe/trunk clang
+cd ../projects
+svn co -r 184655 http://llvm.org/svn/llvm-project/compiler-rt/trunk compiler-rt
+cd ../tools/clang</div></div></div>- To apply the Newer patches type :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">patch -p0 -i /path/to/NewerSMBW-master/ClangPatches/clang_cw_patches_r184655.diff</div></div></div> (you can easily find the path to something by dragging the file from the finder into the terminal window)<br />
+<br />
+- Now for some more terminal commands to build llvm/clang. Use the same terminal :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">cd ../..
+mkdir -p build
+cd build
+mkdir -p /usr/local/kamek-llvm
+cmake -DLLVM_DEFAULT_TARGET_TRIPLE=powerpc-unknown-unknown-unknown -DPYTHON_EXECUTABLE&#x3D;/usr/bin/python -DLLVM_TARGETS_TO_BUILD=&quot;PowerPC&quot; -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=&quot;/usr/local/kamek-llvm&quot; ..
+make
+make install</div></div></div><br />
+<strong><u>Compiling Newer</u></strong><br />
+- Open a terminal, and navigate to the Kamek directory in the NewerSMBW download (cd is change directory, remember you can drag and drop a folder for the path)<br />
+- Type the following commands :<br />
+<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">mkdir -p processed
+mkdir -p NewerASM
+python tools/mapfile_tool.py
+python tools/kamek.py NewerProjectKP.yaml --no-rels --use-clang --gcc-type=/usr/local/devkitPPC/bin/powerpc-eabi --llvm-path=/usr/local/kamek-llvm/bin</div></div></div><br />
+<strong><u>Finishing:</u></strong><br />
+<br />
+This will output a number of bin files into the "NewerASM" folder in kamek. Rename the ones for your region, and then plop them into the 'NewerRes' folder in the Newer pack, and you should be sailing! If you want to automate the process further, take a look at the file "makeNewerKP" in the Kamek folder in a text editor. Change the commands at the top to match the ones in the code block just above, and change the directory paths below to output directly to your test folder destination. You can integrate the script with wit and Dolphin, or with RiiFs to get ultra speedy testing runs.<br />
+</div></div></div></div><br />
+Linux (made by 9211tr) :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class='quote'><div class='quoteheader'><a href="index453e.html?page=post&amp;id=1286">Posted by 9211tr</a></div><div class='quotecontent'>Even though I wasn't able to retrieve Grop's tutorial on RVLution on how to compile NewerSMBW sources on Debian/Ubuntu Linux, unexpectedly, I was able to remember the steps on how to do it. Although the steps I remember are different from what Grop has posted, they should work perfectly.<br />
+<br />
+Keep in mind that you'll need to use the 64-bit (x86-64 or AMD64) version of Debian/Ubuntu Linux, since some of the necessary tools/programs needed for compiling NewerSMBW are no longer compatible with the 32-bit (i386 or i686) version.<br />
+<br />
+Also as I mentioned before, you can simply type: <div class="codeblock">su</div> in the terminal and enter password when prompted to curcumivent all <code>sudo</code> commands, so you won't have to type <code>sudo &lt;command></code> everytime. If you're on Ubuntu Linux, <div class="codeblock">su</div> doesn't work, so you'll need to type <div class="codeblock">sudo -i</div> instead.<br />
+<br />
+<b style="color:#FF0000;">NOTE: If no text is shown when typing the password, it does not mean it's not working, the text is hidden so in case if anyone is watching the computer screen behind your back, they won't see your password.</b><br />
+<br />
+<br />
+<b style="text-decoration:underline;">Preparing apt-get:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">cd /
+apt-get update -y
+apt-get upgrade -y</div> and restart your Debian/Ubuntu Linux machine.<br />
+<br />
+If you get an error saying <code>"Could not get lock /var/lib/dpkg/lock - open"</code> when trying to run <code>apt-get upgrade -y</code>, just simply type this command: <div class="codeblock">rm /var/lib/dpkg/lock</div> and the error should be gone.<br />
+<br />
+<br />
+<b style="text-decoration:underline;">Installing GCC:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">cd /
+apt-get install -y gcc
+apt-get install -y make</div><br />
+<b style="text-decoration:underline;">Installing CMake:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">apt-get install -y cmake</div><br />
+<b style="text-decoration:underline;">Installing Subversion (SVN):</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">apt-get install -y subversion</div><br />
+<b style="text-decoration:underline;">Installing devkitPPC:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">wget -O devkitPPC.tar.xz https://github.com/devkitPro/buildscripts/releases/download/devkitPPC_r31/devkitPPC_r31-linux.tar.xz&lt;wbr&gt;</div>Afterwards, in the terminal, type: <div class="codeblock">tar -xvjf devkitPPC.tar.xz -C /
+rm devkitPPC.tar.xz</div>Or you can manually download devkitPPC here: <a href="https://github.com/devkitPro/buildscripts/releases">https://github.com/devkitPro/buildscripts/releases</a><br />
+And manually extract the devkitPPC <code>.tar.xz</code> file to the <code>/</code> directory.<br />
+<br />
+<br />
+<b style="text-decoration:underline;">Installing PyElfTools/PyYAML:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">apt-get install -y python-pip
+pip install pyelftools
+pip install pyyaml</div><br />
+<b style="text-decoration:underline;">Downloading the Newer Sources:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">svn co https://github.com/Treeki/NewerSMBW/branches/no-translations /NewerSMBW-no-translations</div>Or you can manually download the Newer Sources here: <a href="https://github.com/Treeki/NewerSMBW/tree/no-translations">https://github.com/Treeki/NewerSMBW/tree/no-translations</a><br />
+And download the <code>.zip</code> file and extract it to the <code>/</code> directory.<br />
+<br />
+<b style="text-decoration:underline;">Downloading, Patching, and Compiling Clang/LLVM (rev. 184655):</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">svn co -r 184655 http://llvm.org/svn/llvm-project/llvm/trunk /llvm
+svn co -r 184655 http://llvm.org/svn/llvm-project/cfe/trunk /llvm/tools/clang
+svn co -r 184655 http://llvm.org/svn/llvm-project/compiler-rt/trunk /llvm/projects/compiler-rt
+cd /llvm/tools/clang
+patch -p0 -i /NewerSMBW-no-translations/ClangPatches/clang_cw_patches_r184655.diff
+
+mkdir /NewerSMBW-LLVM
+mkdir /llvm/build
+cd /llvm/build
+cmake -DLLVM_DEFAULT_TARGET_TRIPLE=powerpc-unknown-unknown-unknown -DPYTHON_EXECUTABLE&#x3D;/usr/bin/python -DLLVM_TARGETS_TO_BUILD=&quot;PowerPC&quot; -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=&quot;/NewerSMBW-LLVM&quot; /llvm
+make
+make install
+cd /
+rm -r /llvm
+
+cd /NewerSMBW-no-translations/Kamek/
+mv src/heapbar.S src/heapbar2.S
+sed -e '129d' src/heapbar2.S &gt; src/heapbar.S
+rm src/heapbar2.S
+mkdir processed
+mkdir NewerASM</div><br />
+<b style="text-decoration:underline;">Compiling Newer:</b><br />
+At any time, open the terminal (if you haven't) and type: <div class="codeblock">su
+cd /NewerSMBW-no-translations/Kamek
+python tools/mapfile_tool.py
+python tools/kamek.py NewerProjectKP.yaml --show-cmd --no-rels --use-clang --gcc-type=/devkitPPC/bin/powerpc-eabi --llvm-path=/NewerSMBW-LLVM/bin</div><b style="color:#FF0000;">NOTE: If you're on Ubuntu, make sure to use <div class="codeblock">sudo -i</div> instead, as <div class="codeblock">su</div> doesn't work on Ubuntu.</b><br />
+<br />
+<b style="text-decoration:underline;">Finishing:</b><br />
+This will output a number of <code>.bin</code> files into the <code>NewerASM</code> folder. You'll need to rename them to their NewerSMBW readable names, so open the terminal (if you haven't) and type: <div class="codeblock">cd /NewerSMBW-no-translations/Kamek/NewerASM/
+wget https://dl.dropbox.com/s/ytt9kludaetim4n/RenameNewerBinFiles.sh
+chmod +x RenameNewerBinFiles.sh</div> Once you're done with that, at any time, simply type in the terminal (<b style="color:#FF0000;">and again, if you're on Ubuntu, make sure to use <code>sudo -i</code> instead, as <code>su</code> doesn't work on Ubuntu</b>): <div class="codeblock">su
+cd /NewerSMBW-no-translations/Kamek/NewerASM/
+./RenameNewerBinFiles.sh</div> and then go into the <code>renamed</code> folder in the <code>NewerASM</code> folder, then plop the renamed <code>.bin</code> files into the <code>/NewerRes</code> folder in the Newer pack, and you should be sailing! If you want to automate the process further, take a look at the <code>makeNewerKP</code> file in the Kamek folder in a text editor. Change the commands at the top to match the ones in the code block in the <code style="text-decoration:underline;">"Compiling Newer:"</code> section, and change the directory paths below to output directly to your test folder destination. You can integrate the script with wit and Dolphin, or with RiiFs to get ultra speedy testing runs.</div></div></div></div><br />
+- - - - - - - - - - - - - - - - - - - - -<br />
+<br />
+And lastly, megazig's shell script (python installs as python2). It doesn't work, but i'm keeping it for archive purposes :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">#sudo apt-get install build-tools libpython-dev python2
+
+CURDIR=`pwd`
+CLANG_VERSION=184655;
+PROJECT_DIR=${CURDIR}/NewerLlvm;
+LLVM_DIR=${PROJECT_DIR}/llvm
+CLANG_DIR=${LLVM_DIR}/tools/clang
+RT_DIR=${LLVM_DIR}/projects/compiler-rt
+BUILD_DIR=${PROJECT_DIR}/build
+
+echo &quot;mkdir -p ${BUILD_DIR}&quot;
+mkdir -p ${BUILD_DIR}
+echo &quot;cd ${PROJECT_DIR}&quot;
+cd ${PROJECT_DIR}
+echo &quot;svn co -r ${CLANG_VERSION} http://llvm.org/svn/llvm-project/llvm/trunk llvm&quot;
+svn co -r ${CLANG_VERSION} http://llvm.org/svn/llvm-project/llvm/trunk llvm
+echo &quot;cd ${LLVM_DIR}/tools&quot;
+cd ${LLVM_DIR}/tools
+echo &quot;svn co -r ${CLANG_VERSION} http://llvm.org/svn/llvm-project/cfe/trunk clang&quot;
+svn co -r ${CLANG_VERSION} http://llvm.org/svn/llvm-project/cfe/trunk clang
+echo &quot;cd ${LLVM_DIR}/tools/clang&quot;
+cd ${LLVM_DIR}/tools/clang
+echo &quot;cp ${CURDIR}/clang_cw_patches_r184655.diff .&quot;
+cp ${CURDIR}/clang_cw_patches_r184655.diff .
+echo &quot;patch -p0 &amp;lt; clang_cw_patches_r184655.diff&quot;
+patch -p0 &amp;lt; clang_cw_patches_r184655.diff
+echo &quot;rm clang_cw_patches_r184655.diff&quot;
+rm clang_cw_patches_r184655.diff
+echo &quot;NOW DO SOMETHING COOL&quot;
+
+cd ${BUILD_DIR}
+echo &quot;cmake -DLLVM_DEFAULT_TARGET_TRIPLE=powerpc-unknown-unknown-unknown -DPYTHON_EXECUTABLE&#x3D;/usr/bin/python2 -DLLVM_TARGETS_TO_BUILD=&quot;PowerPC&quot; -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=&quot;/opt/kamek-llvm&quot; ../llvm&quot;
+cmake -DLLVM_DEFAULT_TARGET_TRIPLE=powerpc-unknown-unknown-unknown -DPYTHON_EXECUTABLE&#x3D;/usr/bin/python2 -DLLVM_TARGETS_TO_BUILD=&quot;PowerPC&quot; -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=&quot;/opt/kamek-llvm&quot; ../llvm</div></div></div><br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post465">
+		<tr>
+			<td class="side userlink">
+				<a href="index042e.html?page=profile&amp;id=8"><span style="color: #7C60B0;" class="userlink" title="Luzifer (8) [Normal user]">Luzifer</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_465">
+									Posted on 07-04-17, 09:10 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_465">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index3197.html?page=post&amp;id=465">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#465									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										Normal user<br>
+										<img src="data/avatars/8_1500388278.html" alt=""><br>					<br>
+					Posts: 10/30<br>
+					Since: 06-30-17<br>
+										<br>
+					Last post: 266 days<br>
+					Last view: 183 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_465">
+				I like how you help giving this board more content
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post468">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_468">
+									Posted on 07-04-17, 09:14 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_468">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexcc66.html?page=post&amp;id=468">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#468									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 9/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_468">
+				Yeah, i wanted to do it for a long time (was going to do it on MMM but we transferred here) but never had the chance until now (no free time and no Wii).<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post659">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_659">
+									Posted on 07-08-17, 05:37 pm
+										 (rev. 3 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 07-30-17, 11:14 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_659">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index1da6.html?page=post&amp;id=659">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#659									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 21/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_659">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Does anyone have the tutorial of this about getting the NewerSMBW source to work/running on an Debian/Ubuntu Linux machine?<br />
+<br />
+<br />
+<strong>EDIT:</strong> Also you don't need to type <code>sudo &lt;command></code> or anything like that multiple times on any command if a command errors out.<br />
+You can simply type: <div class="codeblock">su</div> in the terminal and enter password when prompted to curcumivent all <code>sudo</code> commands (if you're on Linux), so you won't have to type <code>sudo &lt;command></code> everytime.<br />
+<br />
+If you're on Mac or Ubuntu Linux, <code>su</code> doesn't work, so you'll need to type: <div class="codeblock">sudo -i</div>instead.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post661">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_661">
+									Posted on 07-08-17, 05:39 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_661">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexcb73.html?page=post&amp;id=661">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#661									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 43/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_661">
+				There was a post on RHC but i couldn't retrieve it.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post663">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_663">
+									Posted on 07-08-17, 05:43 pm
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 07-08-17, 05:45 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_663">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index028e.html?page=post&amp;id=663">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#663									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 22/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_663">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">No, the Debian/Ubuntu Linux machine tutorial, was on RVLution (and I was browsing it as a guest; IIRC, I believe Grop is the one who posted it)...<br />
+<br />
+Also did you look back on my previous post (I edited to include about curcumvienting all the <code>sudo</code> commands, so you don't have to type <code>sudo &lt;command></code> everytime if any command errors out).<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post667">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_667">
+									Posted on 07-08-17, 05:52 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_667">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index5253.html?page=post&amp;id=667">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#667									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 45/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_667">
+				Didn't see it. I'll put it in, thx.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post674">
+		<tr>
+			<td class="side userlink">
+				<a href="index1197.html?page=profile&amp;id=2"><span style="color: #97ACEF;" class="userlink" title="Toms (2) [Normal user]">Toms</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_674">
+									Posted on 07-08-17, 08:20 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_674">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexd85d.html?page=post&amp;id=674">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#674									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										Normal user<br>
+										<img src="data/avatars/2_1514508929.png" alt=""><br>					<br>
+					Posts: 24/55<br>
+					Since: 05-25-17<br>
+										<br>
+					Last post: 221 days<br>
+					Last view: 17 days<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_674">
+				<style>/* Background */
+
+.Toms-Background {
+    background: #0f1e44;
+    background-image: url(../i.imgur.com/AdZvWIy.png), url(https://i.imgur.com/ojC3h9D.png);
+    background-position: right -12px top 25px, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 250px, 256px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    padding-right: 225px;
+}
+/* Post Box */
+
+.Toms-Post {
+    background: rgba(44, 80, 142, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    min-height: 16em;
+    color: #fcfcfc !important;
+}
+/* Post Footer */
+
+.Toms-Footer {
+    background: rgba(44, 80, 142, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    margin-top: 13px;
+    border: 3px solid #fcfcfc;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    max-height: 50px;
+}
+/* Quote Box */
+
+.Toms-Post .quote {
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+.Toms-Post .quoteheader {
+    background: #1b1b51;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    margin-top: -30px;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid #fcfcfc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 12px !important;
+}
+.Toms-Post .quotecontent {
+    border: none !important;
+}
+/* Code Box */
+
+.Toms-Post .codeblock {
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+/* Spoiler Box */
+
+.Toms-Post .spoilerbutton
+{
+    background: #1b1b51;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid #fcfcfc;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: -30px;
+    font-size: 12px;
+}
+.Toms-Post .spoiler
+{
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    margin-top: 13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+.Toms-Post .spoiled
+{
+    margin-top: -30px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 2px !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+</style><div class="Toms-Background">    <div class="Toms-Post">The one on RVLution never worked for me on Ubunto at all<br></div>    <div class="Toms-Footer">        <center><br />
+            <p></p>        </center><br />
+    </div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post684">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_684">
+									Posted on 07-08-17, 10:48 pm
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 07-08-17, 11:08 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_684">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexc950-2.html?page=post&amp;id=684">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#684									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 23/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_684">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Then how come MrRean got it to work on his Ubuntu Linux machine?<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post699">
+		<tr>
+			<td class="side userlink">
+				<a href="index1197.html?page=profile&amp;id=2"><span style="color: #97ACEF;" class="userlink" title="Toms (2) [Normal user]">Toms</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_699">
+									Posted on 07-09-17, 02:58 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_699">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index9baf.html?page=post&amp;id=699">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#699									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										Normal user<br>
+										<img src="data/avatars/2_1514508929.png" alt=""><br>					<br>
+					Posts: 25/55<br>
+					Since: 05-25-17<br>
+										<br>
+					Last post: 221 days<br>
+					Last view: 17 days<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_699">
+				<style>/* Background */
+
+.Toms-Background {
+    background: #0f1e44;
+    background-image: url(../i.imgur.com/AdZvWIy.png), url(https://i.imgur.com/ojC3h9D.png);
+    background-position: right -12px top 25px, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 250px, 256px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    padding-right: 225px;
+}
+/* Post Box */
+
+.Toms-Post {
+    background: rgba(44, 80, 142, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    min-height: 16em;
+    color: #fcfcfc !important;
+}
+/* Post Footer */
+
+.Toms-Footer {
+    background: rgba(44, 80, 142, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    margin-top: 13px;
+    border: 3px solid #fcfcfc;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    max-height: 50px;
+}
+/* Quote Box */
+
+.Toms-Post .quote {
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+.Toms-Post .quoteheader {
+    background: #1b1b51;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    margin-top: -30px;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid #fcfcfc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 12px !important;
+}
+.Toms-Post .quotecontent {
+    border: none !important;
+}
+/* Code Box */
+
+.Toms-Post .codeblock {
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+/* Spoiler Box */
+
+.Toms-Post .spoilerbutton
+{
+    background: #1b1b51;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid #fcfcfc;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: -30px;
+    font-size: 12px;
+}
+.Toms-Post .spoiler
+{
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    margin-top: 13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+.Toms-Post .spoiled
+{
+    margin-top: -30px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 2px !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+</style><div class="Toms-Background">    <div class="Toms-Post">Dunno<br />
+<br />
+I could ask him or Roadrunner and see if Icould get the thread from RVLution itself<br></div>    <div class="Toms-Footer">        <center><br />
+            <p></p>        </center><br />
+    </div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="custompost table5 margin" id="post705">
+		<tr>
+			<td class="side userlink topbar5_1">
+				<a href="index37fb.html?page=profile&amp;id=5"><span style="color: #97ACEF;" class="userlink" title="NightYoshi370 (5) [Normal user]">NightYoshi370</span></a>
+			</td>
+			<td class="meta right topbar5_2">
+				<div style="float: left;" id="meta_705">
+									Posted on 07-09-17, 04:20 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_705">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index79e5.html?page=post&amp;id=705">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#705									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side sidebar5">
+				<div class="smallFonts">
+										temp<br>
+															<br>
+					Posts: 12/67<br>
+					Since: 06-07-17<br>
+										<br>
+					Last post: 124 days<br>
+					Last view: 104 days<br>
+					
+				</div>
+			</td>
+			<td class="post mainbar5" id="post_705">
+				<style>td.topbar5_1 {
+background: #3d0f0f !important;
+background-image: linear-gradient(#3636E3, #030303) !important;
+padding: 4px 8px;
+color: #FFF !important;
+}
+
+td.topbar5_1 > a > span {
+     color:white !important;
+}
+
+td.topbar5_2 {
+background: #3d0f0f !important;
+background-image: linear-gradient(#3636E3, #090909) !important;
+padding: 4px 8px;
+color: #FFF !important;
+}
+
+td.topbar5_2 a {
+color: #fff !important;
+}
+
+.mainbar5 {
+  background: url('../web.archive.org/web/20170309073551im_/http_/i.imgur.com/1K5VeC8.png') no-repeat !important;
+  padding: 0 !important;
+  background-color: #000 !important;
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar5 {
+  background-color: #000 !important;
+  text-align: center !important;
+  color: #E6E6E6 !important;
+  padding-top: 10px !important;
+  padding-right: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 10px !important;
+}
+
+.mainbar5 a:link {color: gray;}
+
+.mainbar5 a:visited {color: gray;}
+
+.mainbar5 a:active {color: gray;}
+
+.mainbar5 a:hover {color: gray;} 
+
+.mainbar5 > div.post {
+  background: RGBA(0, 0, 0, 0.85) !important;
+  padding: 15px;
+  margin: 25px;
+  border: 3px solid #8C8C8C;
+  border-radius: 10px;
+  color: white;
+}
+
+.mainbar5 > div.sig {
+  background: RGBA(0, 0, 0, 0.85) !important;
+  padding: 15px;
+  margin: 25px;
+  border: 3px solid #8C8C8C;
+  border-radius: 10px;
+  color: white;
+}
+</style><div class="post">I remember Gota7 making something for compiling the newer sources for Linux.<br></div><div class="sig"><a href="http://mariomods.net/" target="_blank">Mario Making Mods</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post708">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_708">
+									Posted on 07-09-17, 05:27 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_708">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index89c9.html?page=post&amp;id=708">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#708									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 27/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_708">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34"><div class='quote'><div class='quoteheader'><a href="index9baf.html?page=post&amp;id=699">Posted by Toms</a></div><div class='quotecontent'>Dunno<br />
+<br />
+I could ask him or Roadrunner and see if Icould get the thread from RVLution itself</div></div>Probably, MrRean also has it, too.<br />
+But you're going to have to figure out another way on how to contact him (RoadrunnerWMC or MrRean) to get it, since I don't see them anywhere on the member list on the forums here.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post713">
+		<tr>
+			<td class="side userlink">
+				<a href="index1197.html?page=profile&amp;id=2"><span style="color: #97ACEF;" class="userlink" title="Toms (2) [Normal user]">Toms</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_713">
+									Posted on 07-09-17, 07:49 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_713">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index8bd7.html?page=post&amp;id=713">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#713									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										Normal user<br>
+										<img src="data/avatars/2_1514508929.png" alt=""><br>					<br>
+					Posts: 26/55<br>
+					Since: 05-25-17<br>
+										<br>
+					Last post: 221 days<br>
+					Last view: 17 days<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_713">
+				<style>/* Background */
+
+.Toms-Background {
+    background: #0f1e44;
+    background-image: url(../i.imgur.com/AdZvWIy.png), url(https://i.imgur.com/ojC3h9D.png);
+    background-position: right -12px top 25px, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 250px, 256px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    padding-right: 225px;
+}
+/* Post Box */
+
+.Toms-Post {
+    background: rgba(44, 80, 142, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    min-height: 16em;
+    color: #fcfcfc !important;
+}
+/* Post Footer */
+
+.Toms-Footer {
+    background: rgba(44, 80, 142, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    margin-top: 13px;
+    border: 3px solid #fcfcfc;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    max-height: 50px;
+}
+/* Quote Box */
+
+.Toms-Post .quote {
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+.Toms-Post .quoteheader {
+    background: #1b1b51;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    margin-top: -30px;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid #fcfcfc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 12px !important;
+}
+.Toms-Post .quotecontent {
+    border: none !important;
+}
+/* Code Box */
+
+.Toms-Post .codeblock {
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+/* Spoiler Box */
+
+.Toms-Post .spoilerbutton
+{
+    background: #1b1b51;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid #fcfcfc;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: -30px;
+    font-size: 12px;
+}
+.Toms-Post .spoiler
+{
+    background: rgba(17, 69, 115, 0.7);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: -13px;
+    margin-top: 13px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+}
+.Toms-Post .spoiled
+{
+    margin-top: -30px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 2px !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+</style><div class="Toms-Background">    <div class="Toms-Post">MrRean goes by Shibboleet (or shibbo for short) <img class="smiley" alt="" src="img/smilies/tongue.png" /><br></div>    <div class="Toms-Footer">        <center><br />
+            <p></p>        </center><br />
+    </div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post715">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_715">
+									Posted on 07-09-17, 08:37 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_715">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index8f0b.html?page=post&amp;id=715">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#715									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 49/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_715">
+				But there is an user named shibbo here <img class="smiley" alt="" src="img/smilies/smile.png" /><br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1286">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1286">
+									Posted on 07-31-17, 08:25 pm
+										 (rev. 4 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 07-02-18, 01:34 am)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1286">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index453e.html?page=post&amp;id=1286">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1286									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 119/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_1286">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Even though I wasn't able to retrieve Grop's tutorial on RVLution on how to compile NewerSMBW sources on Debian/Ubuntu Linux, unexpectedly, I was able to remember the steps on how to do it. Although the steps I remember are different from what Grop has posted, they should work perfectly.<br />
+<br />
+Keep in mind that you'll need to use the 64-bit (x86-64 or AMD64) version of Debian/Ubuntu Linux, since some of the necessary tools/programs needed for compiling NewerSMBW are no longer compatible with the 32-bit (i386 or i686) version.<br />
+<br />
+Also as I mentioned before, you can simply type: <div class="codeblock">su</div> in the terminal and enter password when prompted to curcumivent all <code>sudo</code> commands, so you won't have to type <code>sudo &lt;command></code> everytime. If you're on Ubuntu Linux, <div class="codeblock">su</div> doesn't work, so you'll need to type <div class="codeblock">sudo -i</div> instead.<br />
+<br />
+<b style="color:#FF0000;">NOTE: If no text is shown when typing the password, it does not mean it's not working, the text is hidden so in case if anyone is watching the computer screen behind your back, they won't see your password.</b><br />
+<br />
+<br />
+<b style="text-decoration:underline;">Preparing apt-get:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">cd /
+apt-get update -y
+apt-get upgrade -y</div> and restart your Debian/Ubuntu Linux machine.<br />
+<br />
+If you get an error saying <code>"Could not get lock /var/lib/dpkg/lock - open"</code> when trying to run <code>apt-get upgrade -y</code>, just simply type this command: <div class="codeblock">rm /var/lib/dpkg/lock</div> and the error should be gone.<br />
+<br />
+<br />
+<b style="text-decoration:underline;">Installing GCC:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">cd /
+apt-get install -y gcc
+apt-get install -y make</div><br />
+<b style="text-decoration:underline;">Installing CMake:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">apt-get install -y cmake</div><br />
+<b style="text-decoration:underline;">Installing Subversion (SVN):</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">apt-get install -y subversion</div><br />
+<b style="text-decoration:underline;">Installing devkitPPC:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">wget -O devkitPPC.tar.xz https://github.com/devkitPro/buildscripts/releases/download/devkitPPC_r31/devkitPPC_r31-linux.tar.xz&lt;wbr&gt;</div>Afterwards, in the terminal, type: <div class="codeblock">tar -xvjf devkitPPC.tar.xz -C /
+rm devkitPPC.tar.xz</div>Or you can manually download devkitPPC here: <a href="https://github.com/devkitPro/buildscripts/releases">https://github.com/devkitPro/buildscripts/releases</a><br />
+And manually extract the devkitPPC <code>.tar.xz</code> file to the <code>/</code> directory.<br />
+<br />
+<br />
+<b style="text-decoration:underline;">Installing PyElfTools/PyYAML:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">apt-get install -y python-pip
+pip install pyelftools
+pip install pyyaml</div><br />
+<b style="text-decoration:underline;">Downloading the Newer Sources:</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">svn co https://github.com/Treeki/NewerSMBW/branches/no-translations /NewerSMBW-no-translations</div>Or you can manually download the Newer Sources here: <a href="https://github.com/Treeki/NewerSMBW/tree/no-translations">https://github.com/Treeki/NewerSMBW/tree/no-translations</a><br />
+And download the <code>.zip</code> file and extract it to the <code>/</code> directory.<br />
+<br />
+<b style="text-decoration:underline;">Downloading, Patching, and Compiling Clang/LLVM (rev. 184655):</b><br />
+Open the terminal (if you haven't) and type: <div class="codeblock">svn co -r 184655 http://llvm.org/svn/llvm-project/llvm/trunk /llvm
+svn co -r 184655 http://llvm.org/svn/llvm-project/cfe/trunk /llvm/tools/clang
+svn co -r 184655 http://llvm.org/svn/llvm-project/compiler-rt/trunk /llvm/projects/compiler-rt
+cd /llvm/tools/clang
+patch -p0 -i /NewerSMBW-no-translations/ClangPatches/clang_cw_patches_r184655.diff
+
+mkdir /NewerSMBW-LLVM
+mkdir /llvm/build
+cd /llvm/build
+cmake -DLLVM_DEFAULT_TARGET_TRIPLE=powerpc-unknown-unknown-unknown -DPYTHON_EXECUTABLE&#x3D;/usr/bin/python -DLLVM_TARGETS_TO_BUILD=&quot;PowerPC&quot; -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=&quot;/NewerSMBW-LLVM&quot; /llvm
+make
+make install
+cd /
+rm -r /llvm
+
+cd /NewerSMBW-no-translations/Kamek/
+mv src/heapbar.S src/heapbar2.S
+sed -e '129d' src/heapbar2.S &gt; src/heapbar.S
+rm src/heapbar2.S
+mkdir processed
+mkdir NewerASM</div><br />
+<b style="text-decoration:underline;">Compiling Newer:</b><br />
+At any time, open the terminal (if you haven't) and type: <div class="codeblock">su
+cd /NewerSMBW-no-translations/Kamek
+python tools/mapfile_tool.py
+python tools/kamek.py NewerProjectKP.yaml --show-cmd --no-rels --use-clang --gcc-type=/devkitPPC/bin/powerpc-eabi --llvm-path=/NewerSMBW-LLVM/bin</div><b style="color:#FF0000;">NOTE: If you're on Ubuntu, make sure to use <div class="codeblock">sudo -i</div> instead, as <div class="codeblock">su</div> doesn't work on Ubuntu.</b><br />
+<br />
+<b style="text-decoration:underline;">Finishing:</b><br />
+This will output a number of <code>.bin</code> files into the <code>NewerASM</code> folder. You'll need to rename them to their NewerSMBW readable names, so open the terminal (if you haven't) and type: <div class="codeblock">cd /NewerSMBW-no-translations/Kamek/NewerASM/
+wget https://dl.dropbox.com/s/ytt9kludaetim4n/RenameNewerBinFiles.sh
+chmod +x RenameNewerBinFiles.sh</div> Once you're done with that, at any time, simply type in the terminal (<b style="color:#FF0000;">and again, if you're on Ubuntu, make sure to use <code>sudo -i</code> instead, as <code>su</code> doesn't work on Ubuntu</b>): <div class="codeblock">su
+cd /NewerSMBW-no-translations/Kamek/NewerASM/
+./RenameNewerBinFiles.sh</div> and then go into the <code>renamed</code> folder in the <code>NewerASM</code> folder, then plop the renamed <code>.bin</code> files into the <code>/NewerRes</code> folder in the Newer pack, and you should be sailing! If you want to automate the process further, take a look at the <code>makeNewerKP</code> file in the Kamek folder in a text editor. Change the commands at the top to match the ones in the code block in the <code style="text-decoration:underline;">"Compiling Newer:"</code> section, and change the directory paths below to output directly to your test folder destination. You can integrate the script with wit and Dolphin, or with RiiFs to get ultra speedy testing runs.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1288">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1288">
+									Posted on 07-31-17, 09:01 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1288">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexc345.html?page=post&amp;id=1288">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1288									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 97/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_1288">
+				Added, also good memory.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1290">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1290">
+									Posted on 07-31-17, 09:03 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1290">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexa2d6.html?page=post&amp;id=1290">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1290									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 120/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_1290">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Thanks.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1360">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1360">
+									Posted on 08-03-17, 03:11 am
+										 (rev. 2 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 07-02-18, 01:27 am)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1360">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index6c38.html?page=post&amp;id=1360">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1360									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 134/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_1360">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">OK, finally there is a way to get the NewerSMBW sources to compile on Windows (although it needs Windows 10).<br />
+<br />
+There's this feature called <a href="https://msdn.microsoft.com/commandline/wsl/about">WSL (Windows Subsystem for Linux)</a> on Windows 10, which brings a Linux subsystem to Windows (AND NO, THIS IS NOT a virtual machine, a compiled Linux emulator {like Cygwin}, or anything--this is A REAL subsystem on Windows).<br />
+<br />
+<b style="color:#FF0000;">WARNING: Even though the WSL subsystem is no longer in beta, some things may work (but probably improperly), some things may not work at all.<br />
+<br />
+If something doesn't work or works improperly (<em>and you've read this tutorial properly, and already asked me for help and I wasn't able to help you out</em>), you're free to report it to Microsoft on Github: <a href="https://github.com/Microsoft/BashOnWindows/">https://github.com/Microsoft/BashOnWindows/</a> (the Github page DOES NOT link to the source code of the WSL subsystem).<br />
+<br />
+Plus, the WSL subsystem is only available/compatible on the 64-bit version of Windows 10 (and it requires that your machine also has an 64-bit {x64-based} processor/CPU, too!). However, I was able to successfully compile the NewerSMBW sources on the WSL subsystem and I decided to write my own tutorial here in this thread for you all.</b><br />
+<br />
+<b style="font-size:140%;">Requirements</b><br />
+<br />
+- Windows 10 Anniversary Update BUILD 14393.0, Version 1607 (or higher).<br />
+<br />
+- The 64-bit (x64 or x86-64) version of Windows 10 + an x64-based processor on your computer, as the WSL subsystem requires this in order for it to enable, install, and work (as I stated before). It WILL NOT work on the 32-bit (x32 or x86) version of Windows 10 and/or an x86-based processor on your computer.<br />
+<br />
+- An internet connection.<br />
+<br />
+- At least 22 GB of free disk space.<br />
+<br />
+- ESTIMATED time required: 2 or 3 hours.<br />
+(The reason why I say "ESTIMATED" is because the time required may be different for you, depending on your computer specs, internet connection speed, etc.)<br />
+<br />
+<strong>HINT: To tell if your Windows 10 PC is 64-bit (and is running Anniversary Update BUILD 14393.0 Version 1607 or higher, and on an x64-based processor), go to the <code>Start Menu</code> --&gt; <code>Settings</code> --&gt; <code>System</code> --&gt; <code>About:</code><br />
+<img class="imgtag" src="https://ucb61fdd4c85dd89d70db549fc0a.dl.dropboxusercontent.com/cd/0/get/ANX_tq12eKqjgt7Ed26iUV0WuJKlUHPkXmlQgsmmbySSzQGOed1LPMEpy7wnWMC8WstXgYoCswVj73axPj5E-mPsJgC7hIh023Qx6h85BG_WRP6OBmhOiab_qSexmVwefCGl_tdO5NI-Nn6UNBua-GBKyau95BsS0X5l_zj6vWvT5IAadeVsThdlbM9m_79rNqo/file?dl=1" alt=""/><br />
+If your PC is below build 14393.0 Version 1607, then I'd suggest you update your computer to the newest build.<br />
+Since mine is build 17134.112 Version 1803 (as shown in the photo above; plus, I have the Fall Creators Update installed), it is higher than 14393.0 Version 1607, so I'm good to go.</strong><br />
+<br />
+<b style="font-size:140%;">Tutorial</b><br />
+<br />
+<b style="text-decoration:underline;">Installing/Enabling the WSL subsystem:</b><br />
+<br />
+STEP 1: Go to <code>Start Menu</code> --&gt; <code>Settings</code> --&gt; <code>Update & Security</code> --&gt; <code>For Developers.</code> Set it to <code>Developer Mode.</code><br />
+<br />
+STEP 2: Go to the Cortana Menu (the circle icon near the Start Menu icon) and in the search box, type <code>Turn Windows features on or off.</code> Check the box that says <code>Windows Subsystem for Linux</code> and click OK.<br />
+<br />
+STEP 3: Once you're done enabling the WSL subsystem, restart your computer.<br />
+<br />
+STEP 4: After restarting, we'll need to install the WSL subsystem:<br />
+<div class="spoiler"><button class="spoilerbutton named">Windows Store method (installs a much improved version of the WSL subsystem, recommended)</button><div class="spoiled hidden"><b style="color:#FF0000;">NOTE: You need the Windows 10 Fall Creators Update, build 16215.0 or higher, in order to use this method, or it won't work.</b><br />
+<br />
+Go to: <a href="https://aka.ms/wslstore">https://aka.ms/wslstore</a>, and the Microsoft Store should appear:<br />
+<img class="imgtag" src="https://uc01d7aa9302a3fd49a38be246a2.dl.dropboxusercontent.com/cd/0/get/ANWXhK4nxCgUXps6rlZO5fEmvFalc5fqnW6hnn-1gBqmX26OEciDwNYMX9-qIEfxwiS5XfG6LHAMN1TKYTgXUUlCKhgYi-SnD_j91ZO2HbnmzwWb-Uy11oO9AOMuHfGp7Kl269rHsXUU9RMw7T_2SU0h6LbYCdFb1EAWjC_Zf2oh2jkxe9SuLcN918ecDCYxH30/file?dl=1" alt=""/><br />
+You'll get to choose 5 (or probably more, if you're reading this in future years) different Linux distros for the WSL subsystem. Choose only Ubuntu (not any other distro), in order for everything to work out properly.<br />
+<br />
+Once you select the Ubuntu distro, hit <code>Get</code> to download it.<br />
+When it's finished downloading, hit <code>Launch</code> (you can also choose to pin it to the Start Menu if you like):<br />
+<img class="imgtag" src="https://uca7bb09eee869002887897567d1.dl.dropboxusercontent.com/cd/0/get/ANXZ86xCWI6BZzxFtC4xBcR2WoWmZw31B2hHOrPpbuhHfsfRS_tdmXNPu8hokU-Pq01QK2XmlfhCLwQ8R1sctyigT7bn8doxwsQPefh3P5Cgr2qRGttqsWpKb2KGiYRaH2yzHhcL-98rF1B3btVJj8gazqK9YCkhzJLPgZeldv70Wgu6YAp8wawrpTVHA_NrGBo/file?dl=1" alt=""/><br />
+After hitting <code>Launch</code>, it'll say that it's installing and it may take a few minutes.</div></div><div class="spoiler"><button class="spoilerbutton named">Command-line method (installs a legacy version of the WSL subsystem)</button><div class="spoiled hidden"><b style="color:#FF0000;">NOTE: This method is not recommended as it installs a legacy version of the WSL subsystem, but if you're not using the Windows 10 Fall Creators Update, build 16215.0 or higher, then this is the only method that will work.</b><br />
+<br />
+Go to the Cortana Menu and in the search box, type <div class="codeblock">bash</div> to install the WSL subsystem.<br />
+If you get an error after typing <code>bash</code>, saying <code>"Windows Subsystem for Linux has no installed distributions",</code> either:<br />
+<ul style="list-style-type:square;"><li>You go to the Cortana Menu and in the search box, type instead <div class="codeblock">lxrun /install</div> and hopefully, you shouldn't have any errors.</li><br />
+<li>You have the Windows 10 Fall Creators Update, build 16215.0 or higher installed, and should instead use the Windows Store method.</li></ul><br />
+Read the license agreement, and if you accept it, type <div class="codeblock">y</div> (for "Yes", to accept), and it will install.</div></div><b style="font-style:italic;">ESTIMATED:</b> The WSL subsystem installation may take about 10 minutes to complete.<br />
+<br />
+Once it's done installing, it will ask you for what the username should be called, just type <div class="codeblock">root</div> in all lowercase, and for the password (IF PROMPTED), that's all up to you.<br />
+<br />
+Now type <div class="codeblock">exit</div> to exit out of the WSL subsystem.<br />
+If you get an error saying that the <code>"root"</code> username already exists, then close the WSL subsystem by hitting Ctrl-C on the keyboard, don't enter in a username.<br />
+<br />
+Go to the Cortana Menu and in the search box, type <div class="codeblock">bash</div> to launch the WSL subsystem.<br />
+Normally, if the <code>"root"</code> username already exists, it will instead use that username, but if it still prompts you to enter in the username, then you have no choice but to use a different username.<br />
+<br />
+Type the commands <div class="codeblock">apt-get update -y
+apt-get upgrade -y
+exit</div><br />
+Go to the Cortana Menu and in the search box, type <div class="codeblock">bash</div> to launch the WSL subsystem, then type <div class="codeblock">cd /</div><br />
+<b style="text-decoration:underline;">Setting up and Compiling the NewerSMBW sources:</b><br />
+<br />
+STEP 1: Type in: <div class="codeblock">sh &lt;(wget -O - https://www.dropbox.com/s/xflv6knhk953vmy/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1)</div>And it'll prompt you on what you want to do, type <div class="codeblock">install</div> or simply <div class="codeblock">i</div> and hit ENTER on your keyboard, and it should start installing, and just wait for it to complete. And as I said before, the estimated time for this to take is about 2 or 3 hours, so find something to do in the meantime, unless if you have the patience to watch the screen until the script is finished running.<br />
+The script installs everything automatically, so there's no need for you to install anything manually.<br />
+<br />
+STEP 2: Once the installation is complete/finished, it'll do a TEST compile on the NewerSMBW sources (to see if everything was installed/done properly) and once that's finished and no syntax errors (or whatever errors) occurred, you're all done.<br />
+To simply compile NewerSMBW at any time, simply type in the commands: <div class="codeblock">cd /
+./newersmbw_compile.sh --autorename</div> The <code>--autorename</code> option isn't required, but with the <code>--autorename</code> option, your compiled NewerSMBW <code>.bin</code> files will be automatically renamed to their NewerSMBW-readable names.<br />
+<br />
+<br />
+STEP 3: You'll need to go into the folder of where the WSL subsystem files are located.<br />
+If you installed the WSL subsystem via the Windows Store method, then the folder is: <div class="codeblock">C:\Users\%USERNAME%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\Local&lt;wbr&gt;State\rootfs</div> If you installed it via the Command-line method, then the folder is: <div class="codeblock">C:\Users\%USERNAME%\AppData\Local\lxss\rootfs</div><br />
+Go to the <code>&lt;NewerSourcesFolder>\Kamek\NewerASM\renamed</code>, <strong>or if you used the <code>--autorename</code> option:</strong> <code>&lt;NewerSourcesFolder>\Kamek\NewerASM\renamed</code> folder (where <code>&lt;NewerSourcesFolder></code> is the path or folder name to the NewerSMBW source code folder).<br />
+You should see all the DLCode/DLRelocs/System <code>.bin</code> files for US(NTSC)/EU(PAL)/JP(JPN) {v1 and v2} if no syntax errors (or whatever errors occurred) when compiling the NewerSMBW sources.<br />
+<br />
+Then drag the <code>.bin</code> files to your <code>/NewerRes</code> folder in your NewerSMBW game patch folder and test your mods out!<br />
+<strong>>> If you haven't used the <code>--autorename</code> option, you'll need to manually rename the <code>.bin</code> files to their NewerSMBW-readable names before you drag them to the <code>/NewerRes</code> folder.</strong><br />
+<br />
+<b style="font-size:140%;">Questions</b><br />
+<br />
+<strong>1: Can I uninstall the NewerSMBW sources?</strong><br />
+Yes, run the script via the command: <div class="codeblock">sh &lt;(wget -O - https://www.dropbox.com/s/xflv6knhk953vmy/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1)</div> and type <div class="codeblock">uninstall</div> or simply <div class="codeblock">u</div> and it'll remove it, among the other tools/compilers/etc.<br />
+<br />
+<b style="color:#FF0000;">NOTE: This will remove everything in the NewerSMBW sources folder, so make sure you backup any source files/etc. from the NewerSMBW sources folder <em>before uninstalling it.</em></b><br />
+<br />
+<br />
+<strong>2: Can I reinstall the NewerSMBW sources?</strong><br />
+Uninstall it, FIRST (see question #1), and then install it back again.<br />
+<br />
+<strong>3: Can I have multiple folders for the NewerSMBW sources?</strong><br />
+Yes, copy the existing folder by typing the commands in the WSL subsystem: <div class="codeblock">cd /
+cp -r NewerSMBW-no-translations &lt;NewFolderName&gt;</div> Or if you need an unmodified and fresh copy, you can simply redownload it by typing these commands in the WSL subsystem: <div class="codeblock">cd /
+svn co https://github.com/Treeki/NewerSMBW/branches/no-translations &lt;NewFolderName&gt;</div> (where <code>&lt;NewFolderName></code> is the folder name of the copy of the NewerSMBW sources folder).<br />
+<b style="color:#FF0000;">NOTE: Do not have <code>&lt;NewFolderName></code> as <code>NewerSMBW-no-translations</code> or your current NewerSMBW sources will be <em>OVERWRITTEN</em>.</b><br />
+<br />
+You will also need to copy the <code>newersmbw_compile.sh</code> file, so type these commands in the WSL subsystem: <div class="codeblock">cp newersmbw_compile.sh &lt;NewFileName&gt;</div> (where <code>&lt;NewFileName></code> is the file name of the copy of the <code>newersmbw_compile.sh</code> file).<br />
+<br />
+Then you'll need to modify the copy of the file with a text editor that supports the Unix (LF) line feed format (<a href="https://www.dropbox.com/s/gvo3393g3wzq87i/PSPad Hex Editor.zip?dl=0">I would recommend PSPad if you don't have one</a>), then replace the text <code>NewerSMBW-no-translations</code> with <code>&lt;NewFolderName></code> and save the changes.<br />
+<br />
+Now in the WSL subsystem, type: <div class="codeblock">chmod +x &lt;NewFileName&gt;</div> If you want to compile the NewerSMBW sources, type: <div class="codeblock">./&lt;NewFileName&gt;</div><br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1362">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1362">
+									Posted on 08-03-17, 10:30 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1362">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexf5c0.html?page=post&amp;id=1362">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1362									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 104/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_1362">
+				If you don't mind, i added those two tutorials right in the main post for ease-of-use. I hope that no edits are needed.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1365">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1365">
+									Posted on 08-03-17, 12:32 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1365">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index3236.html?page=post&amp;id=1365">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1365									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 135/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_1365">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Thanks for adding them to the main post.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+		<div class="smallFonts pages">
+		Pages: <span class="pagelink curpage">1</span><a class="pagelink"  href="index7858.html?page=thread&amp;id=59&amp;from=20">2</a><a class="pagelink"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">3</a> <a class="pagelink nextpage"  href="index7858.html?page=thread&amp;id=59&amp;from=20">&#x203A;</a> <a class="pagelink lastpage"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">&#x00BB;</a>
+	</div>
+	</div>
+    </td></tr>
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index4ee7.html?page=thread&amp;id=59">Setting Up and Compiling the Newer Sources</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+<td id="main-footer" colspan="2">
+ 
+    <table id="footer" class="outline">
+    <tr>
+    <td class="cell2">
+        <table class="layout-table" style="line-height: 1.4em;">
+            <tr>
+            <td style="text-align: left;">
+                <img src="img/poweredbyblarg.png" style="float: left; margin-right: 3px;">
+<a href="http://kuribo64.net/blargboard/" target="_blank">Blargboard 1.1</a> &middot; by StapleButter<br>
+Based off <a href="http://abxd.dirbaio.net/" target="_blank">ABXD</a> by Dirbaio, Kawa &amp; co.<br>
+                <!-- Page rendered in 0.057 seconds (with 38 SQL queries and 1108.953K of RAM) -->
+            </td>
+        </table>
+    </td>
+    </tr>
+    </table>
+ 
+</td>
+</tr>
+</table>
+</body>
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=59 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:45:54 GMT -->
+</html>
+

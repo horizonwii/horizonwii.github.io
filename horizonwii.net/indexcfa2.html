@@ -1,0 +1,1418 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=176&from=20 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:47:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Horizon &raquo; Running Reggie Next from Source</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<meta name="description" content="The source version of Reggie Next adds many more improvements to the latest compiled version, so here's a guide on how to run it. The pictures only apply to the...">
+	<meta name="keywords" content="running reggie next from source">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" id="theme_css" href="themes/horizondark/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tricks.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd_0_5.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jscolor/jscolor.js"></script>
+	<script type="text/javascript">boardroot = "#\/";</script>
+
+		
+	</head>
+<body style="width:100%; font-size: 80%;">
+<form action="https://horizonwii.net/?page=login" method="post" id="logout" style="display:none;"><input type="hidden" name="action" value="logout"></form>
+<table id="main" class="layout-table">
+<tr>
+<td id="main-header" colspan="2">
+    <table id="header" class="outline">
+        <tr>
+            <td class="cell0 left">
+                <table class="layout-table">
+                <tr>
+                <td><center>
+                   <a href="index.html"><img id="theme_banner" src="img/logo.png" alt="Horizon" title="Horizon"></a> 
+				   </center>
+                </td>
+                <!-- Box Shit -->
+					
+                </tr>
+                </table>
+            </td>
+        </tr>
+		<tr class="header1">
+			<th id="navBar center">
+				<div style="display:inline-block;">
+                                        <span class="navButton">
+                        <a href="index6bf6.html?page=register">Register</a>
+					</span>
+                    <span class="navButton">
+                        <a href="index6f31.html?page=login">Log in</a>
+                    </span>
+                                    </div>
+			</th>
+		</tr>
+		<tr class="cell1">
+			<th id="cell2 center" style="float:left">
+				<font size="1.5"><span id="viewCount">1,121,727</span> views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font>
+			</th>
+			<th id="cell2 center" style="float:right">
+				<font size="1.5">08-07-18, 08:24 pm </font>
+			</th>
+		</tr>
+        <tr class="header1">
+			<th id="navBar center">
+                <div id="navMenuContainer">
+					
+                    <span class="navButton"><a href="index.html">Home</a></span>
+					<span class="navButton"><a href="index4650.html?page=board">Forums</a></span>
+                    
+					 <span class="navButton"><a href="index2ada.html?page=discord">Discord</a></span>
+                      <span class="navButton"> <a href="index8204.html?page=leveldepo">Level Depot</a></span>
+					 <span class="navButton"> <a href="index8689.html?page=youtube">Youtube</a></span>
+                </div>
+            </th>
+        </tr>
+        <tr class="cell0">
+            <td class="smallFonts center">
+                <div style="min-height:16px;" id="onlineUsers">0 users browsing Tutorials and Info. | 1 guest</div>
+		<script type="text/javascript">
+			onlineFID = 8;
+			window.addEventListener("load",  startOnlineUsers, false);
+		</script>
+	
+            </td>
+        </tr>
+        <tr class="header1"><th id="header-sep"></th></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+
+
+<td id="main-sidebar">
+
+	<table id="sidebar" class="outline">
+
+		<tr>
+
+			<td class="cell1">
+
+				<table class="outline margin">
+
+					
+					<tr class="header0"><th>Navigation Bar</th></tr>
+
+						
+							<tr class="cell2"><td><a href="index.html">Home page</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexbc7f.html?page=news">News</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index4650.html?page=board">Forums</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexfe9c.html?page=faq">FAQ</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index00ff.html?page=memberlist">Member list</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexcb8c.html?page=ranks">Ranks</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index06de.html?page=online">Online users</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexe1ae.html?page=lastposts">Last posts</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index062e.html?page=search">Search</a></td></tr>
+
+						
+					
+					<tr class="header0"><th>Quick Access</th></tr>
+
+						
+							<tr class="cell1"><td><a href="index8204.html?page=leveldepo">Level Depot</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index8689.html?page=youtube">Youtube</a></td></tr>
+
+						
+					
+				</table>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</td>
+
+ 
+<td id="main-page">
+    <table id="page-container" class="layout-table">
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index43ea.html?page=thread&amp;id=176">Running Reggie Next from Source</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+		<!---->
+    <tr><td class="contents-container">
+        <div id="page_contents"><script type="text/javascript">window.addEventListener("load", hookUpControls, false);</script>		<div class="smallFonts pages">
+		Pages: <a class="pagelink firstpage" href="index43ea.html?page=thread&amp;id=176">&#x00AB;</a> <a class="pagelink prevpage"  href="index43ea.html?page=thread&amp;id=176">&#x2039;</a> <a class="pagelink"  href="index43ea.html?page=thread&amp;id=176">1</a><span class="pagelink curpage">2</span>
+	</div>
+		<table class="post margin" id="post3567">
+		<tr>
+			<td class="side userlink">
+				<a href="indexa63b.html?page=profile&amp;id=58"><span style="color: #7C60B0;" class="userlink" title="Zementblock (58) [Normal user]">Zementblock</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3567">
+									Posted on 11-06-17, 10:28 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3567">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexb6e5.html?page=post&amp;id=3567">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3567									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										<b>Tegotae!</b><br>Master of Events<br>Wayoshi<br>Nintendo ♥<br>Kondo / Miyamoto ♥<br>
+										<img src="data/avatars/58_1506209806.html" alt=""><br>					<br>
+					Posts: 53/72<br>
+					Since: 09-11-17<br>
+										<br>
+					Last post: 128 days<br>
+					Last view: 3 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3567">
+				Hmm, I don't know the key names and values for the paths for M2A4, as I'm using a modified M2A3 version.<br />
+I'd recommend you<br />
+- ditch M2A4 as it is known to have some weird glitches<br />
+- delete the registry keys<br />
+- use the latest M3 version from this thread (or I can upload a fully working M2A3 version for you)<br />
+- download the file "Stage Folder For Reggie 1.1.2 (ORIG,NEWER,ANOTHER,joietyfull64,etc).zip" from my Gdrive, extract it and apply read-only permissions<br />
+- if you want to edit levels directly from within the stage folder, then I'd recommend you copy the entire "Stage" folder, paste it as "YourHack" and create a new game patch<br>_________________________<br><div class="signature">Signed: Zementblock</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin deletedpost" id="post3569">
+		<tr>
+			<td class="side userlink" id="3569">
+				<a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>
+			</td>
+			<td class="smallFonts meta right">
+				<div style="float:left">
+					Posted on 11-07-17, 12:06 am, deleted by <a href="index4939.html?page=profile&amp;id=38"><span style="color: #97ACEF;" class="userlink" title="Buddermario7 (38) [Normal user]">Buddermario7</span></a>				</div>
+				<ul class="pipemenu">
+															<li>#3569
+									</ul>
+			</td>
+		</tr>
+	</table>
+	<table class="custompost table11 margin" id="post3582">
+		<tr>
+			<td class="side userlink topbar11_1">
+				<a href="index9d37.html?page=profile&amp;id=11"><span style="color: #D8E8FE;" class="userlink" title="AboodXD (11) [Local moderator]">AboodXD</span></a>
+			</td>
+			<td class="meta right topbar11_2">
+				<div style="float: left;" id="meta_3582">
+									Posted on 11-10-17, 04:44 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3582">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexa3e5.html?page=post&amp;id=3582">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3582									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side sidebar11">
+				<div class="smallFonts">
+					<img src="ranksets/mario/redgoomba.png" alt="" /><br>Red Goomba<br>					Dat weeb NSMBU hacker though :3<br>
+										<img src="data/avatars/11_1513579681.html" alt=""><br>					<br>
+					Posts: 27/43<br>
+					Since: 07-01-17<br>
+										<br>
+					Last post: 90 days<br>
+					Last view: 19 days<br>
+					
+				</div>
+			</td>
+			<td class="post mainbar11" id="post_3582">
+				<style>.mainbar11 {
+background:url(../i.imgur.com/7OWI9MX.jpg) top center fixed !important;
+background-width:100% !important;
+border-top: 2px solid black !important;
+border-bottom: 2px solid black !important;
+border-right: 2px solid black !important;
+border-bottom-right-radius: 20px !important;
+border-top-right-radius: 20px !important;
+color:white;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+font-size: 105% !important;
+padding: 20px !important;
+}
+
+.sidebar11 {
+background:url(../upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/2000px-Solid_white.svg.png) !important;
+background-size: 80px 60px !important;
+border-top: 2px solid black !important;
+border-bottom: 2px solid black !important;
+border-left: 2px solid black !important;
+border-bottom-left-radius: 20px !important;
+border-top-left-radius: 20px !important;
+color:white;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+font-size: 105% !important;
+font-style: oblique !important;
+font-weight: bold !important;
+padding: 10px !important;
+text-align:center !important;
+}
+
+.topbar11_1 {
+background:grey url(themes/glossy/generic_gloss.html) repeat;
+background-size:100% 100%;
+color:white;
+text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px 0px black;
+font-family: Lucida Handwriting, sans-serif;
+text-indent: 10px;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+.topbar11_2 {
+background:grey url(themes/glossy/generic_gloss.html) repeat;
+background-size:100% 100%;
+color:white;
+text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px 0px black;
+font-family: Lucida Handwriting, sans-serif;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.mainbar11 a,.topbar11_2 a {
+border:2px solid #066;
+background: rgba(9, 15, 25, .55);
+border:2px solid black;
+border-radius: 15px;
+color: rgb(233,30,99) !important;
+text-align:center !important;
+padding: 1px;
+text-size: 101%;
+}
+
+.mainbar11 .quotecontent {
+background:rgba(0, 0, 0 ,0.175);
+border-radius:15px;
+}
+
+.mainbar11 div.codeblock {
+background:rgb(233,30,99);
+border-radius:15px;
+}
+
+.mainbar11 .spoilerbutton {
+background:rgba(0,0,0,0.5);
+border:2px solid black;
+border-radius:15px;
+color:white !important;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+width:100% !important;
+}
+
+.mainbar11 .spoiled {
+background:rgba(0,0,0,0.675) !important;
+border:2px solid black;
+border-radius:15px;
+color:white !important;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+width:97.3% !important;
+}
+ 
+.postbox11 {
+margin:20px;
+border:2px solid #066;
+background: rgba(9, 15, 25, .55);
+border:2px solid black;
+border-radius: 15px;
+padding:10px;
+}
+</style><div class="postbox11">Uhh... Guys.<br />
+1. M3 doesn't need PyQtRibbon.<br />
+2. M3 doesn't need TPLLib.<br />
+3. cx_Freeze is optional and only needed if you are planning to build using windows_build.py.<br />
+3. M3 already has libEGL.dll in the source code, but it's only needed for building using windows_build.py anyway, so...<br></div><div class="postbox11" style = "padding:10px;color:white;text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;">Stella is best waifu. <img class="smiley" alt="" src="img/smilies/colonthree.png" /><br />
+<br />
+<div class="spoiler"><button class="spoilerbutton named">Things I hate about Stella</button><div class="spoiled hidden"><sub>She's just a balloon of fanservice...</sub></div></div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3931">
+		<tr>
+			<td class="side userlink">
+				<a href="index5706.html?page=profile&amp;id=77"><span style="color: #97ACEF;" class="userlink" title="Yourio_ (77) [Normal user]">Yourio_</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3931">
+									Posted on 12-05-17, 06:53 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3931">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexb652.html?page=post&amp;id=3931">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3931									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+										<img src="data/avatars/77_1517577138.png" alt=""><br>					<br>
+					Posts: 1/5<br>
+					Since: 11-15-17<br>
+										<br>
+					Last post: 239 days<br>
+					Last view: 35 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3931">
+				Im having a hard time with the PyQt file. When I try to import it with Python it gives me this error message:<br />
+<br />
+Traceback (most recent call last):<br />
+  File "&lt;stdin>", line 1, in &lt;module><br />
+ModuleNotFoundError: No module named 'PyQt5'<br />
+<br />
+Does anyone know how to make this work?
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3933">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3933">
+									Posted on 12-05-17, 07:02 pm
+										 (rev. 3 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 12-05-17, 07:10 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3933">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index2b84.html?page=post&amp;id=3933">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3933									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 562/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3933">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">You didn't install it properly, did you followed these steps here?:<br />
+<div class='quote'><div class='quoteheader'><a href="indexba6c.html?page=post&amp;id=3220">Posted by customlevelfan78</a></div><div class='quotecontent'><strong><u>Installing PyQt</u></strong><br />
+- Extract the .zip file<br />
+- Go to the Python installation folder, then click "Lib" and then "site-packages"<br />
+- Create a new folder named "PyQt5", and paste the files there<br />
+- Test PyQt5 by opening the terminal and typing "<em>import PyQt5</em>" in it. If nothing happens, everything is installed correctly.</div></div><br />
+If you did and it still doesn't work, and you're running the 64-bit version of Python/PyQt/etc., try uninstalling Python/PyQt/etc., and try installing the 32-bit (x86/x32/Win32) version of Python/PyQt/etc., and try importing PyQt5 again.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3935">
+		<tr>
+			<td class="side userlink">
+				<a href="index5706.html?page=profile&amp;id=77"><span style="color: #97ACEF;" class="userlink" title="Yourio_ (77) [Normal user]">Yourio_</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3935">
+									Posted on 12-06-17, 04:37 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3935">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexca1b.html?page=post&amp;id=3935">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3935									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+										<img src="data/avatars/77_1517577138.png" alt=""><br>					<br>
+					Posts: 2/5<br>
+					Since: 11-15-17<br>
+										<br>
+					Last post: 239 days<br>
+					Last view: 35 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3935">
+				Well I do have the 32bit version of python. I made a new folder called PyQt5 in the directory:<br />
+<br />
+C:\Users\MyName\AppData\Local\Programs\Python\Python36-32\Lib\site-packages<br />
+<br />
+and unzipped the files in that folder. When I try to use the import PyQt5 command nothing happens (I just go to a new line in the terminal) so you would think it is installed correctly. But if I then run the: run-python34.bat I get this error message:<br />
+<br />
+C:\Users\MyName\Documents\Mario Custom\NSMBW\Reggie-Next-M3-master>C:/Python34/python.exe reggie.py<br />
+'C:/Python34/python.exe' is not recognized as an internal or external command,<br />
+operable program or batch file.<br />
+<br />
+C:\Users\MyName\Documents\Mario Custom\NSMBW\Reggie-Next-M3-master>pause<br />
+Press any key to continue . . .<br />
+<br />
+And then it closes the terminal.
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3937">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3937">
+									Posted on 12-06-17, 05:09 pm
+										 (rev. 2 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 12-06-17, 05:12 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3937">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexad26.html?page=post&amp;id=3937">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3937									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 563/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3937">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">You're probably using Python 3.6, and that's why the <code>run-python34.bat</code> file isn't working. Uninstall Python 3.6 and install <a href="https://www.python.org/downloads/release/python-343/">Python 3.4</a> instead (make sure to download/get the 32-bit {x86/x32/Win32} version).<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3939">
+		<tr>
+			<td class="side userlink">
+				<a href="index5706.html?page=profile&amp;id=77"><span style="color: #97ACEF;" class="userlink" title="Yourio_ (77) [Normal user]">Yourio_</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3939">
+									Posted on 12-06-17, 06:13 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3939">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index1594.html?page=post&amp;id=3939">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3939									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+										<img src="data/avatars/77_1517577138.png" alt=""><br>					<br>
+					Posts: 3/5<br>
+					Since: 11-15-17<br>
+										<br>
+					Last post: 239 days<br>
+					Last view: 35 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3939">
+				Yeah, it doesn't like that either...<br />
+<br />
+C:\Users\MyName\Documents\Mario Custom\NSMBW\Reggie-Next-M3-master>C:/Python34/python.exe reggie.py<br />
+Traceback (most recent call last):<br />
+  File "reggie.py", line 57, in &lt;module><br />
+    # PyQt5: import, and error msg if not installed<br />
+ImportError: cannot import name 'QtCore'<br />
+<br />
+During handling of the above exception, another exception occurred:<br />
+<br />
+Traceback (most recent call last):<br />
+  File "reggie.py", line 60, in &lt;module><br />
+    except (ImportError, NameError):<br />
+Exception: PyQt5 is not installed for this Python installation. Go online and download it.<br />
+<br />
+C:\Users\MyName\Documents\Mario Custom\NSMBW\Reggie-Next-M3-master>pause<br />
+Press any key to continue . . .
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3941">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3941">
+									Posted on 12-06-17, 06:29 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3941">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index0cc1.html?page=post&amp;id=3941">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3941									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 564/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3941">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Try re-installing PyQt5 (make sure to delete the existing <code>PyQt5</code> folder first) and see if that works:<br />
+<div class='quote'><div class='quoteheader'><a href="indexba6c.html?page=post&amp;id=3220">Posted by customlevelfan78</a></div><div class='quotecontent'><strong><u>Installing PyQt</u></strong><br />
+- Extract the .zip file<br />
+- Go to the Python installation folder, then click "Lib" and then "site-packages"<br />
+- Create a new folder named "PyQt5", and paste the files there<br />
+- Test PyQt5 by opening the terminal and typing "<em>import PyQt5</em>" in it. If nothing happens, everything is installed correctly.</div></div><br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3994">
+		<tr>
+			<td class="side userlink">
+				<a href="index5706.html?page=profile&amp;id=77"><span style="color: #97ACEF;" class="userlink" title="Yourio_ (77) [Normal user]">Yourio_</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3994">
+									Posted on 12-10-17, 06:55 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3994">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index714b.html?page=post&amp;id=3994">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3994									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+										<img src="data/avatars/77_1517577138.png" alt=""><br>					<br>
+					Posts: 4/5<br>
+					Since: 11-15-17<br>
+										<br>
+					Last post: 239 days<br>
+					Last view: 35 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3994">
+				Still doesn't work. It seems like python can't vind the PyQt5 file. I have tried to just unzip the file to get a folder filled with the other stuff and placed it into the new folder, I also tried to cut all of the files out of that folder and placed them into the new folder. Both options didn't work.<br />
+Just to be sure, which type of PyQt5 do I have to download: the 64 bit .exe, the 32 bit .exe, the .zip or the .tar.gz? And maybe a different version (Im using the linked one, the 5.3.2) ?
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3996">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3996">
+									Posted on 12-10-17, 07:07 pm
+										 (rev. 2 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 12-10-17, 07:10 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3996">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexaa82.html?page=post&amp;id=3996">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3996									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 568/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3996">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34"><div class='quote'><div class='quoteheader'><a href="index714b.html?page=post&amp;id=3994">Posted by Yourio_</a></div><div class='quotecontent'>Just to be sure, which type of PyQt5 do I have to download: the 64 bit .exe, the 32 bit .exe, the .zip or the .tar.gz? And maybe a different version (Im using the linked one, the 5.3.2) ?</div></div>You have to download the <code>.zip</code> file. And you don't need a different version of PyQt.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3999">
+		<tr>
+			<td class="side userlink">
+				<a href="index5706.html?page=profile&amp;id=77"><span style="color: #97ACEF;" class="userlink" title="Yourio_ (77) [Normal user]">Yourio_</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3999">
+									Posted on 12-11-17, 06:16 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3999">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexf8f9.html?page=post&amp;id=3999">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3999									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+										<img src="data/avatars/77_1517577138.png" alt=""><br>					<br>
+					Posts: 5/5<br>
+					Since: 11-15-17<br>
+										<br>
+					Last post: 239 days<br>
+					Last view: 35 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3999">
+				oke, so I tried it on another laptop and it didn't work there as well.<br />
+I have no idea what causes this problem, but I do have a lot of other problems on this laptop so this might be one more.<br />
+Still, an option is that I'm just missing one small detail. Do you know if there is a tutorial video of some sort?
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4001">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4001">
+									Posted on 12-11-17, 06:24 pm
+										 (rev. 2 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 05-07-18, 10:24 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4001">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index905d.html?page=post&amp;id=4001">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4001									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 569/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4001">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34"><div class='quote'><div class='quoteheader'><a href="indexf8f9.html?page=post&amp;id=3999">Posted by Yourio_</a></div><div class='quotecontent'>Still, an option is that I'm just missing one small detail. Do you know if there is a tutorial video of some sort?</div></div>Not that I know of.<br />
+<br />
+<br />
+<strong>EDIT:</strong> @<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>, you should update the tutorial, as Reggie! Next needs Python v3.6 (and not v3.4 anymore) to work properly, as per what <a href="indexed0b.html?page=profile&amp;id=20"><span style="color: #97ACEF;" class="userlink" title="Danster (20) [Normal user]">Danster64</span></a> said: <div class='quote'><div class='quoteheader'><a href="index63fe.html?page=post&amp;id=4629">Posted by Danster</a></div><div class='quotecontent'>Attention!<br />
+<br />
+The source code of Reggie! Next M3 has been updated a lot! It doesn't have a build yet,<br />
+but there may be one in the near future. <b style="text-decoration:underline;">Regarding running the build from source, you will<br />
+have to use Python v3.6 instead of v3.4 for it to work properly.</b></div></div><br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4631">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4631">
+									Posted on 05-08-18, 07:08 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4631">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexb29f.html?page=post&amp;id=4631">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4631									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 424/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4631">
+				Done. I haven't managed to get the latest release to run, so the tut isn't 100% tested.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="custompost table11 margin" id="post4633">
+		<tr>
+			<td class="side userlink topbar11_1">
+				<a href="index9d37.html?page=profile&amp;id=11"><span style="color: #D8E8FE;" class="userlink" title="AboodXD (11) [Local moderator]">AboodXD</span></a>
+			</td>
+			<td class="meta right topbar11_2">
+				<div style="float: left;" id="meta_4633">
+									Posted on 05-09-18, 11:10 am
+										 (rev. 1 by <a href="index9d37.html?page=profile&amp;id=11"><span style="color: #D8E8FE;" class="userlink" title="AboodXD (11) [Local moderator]">AboodXD</span></a> on 05-09-18, 11:10 am)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4633">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index54ce.html?page=post&amp;id=4633">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4633									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side sidebar11">
+				<div class="smallFonts">
+					<img src="ranksets/mario/redgoomba.png" alt="" /><br>Red Goomba<br>					Dat weeb NSMBU hacker though :3<br>
+										<img src="data/avatars/11_1513579681.html" alt=""><br>					<br>
+					Posts: 42/43<br>
+					Since: 07-01-17<br>
+										<br>
+					Last post: 90 days<br>
+					Last view: 19 days<br>
+					
+				</div>
+			</td>
+			<td class="post mainbar11" id="post_4633">
+				<style>.mainbar11 {
+background:url(../i.imgur.com/7OWI9MX.jpg) top center fixed !important;
+background-width:100% !important;
+border-top: 2px solid black !important;
+border-bottom: 2px solid black !important;
+border-right: 2px solid black !important;
+border-bottom-right-radius: 20px !important;
+border-top-right-radius: 20px !important;
+color:white;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+font-size: 105% !important;
+padding: 20px !important;
+}
+
+.sidebar11 {
+background:url(../upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/2000px-Solid_white.svg.png) !important;
+background-size: 80px 60px !important;
+border-top: 2px solid black !important;
+border-bottom: 2px solid black !important;
+border-left: 2px solid black !important;
+border-bottom-left-radius: 20px !important;
+border-top-left-radius: 20px !important;
+color:white;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+font-size: 105% !important;
+font-style: oblique !important;
+font-weight: bold !important;
+padding: 10px !important;
+text-align:center !important;
+}
+
+.topbar11_1 {
+background:grey url(themes/glossy/generic_gloss.html) repeat;
+background-size:100% 100%;
+color:white;
+text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px 0px black;
+font-family: Lucida Handwriting, sans-serif;
+text-indent: 10px;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+.topbar11_2 {
+background:grey url(themes/glossy/generic_gloss.html) repeat;
+background-size:100% 100%;
+color:white;
+text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px 0px black;
+font-family: Lucida Handwriting, sans-serif;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.mainbar11 a,.topbar11_2 a {
+border:2px solid #066;
+background: rgba(9, 15, 25, .55);
+border:2px solid black;
+border-radius: 15px;
+color: rgb(233,30,99) !important;
+text-align:center !important;
+padding: 1px;
+text-size: 101%;
+}
+
+.mainbar11 .quotecontent {
+background:rgba(0, 0, 0 ,0.175);
+border-radius:15px;
+}
+
+.mainbar11 div.codeblock {
+background:rgb(233,30,99);
+border-radius:15px;
+}
+
+.mainbar11 .spoilerbutton {
+background:rgba(0,0,0,0.5);
+border:2px solid black;
+border-radius:15px;
+color:white !important;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+width:100% !important;
+}
+
+.mainbar11 .spoiled {
+background:rgba(0,0,0,0.675) !important;
+border:2px solid black;
+border-radius:15px;
+color:white !important;
+text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;
+font-family: Lucida Handwriting, sans-serif;
+width:97.3% !important;
+}
+ 
+.postbox11 {
+margin:20px;
+border:2px solid #066;
+background: rgba(9, 15, 25, .55);
+border:2px solid black;
+border-radius: 15px;
+padding:10px;
+}
+</style><div class="postbox11"><div class='quote'><div class='quoteheader'><a href="index905d.html?page=post&amp;id=4001">Posted by 9211tr</a></div><div class='quotecontent'><strong>EDIT:</strong> @<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>, you should update the tutorial, as Reggie! Next needs Python v3.6 (and not v3.4 anymore) to work properly</div></div>Uh, no.<br></div><div class="postbox11" style = "padding:10px;color:white;text-shadow: 0 0 0.8em #4a4e52, 0 0 0.8em #4a4e52;">Stella is best waifu. <img class="smiley" alt="" src="img/smilies/colonthree.png" /><br />
+<br />
+<div class="spoiler"><button class="spoilerbutton named">Things I hate about Stella</button><div class="spoiled hidden"><sub>She's just a balloon of fanservice...</sub></div></div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4635">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4635">
+									Posted on 05-09-18, 05:34 pm
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 05-09-18, 05:38 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4635">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index773c.html?page=post&amp;id=4635">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4635									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 655/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4635">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34"><div class='quote'><div class='quoteheader'><a href="index54ce.html?page=post&amp;id=4633">Posted by AboodXD</a></div><div class='quotecontent'>Uh, no.</div></div>Wait... Did <a href="indexed0b.html?page=profile&amp;id=20"><span style="color: #97ACEF;" class="userlink" title="Danster (20) [Normal user]">Danster64</span></a> gave incorrect information in his post or something? Does Reggie! Next still needs Python v3.4?<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4640">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4640">
+									Posted on 05-14-18, 03:05 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4640">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index6f9c.html?page=post&amp;id=4640">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4640									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 425/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4640">
+				Nvm all of the above, the tutorial is now up to date and confirmed to work <img class="smiley" alt="" src="img/smilies/smile.png" /><br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+		<div class="smallFonts pages">
+		Pages: <a class="pagelink firstpage" href="index43ea.html?page=thread&amp;id=176">&#x00AB;</a> <a class="pagelink prevpage"  href="index43ea.html?page=thread&amp;id=176">&#x2039;</a> <a class="pagelink"  href="index43ea.html?page=thread&amp;id=176">1</a><span class="pagelink curpage">2</span>
+	</div>
+	</div>
+    </td></tr>
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index43ea.html?page=thread&amp;id=176">Running Reggie Next from Source</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+<td id="main-footer" colspan="2">
+ 
+    <table id="footer" class="outline">
+    <tr>
+    <td class="cell2">
+        <table class="layout-table" style="line-height: 1.4em;">
+            <tr>
+            <td style="text-align: left;">
+                <img src="img/poweredbyblarg.png" style="float: left; margin-right: 3px;">
+<a href="http://kuribo64.net/blargboard/" target="_blank">Blargboard 1.1</a> &middot; by StapleButter<br>
+Based off <a href="http://abxd.dirbaio.net/" target="_blank">ABXD</a> by Dirbaio, Kawa &amp; co.<br>
+                <!-- Page rendered in 0.028 seconds (with 40 SQL queries and 937.648K of RAM) -->
+            </td>
+        </table>
+    </td>
+    </tr>
+    </table>
+ 
+</td>
+</tr>
+</table>
+</body>
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=176&from=20 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:47:21 GMT -->
+</html>
+

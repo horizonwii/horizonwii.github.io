@@ -1,0 +1,2154 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=59&from=20 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:45:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Horizon &raquo; Setting Up and Compiling the Newer Sources</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<meta name="description" content="This is the original post made by Tempus and recovered from RVLution. I added a few edits to the original post, while 9211tr made the Windows and Linux tutorials, props...">
+	<meta name="keywords" content="setting compiling newer sources">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" id="theme_css" href="themes/horizondark/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tricks.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd_0_5.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jscolor/jscolor.js"></script>
+	<script type="text/javascript">boardroot = "#\/";</script>
+
+		
+	</head>
+<body style="width:100%; font-size: 80%;">
+<form action="https://horizonwii.net/?page=login" method="post" id="logout" style="display:none;"><input type="hidden" name="action" value="logout"></form>
+<table id="main" class="layout-table">
+<tr>
+<td id="main-header" colspan="2">
+    <table id="header" class="outline">
+        <tr>
+            <td class="cell0 left">
+                <table class="layout-table">
+                <tr>
+                <td><center>
+                   <a href="index.html"><img id="theme_banner" src="img/logo.png" alt="Horizon" title="Horizon"></a> 
+				   </center>
+                </td>
+                <!-- Box Shit -->
+					
+                </tr>
+                </table>
+            </td>
+        </tr>
+		<tr class="header1">
+			<th id="navBar center">
+				<div style="display:inline-block;">
+                                        <span class="navButton">
+                        <a href="index6bf6.html?page=register">Register</a>
+					</span>
+                    <span class="navButton">
+                        <a href="index6f31.html?page=login">Log in</a>
+                    </span>
+                                    </div>
+			</th>
+		</tr>
+		<tr class="cell1">
+			<th id="cell2 center" style="float:left">
+				<font size="1.5"><span id="viewCount">1,121,706</span> views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font>
+			</th>
+			<th id="cell2 center" style="float:right">
+				<font size="1.5">08-07-18, 08:24 pm </font>
+			</th>
+		</tr>
+        <tr class="header1">
+			<th id="navBar center">
+                <div id="navMenuContainer">
+					
+                    <span class="navButton"><a href="index.html">Home</a></span>
+					<span class="navButton"><a href="index4650.html?page=board">Forums</a></span>
+                    
+					 <span class="navButton"><a href="index2ada.html?page=discord">Discord</a></span>
+                      <span class="navButton"> <a href="index8204.html?page=leveldepo">Level Depot</a></span>
+					 <span class="navButton"> <a href="index8689.html?page=youtube">Youtube</a></span>
+                </div>
+            </th>
+        </tr>
+        <tr class="cell0">
+            <td class="smallFonts center">
+                <div style="min-height:16px;" id="onlineUsers">0 users browsing Tutorials and Info. | 1 guest</div>
+		<script type="text/javascript">
+			onlineFID = 8;
+			window.addEventListener("load",  startOnlineUsers, false);
+		</script>
+	
+            </td>
+        </tr>
+        <tr class="header1"><th id="header-sep"></th></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+
+
+<td id="main-sidebar">
+
+	<table id="sidebar" class="outline">
+
+		<tr>
+
+			<td class="cell1">
+
+				<table class="outline margin">
+
+					
+					<tr class="header0"><th>Navigation Bar</th></tr>
+
+						
+							<tr class="cell2"><td><a href="index.html">Home page</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexbc7f.html?page=news">News</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index4650.html?page=board">Forums</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexfe9c.html?page=faq">FAQ</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index00ff.html?page=memberlist">Member list</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexcb8c.html?page=ranks">Ranks</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index06de.html?page=online">Online users</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexe1ae.html?page=lastposts">Last posts</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index062e.html?page=search">Search</a></td></tr>
+
+						
+					
+					<tr class="header0"><th>Quick Access</th></tr>
+
+						
+							<tr class="cell1"><td><a href="index8204.html?page=leveldepo">Level Depot</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index8689.html?page=youtube">Youtube</a></td></tr>
+
+						
+					
+				</table>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</td>
+
+ 
+<td id="main-page">
+    <table id="page-container" class="layout-table">
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index4ee7.html?page=thread&amp;id=59">Setting Up and Compiling the Newer Sources</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+		<!---->
+    <tr><td class="contents-container">
+        <div id="page_contents"><script type="text/javascript">window.addEventListener("load", hookUpControls, false);</script>		<div class="smallFonts pages">
+		Pages: <a class="pagelink firstpage" href="index4ee7.html?page=thread&amp;id=59">&#x00AB;</a> <a class="pagelink prevpage"  href="index4ee7.html?page=thread&amp;id=59">&#x2039;</a> <a class="pagelink"  href="index4ee7.html?page=thread&amp;id=59">1</a><span class="pagelink curpage">2</span><a class="pagelink"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">3</a> <a class="pagelink nextpage"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">&#x203A;</a> <a class="pagelink lastpage"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">&#x00BB;</a>
+	</div>
+		<table class="post margin" id="post1945">
+		<tr>
+			<td class="side userlink">
+				<a href="indexed0b.html?page=profile&amp;id=20"><span style="color: #97ACEF;" class="userlink" title="Danster (20) [Normal user]">Danster64</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1945">
+									Posted on 08-14-17, 01:00 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1945">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index026d.html?page=post&amp;id=1945">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1945									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/redcheepcheep.png" alt="" /><br>Red Cheep-cheep<br>					Normal user<br>
+										<img src="data/avatars/20_1514168052.gif" alt=""><br>					<br>
+					Posts: 85/219<br>
+					Since: 07-01-17<br>
+										<br>
+					Last post: 45 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_1945">
+				By the way, here's a link the the NewerSMBW source code. I'm not sure what version it is, but I thought it was worth posting.<br />
+<a href="https://github.com/Treeki/NewerSMBW">https://github.com/Treeki/NewerSMBW</a><br>_________________________<br><div class="signature">I need to make a signature...<br />
+<div class="spoiler"><button class="spoilerbutton named">The Story of Donkey Kong</button><div class="spoiled hidden">It all starts like this. Ganon captured Link. Then Zelda found out that the triforce had 4 pieces. not 3. She went to the triforce and threw the 3rd shard (that is black) at it. the shard went in the middle. Then she punched it for its power and then there was a gigantic explosion. Everyone died but zelda and ganon and link. Ganon and Link started fighting. Athend, Ganon hit link to the ground. Ganon was about to end it when captain falcon came out of somewhere i mean nowhere and used falcon punch. Then he exploded and died. Zelda said "wow Link sucks." Link heard, got pissed, Transformed into Dark Link and exploded. Ganon was so shocked he died out of laughter. zelda almost had the same fate but the triforce which is now black and Purple aura copied Zelda's apperance and then gained 4 heads and a dragon tail. Its name is dragon zelda. zelda acted like she was all and powerful. dragon zelda charged at zelda and she hit the floor. She started crying alot. then toon link and young link came out of nowhere i mean somewhere and went beside zelda. they screamed "AHHHHHH!!!" and exploded. then they reformed to a toon female link with pink hair. fink. fink acted like she was all and powerful. but then dragon zelda charged at fink and she hit the floor. this time she was actually dead. Now everyone was dead but dragon zelda. Now she turns into a shiek with a bigger dragon tail. she teleported to a dimension with everything normal. because she can. then she looked for zelda. she found her, killed her instanly and became the new zelda. <br />
+<br />
+The Ends.</div></div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1957">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1957">
+									Posted on 08-14-17, 01:22 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1957">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index79e2.html?page=post&amp;id=1957">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1957									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 275/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_1957">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">That's the <code>master</code> version, which doesn't work and is defective (as it crashes on Wii).<br />
+The <code>no-translations</code> version is the one that works: <a href="https://github.com/Treeki/NewerSMBW/tree/no-translations">https://github.com/Treeki/NewerSMBW/tree/no-translations</a><br />
+<br />
+Also BTW, the command (in my tutorial): <div class="codeblock">sh &lt;(wget -O - https://www.dropbox.com/s/7dkuz0vrh6mlsgo/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1)</div> During the installation, it automatically downloads the NewerSMBW sources (the <code>no-translations</code> version), so you don't have to download it manually.<br />
+<br />
+So I don't know why you've posted the link to the NewerSMBW sources.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1959">
+		<tr>
+			<td class="side userlink">
+				<a href="indexed0b.html?page=profile&amp;id=20"><span style="color: #97ACEF;" class="userlink" title="Danster (20) [Normal user]">Danster64</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1959">
+									Posted on 08-14-17, 02:22 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1959">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexd618.html?page=post&amp;id=1959">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1959									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/redcheepcheep.png" alt="" /><br>Red Cheep-cheep<br>					Normal user<br>
+										<img src="data/avatars/20_1514168052.gif" alt=""><br>					<br>
+					Posts: 88/219<br>
+					Since: 07-01-17<br>
+										<br>
+					Last post: 45 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_1959">
+				I just posted the master version for anyone that wants, and/or doesn't know about it.<br>_________________________<br><div class="signature">I need to make a signature...<br />
+<div class="spoiler"><button class="spoilerbutton named">The Story of Donkey Kong</button><div class="spoiled hidden">It all starts like this. Ganon captured Link. Then Zelda found out that the triforce had 4 pieces. not 3. She went to the triforce and threw the 3rd shard (that is black) at it. the shard went in the middle. Then she punched it for its power and then there was a gigantic explosion. Everyone died but zelda and ganon and link. Ganon and Link started fighting. Athend, Ganon hit link to the ground. Ganon was about to end it when captain falcon came out of somewhere i mean nowhere and used falcon punch. Then he exploded and died. Zelda said "wow Link sucks." Link heard, got pissed, Transformed into Dark Link and exploded. Ganon was so shocked he died out of laughter. zelda almost had the same fate but the triforce which is now black and Purple aura copied Zelda's apperance and then gained 4 heads and a dragon tail. Its name is dragon zelda. zelda acted like she was all and powerful. dragon zelda charged at zelda and she hit the floor. She started crying alot. then toon link and young link came out of nowhere i mean somewhere and went beside zelda. they screamed "AHHHHHH!!!" and exploded. then they reformed to a toon female link with pink hair. fink. fink acted like she was all and powerful. but then dragon zelda charged at fink and she hit the floor. this time she was actually dead. Now everyone was dead but dragon zelda. Now she turns into a shiek with a bigger dragon tail. she teleported to a dimension with everything normal. because she can. then she looked for zelda. she found her, killed her instanly and became the new zelda. <br />
+<br />
+The Ends.</div></div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post1963">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_1963">
+									Posted on 08-14-17, 03:05 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_1963">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexc496.html?page=post&amp;id=1963">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#1963									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 276/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_1963">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Well, OK then, thanks for the info.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4350">
+		<tr>
+			<td class="side userlink">
+				<a href="index8dcf.html?page=profile&amp;id=95"><span style="color: #97ACEF;" class="userlink" title="Sonic.exe (95) [Normal user]">Sonic.exe</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4350">
+									Posted on 02-13-18, 10:29 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4350">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index089c.html?page=post&amp;id=4350">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4350									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/95_1530373578.png" alt=""><br>					<br>
+					Posts: 4/14<br>
+					Since: 12-31-17<br>
+										<br>
+					Last post: 37 days<br>
+					Last view: 1 day<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4350">
+				I have tried this......<br />
+But always FAILED.<br />
+Can you help me?<br />
+<img class="imgtag" src="../image.ibb.co/mEFDi7/2018_02_13_4.png" alt=""/><br />
+My Source is:<a href="https://drive.google.com/open?id=1Fh6m2iboejEZOkORtmurZOxHhLp-FZRi">https://drive.google.com/open?id=1Fh6m2iboejEZOkORtmurZOxHhLp-FZRi</a><br />
+<br />
+Oh.My Win10 Version is<br />
+<img class="imgtag" src="../image.ibb.co/hdN137/os.png" alt=""/><br>_________________________<br><div class="signature"><strong>HELL</strong>O, Do you want PlAy WiTh ME? We CaN pLaY <strong>Hide And Seek</strong>.<br />
+Okay, I close my eyes now. And then count to ten.<br />
+1...2...3...Hehehehe...4...5...<em>6...6...6...</em>7...8...9...10<br />
+Where are you...? <br />
+<strong>I comes...</strong>Hehe<br />
+<b style="color:#0000FF;">F͉̖̘̗͗̀͐̐͠ͅo̰͚̞͙̞͊͐͐͂͠Ǘ̘͚͕̪̞́͊̑̋n̡̨͔̞̭̑̅̾͆͒D̺̘̟͖͍̓͑̑̓̃ ̡̢̤̠̟͊̈́͂̍̕ỵ̠̮̞̣́̇͆́̚Ọ̻̟̤̗͐̀́́̔u̳̩̠͑̾͊́̔͜͜!!!</b><br />
+You're  too slow...<br />
+and...<br />
+You can't Escape...<br />
+because...<br />
+<b style="color:#FF0000;">Ḯ̟͈̠̻͕͌͊͋̂ ̨̪͉̥̬̾̋̋̕̕Á̹̼̩̰͖͛̉̏̆Ṃ̢̟͕͖͌̄̕͘͠ ̝̜͈̻͕͛̒̔̐̀Ǵ̨̫̥̖̫̈́̊̂͘Ô̝̠̤͈̯̎͛̈́̕D̰̳̤͈̩̾̾̾͐͒</b><br />
+Hah. You're still very slow,Want to try again? <br />
+Ready FoR ̈͒͢͜͠͡͝R͒̈̈͒͜͢͢͜͝͡͠͠͡͝o͒̈̈͒͜͢͢͜͝͡͠͠͡͝U͒̈̈͒͜͢͢͜͝͡͠͠͡͝n͒̈̈͒͜͢͢͜͝͡͠͠͡͝D͒̈̈͒͜͢͢͜͝͡͠͠͡͝ ͒̈͜͢͝͡͠2,AnD rUn.<br />
+BuT tHiS tImE, wHeN YoU LoSe, Go tO DeAtH.<br />
+He<strong>Z</strong>he<strong>A</strong>he<strong>L</strong>he<strong>G</strong>he<strong>O</strong>he...</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4352">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4352">
+									Posted on 02-13-18, 12:44 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4352">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexae4e.html?page=post&amp;id=4352">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4352									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 410/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4352">
+				Well, you're pretty much at the end, you just need to rename the files. The script didn't find them, but i'm pretty sure you can rename them manually by checking the script itself.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4356">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4356">
+									Posted on 02-13-18, 05:37 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4356">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index5fdf.html?page=post&amp;id=4356">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4356									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 602/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4356">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34"><div class='quote'><div class='quoteheader'><a href="index089c.html?page=post&amp;id=4350">Posted by Sonic.exe</a></div><div class='quotecontent'>I have tried this......<br />
+But always FAILED.<br />
+Can you help me?<br />
+<br />
+&lt;image><br />
+<br />
+My Source is:<a href="https://drive.google.com/open?id=1Fh6m2iboejEZOkORtmurZOxHhLp-FZRi">https://drive.google.com/open?id=1Fh6m2iboejEZOkORtmurZOxHhLp-FZRi</a><br />
+<br />
+Oh.My Win10 Version is<br />
+<img class="imgtag" src="../image.ibb.co/hdN137/os.png" alt=""/></div></div>From what I know when I looked in the ZIP archive (<code>Kamek.zip</code>) that you linked:<br />
+In the <code>/Kamek/processed</code> folder, it's empty, and in the <code>/Kamek/NewerASM</code> (and the <code>/Kamek/NewerASM/renamed</code>) folder, there are no <code>.bin</code> files in there.<br />
+<br />
+Also, according to these texts in your screenshot: <div class="codeblock">./newersmbw_compile.sh: 36: ./newersmbw_compile.sh: python: not found
+./newersmbw_compile.sh: 37: ./newersmbw_compile.sh: python: not found</div> It looks like some of the necessary tools used to compile the NewerSMBW sources was installed improperly.<br />
+<br />
+<br />
+Is the user you're on (in the Windows 10 WSL subsystem), is the ROOT user (which is UID <code>0</code>)?<br />
+<br />
+To check, type this command in the WSL subsystem: <div class="codeblock">echo $UID</div> to see if it returns <code>0</code>.<br />
+<br />
+<br />
+If it returns <code>0</code>, the only thing you can do is, uninstall the WSL subsystem and install it again and install the NewerSMBW sources again on the WSL subsystem to see if it works.<br />
+<br />
+Otherwise, I don't know the answer to your problem, because I never had issues like that before, and the compiling works for me perfectly on the WSL subsystem on my Windows 10 computer.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="custompost table104 margin" id="post4357">
+		<tr>
+			<td class="side userlink topbar104_1">
+				<a href="indexa5b1.html?page=profile&amp;id=104"><span style="color: #7C60B0;" class="userlink" title="Rotekoppen (104) [Normal user]">Rotekoppen</span></a>
+			</td>
+			<td class="meta right topbar104_2">
+				<div style="float: left;" id="meta_4357">
+									Posted on 02-13-18, 05:40 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4357">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexd59e.html?page=post&amp;id=4357">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4357									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side sidebar104">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+															<br>
+					Posts: 3/7<br>
+					Since: 02-11-18<br>
+										<br>
+					Last post: 163 days<br>
+					Last view: 124 days<br>
+					
+				</div>
+			</td>
+			<td class="post mainbar104" id="post_4357">
+				<style>
+ .mainbar104
+   {
+    background:url(../i.imgur.com/EFo77ze.png) center top !important;
+    background-width:100% !important;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    border: 6px solid white;
+    font-size: 110% !important;
+   }
+
+ .sidebar104
+  {
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-align: left;
+   border-left: 6px solid white;
+   border-bottom: 6px solid white;
+   background: rgba(0,0,0,0.5);
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   font-size: 120% !important;
+   padding-left: 3px;
+  }
+
+ .topbar104_1
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   text-align:left;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.25);
+  }
+
+ .topbar104_2
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-right: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.5);
+  }
+
+
+  .mainbar104 .spoilerbutton
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.75);
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+  .mainbar104 .quoteheader
+  {
+   color: white;
+
+  }
+
+  .postbox104 .spoiled
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5) !important;
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+ .mainbar104 div.codeblock
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   color:white;
+   font-size: 110%;
+   font-family: "Lucida Console", Monaco, monospace;
+   padding-left: 6px;
+   font-size: 110% !important;
+  }
+ 
+ .postbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   border-top: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+   padding-left: 6px;
+  }
+
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+
+</style><br />
+<div class="postbox104">Isn't wsl something you only find in the pro versions, just like with hyper-v?<br><style>
+s { 
+    text-decoration: line-through;
+}
+
+
+ .signbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+  }
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 110% !important;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 45s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+</style></div> <div class="signbox104"><p class="marquee"><span>The marquee tag don't work anymore, instead you need to add like 20 lines of css, to get the exact same thing... That is pathetic! </span></p></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4358">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4358">
+									Posted on 02-13-18, 05:45 pm
+										 (rev. 2 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 02-13-18, 05:49 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4358">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index5d3b.html?page=post&amp;id=4358">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4358									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 603/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4358">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Not from what I know, the WSL subsystem can also be used on the "Home" edition of Windows 10 (and probably any other editions of Windows 10 as well).<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4365">
+		<tr>
+			<td class="side userlink">
+				<a href="index8dcf.html?page=profile&amp;id=95"><span style="color: #97ACEF;" class="userlink" title="Sonic.exe (95) [Normal user]">Sonic.exe</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4365">
+									Posted on 02-14-18, 02:17 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4365">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index06cb.html?page=post&amp;id=4365">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4365									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/microgoomba.png" alt="" /><br>Micro-Goomba<br>					Normal user<br>
+										<img src="data/avatars/95_1530373578.png" alt=""><br>					<br>
+					Posts: 5/14<br>
+					Since: 12-31-17<br>
+										<br>
+					Last post: 37 days<br>
+					Last view: 1 day<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4365">
+				<img class="imgtag" src="../image.ibb.co/mdsHvn/2018_02_14_1.png" alt=""/><br />
+And...How Can I do?<br />
+IT ISN'T AUTOMATIC install..<br />
+<br />
+Now,I'm try install Windows+Linux (Multi System)In my harddisk and run this in Linux...<br>_________________________<br><div class="signature"><strong>HELL</strong>O, Do you want PlAy WiTh ME? We CaN pLaY <strong>Hide And Seek</strong>.<br />
+Okay, I close my eyes now. And then count to ten.<br />
+1...2...3...Hehehehe...4...5...<em>6...6...6...</em>7...8...9...10<br />
+Where are you...? <br />
+<strong>I comes...</strong>Hehe<br />
+<b style="color:#0000FF;">F͉̖̘̗͗̀͐̐͠ͅo̰͚̞͙̞͊͐͐͂͠Ǘ̘͚͕̪̞́͊̑̋n̡̨͔̞̭̑̅̾͆͒D̺̘̟͖͍̓͑̑̓̃ ̡̢̤̠̟͊̈́͂̍̕ỵ̠̮̞̣́̇͆́̚Ọ̻̟̤̗͐̀́́̔u̳̩̠͑̾͊́̔͜͜!!!</b><br />
+You're  too slow...<br />
+and...<br />
+You can't Escape...<br />
+because...<br />
+<b style="color:#FF0000;">Ḯ̟͈̠̻͕͌͊͋̂ ̨̪͉̥̬̾̋̋̕̕Á̹̼̩̰͖͛̉̏̆Ṃ̢̟͕͖͌̄̕͘͠ ̝̜͈̻͕͛̒̔̐̀Ǵ̨̫̥̖̫̈́̊̂͘Ô̝̠̤͈̯̎͛̈́̕D̰̳̤͈̩̾̾̾͐͒</b><br />
+Hah. You're still very slow,Want to try again? <br />
+Ready FoR ̈͒͢͜͠͡͝R͒̈̈͒͜͢͢͜͝͡͠͠͡͝o͒̈̈͒͜͢͢͜͝͡͠͠͡͝U͒̈̈͒͜͢͢͜͝͡͠͠͡͝n͒̈̈͒͜͢͢͜͝͡͠͠͡͝D͒̈̈͒͜͢͢͜͝͡͠͠͡͝ ͒̈͜͢͝͡͠2,AnD rUn.<br />
+BuT tHiS tImE, wHeN YoU LoSe, Go tO DeAtH.<br />
+He<strong>Z</strong>he<strong>A</strong>he<strong>L</strong>he<strong>G</strong>he<strong>O</strong>he...</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4366">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4366">
+									Posted on 02-14-18, 03:32 am
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 02-14-18, 03:38 am)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4366">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexc35a.html?page=post&amp;id=4366">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4366									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 605/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4366">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">I don't know why it would say <code>"can't find file to patch at input line 5"</code> and prompt you which file to patch. Usually, it would find the necessary files to patch and patch the files automatically.<br />
+<br />
+Did you type <div class="codeblock">cd /</div> before running the script <div class="codeblock">sh &lt;(wget -O - https://www.dropbox.com/s/7dkuz0vrh6mlsgo/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1)</div> So that no errors would appear?<br />
+<br />
+If you did, then I don't know the answer to your problem, because I never had issues like that before, and the compiling works for me perfectly on the WSL subsystem on my Windows 10 computer.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="custompost table104 margin" id="post4372">
+		<tr>
+			<td class="side userlink topbar104_1">
+				<a href="indexa5b1.html?page=profile&amp;id=104"><span style="color: #7C60B0;" class="userlink" title="Rotekoppen (104) [Normal user]">Rotekoppen</span></a>
+			</td>
+			<td class="meta right topbar104_2">
+				<div style="float: left;" id="meta_4372">
+									Posted on 02-14-18, 06:56 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4372">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index921f.html?page=post&amp;id=4372">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4372									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side sidebar104">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+															<br>
+					Posts: 4/7<br>
+					Since: 02-11-18<br>
+										<br>
+					Last post: 163 days<br>
+					Last view: 124 days<br>
+					
+				</div>
+			</td>
+			<td class="post mainbar104" id="post_4372">
+				<style>
+ .mainbar104
+   {
+    background:url(../i.imgur.com/EFo77ze.png) center top !important;
+    background-width:100% !important;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    border: 6px solid white;
+    font-size: 110% !important;
+   }
+
+ .sidebar104
+  {
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-align: left;
+   border-left: 6px solid white;
+   border-bottom: 6px solid white;
+   background: rgba(0,0,0,0.5);
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   font-size: 120% !important;
+   padding-left: 3px;
+  }
+
+ .topbar104_1
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   text-align:left;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.25);
+  }
+
+ .topbar104_2
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-right: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.5);
+  }
+
+
+  .mainbar104 .spoilerbutton
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.75);
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+  .mainbar104 .quoteheader
+  {
+   color: white;
+
+  }
+
+  .postbox104 .spoiled
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5) !important;
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+ .mainbar104 div.codeblock
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   color:white;
+   font-size: 110%;
+   font-family: "Lucida Console", Monaco, monospace;
+   padding-left: 6px;
+   font-size: 110% !important;
+  }
+ 
+ .postbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   border-top: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+   padding-left: 6px;
+  }
+
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+
+</style><br />
+<div class="postbox104"><div class='quote'><div class='quoteheader'><a href="index06cb.html?page=post&amp;id=4365">Posted by Sonic.exe</a></div><div class='quotecontent'><img class="imgtag" src="../image.ibb.co/mdsHvn/2018_02_14_1.png" alt=""/><br />
+And...How Can I do?<br />
+IT ISN'T AUTOMATIC install..<br />
+<br />
+Now,I'm try install Windows+Linux (Multi System)In my harddisk and run this in Linux...</div></div><br />
+You could try virtualbox, or vmware, since you dont have the risk of deleting everything. (Tell me if i didnt read everything...)<br><style>
+s { 
+    text-decoration: line-through;
+}
+
+
+ .signbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+  }
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 110% !important;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 45s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+</style></div> <div class="signbox104"><p class="marquee"><span>The marquee tag don't work anymore, instead you need to add like 20 lines of css, to get the exact same thing... That is pathetic! </span></p></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4373">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4373">
+									Posted on 02-14-18, 07:16 pm
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 02-14-18, 07:18 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4373">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexaf75.html?page=post&amp;id=4373">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4373									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 607/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4373">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Just note that if you're going to compile the NewerSMBW sources on VirtualBox or VMWare, you'll need to create an Ubuntu (or Debian) Linux virtual machine. And you'll need to get the Ubuntu (or Debian) Linux installer ISO image, and you'll have to install it on the virtual machine (Google for a tutorial on how to install Ubuntu or Debian Linux on VirtualBox or VMWare), and when the installation is finished, <a href="index453e.html?page=post&amp;id=1286">follow my tutorial on how to compile the NewerSMBW sources on Ubuntu/Debian Linux.</a><br />
+<br />
+Also, keep in mind that VMWare is not free (so you'll need to pay cash in order to use it). VirtualBox, is however, free (and you don't have to pay cash).<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="custompost table104 margin" id="post4385">
+		<tr>
+			<td class="side userlink topbar104_1">
+				<a href="indexa5b1.html?page=profile&amp;id=104"><span style="color: #7C60B0;" class="userlink" title="Rotekoppen (104) [Normal user]">Rotekoppen</span></a>
+			</td>
+			<td class="meta right topbar104_2">
+				<div style="float: left;" id="meta_4385">
+									Posted on 02-20-18, 03:20 pm
+										 (rev. 1 by <a href="indexa5b1.html?page=profile&amp;id=104"><span style="color: #7C60B0;" class="userlink" title="Rotekoppen (104) [Normal user]">Rotekoppen</span></a> on 02-20-18, 04:40 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4385">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index376b.html?page=post&amp;id=4385">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4385									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side sidebar104">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+															<br>
+					Posts: 5/7<br>
+					Since: 02-11-18<br>
+										<br>
+					Last post: 163 days<br>
+					Last view: 124 days<br>
+					
+				</div>
+			</td>
+			<td class="post mainbar104" id="post_4385">
+				<style>
+ .mainbar104
+   {
+    background:url(../i.imgur.com/EFo77ze.png) center top !important;
+    background-width:100% !important;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    border: 6px solid white;
+    font-size: 110% !important;
+   }
+
+ .sidebar104
+  {
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-align: left;
+   border-left: 6px solid white;
+   border-bottom: 6px solid white;
+   background: rgba(0,0,0,0.5);
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   font-size: 120% !important;
+   padding-left: 3px;
+  }
+
+ .topbar104_1
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   text-align:left;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.25);
+  }
+
+ .topbar104_2
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-right: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.5);
+  }
+
+
+  .mainbar104 .spoilerbutton
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.75);
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+  .mainbar104 .quoteheader
+  {
+   color: white;
+
+  }
+
+  .postbox104 .spoiled
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5) !important;
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+ .mainbar104 div.codeblock
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   color:white;
+   font-size: 110%;
+   font-family: "Lucida Console", Monaco, monospace;
+   padding-left: 6px;
+   font-size: 110% !important;
+  }
+ 
+ .postbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   border-top: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+   padding-left: 6px;
+  }
+
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+
+</style><br />
+<div class="postbox104">I get a error when entering the command "make"...<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><a href="https://drive.google.com/file/d/1Ixugj5C8RlNHtG7DOU08__TpZpCDxDAl/view?usp=sharing">https://drive.google.com/file/d/1Ixugj5C8RlNHtG7DOU08__TpZpCDxDAl/view?usp=sharing</a></div></div><br />
+How do i fix it?<br />
+<br />
+Os: Lubuntu, up to date. Running in VirtualBox...<br><style>
+s { 
+    text-decoration: line-through;
+}
+
+
+ .signbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+  }
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 110% !important;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 45s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+</style></div> <div class="signbox104"><p class="marquee"><span>The marquee tag don't work anymore, instead you need to add like 20 lines of css, to get the exact same thing... That is pathetic! </span></p></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4386">
+		<tr>
+			<td class="side userlink">
+				<a href="index672a.html?page=profile&amp;id=105"><span style="color: #97ACEF;" class="userlink" title="RedStoneMattYT (105) [Normal user]">RedStoneMattYT</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4386">
+									Posted on 02-22-18, 12:08 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4386">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index8362.html?page=post&amp;id=4386">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4386									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/goomba.png" alt="" /><br>Goomba<br>					Normal user<br>
+										<img src="data/avatars/105_1518393237.jpg" alt=""><br>					<br>
+					Posts: 13/23<br>
+					Since: 02-11-18<br>
+										<br>
+					Last post: 87 days<br>
+					Last view: 22 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4386">
+				is it possible to compile newer sources with windows 7 ? I don't have windows 10<br>_________________________<br><div class="signature">uh... this is a signature</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4387">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4387">
+									Posted on 02-22-18, 12:38 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4387">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexd1f8.html?page=post&amp;id=4387">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4387									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 611/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4387">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">No, <a href="indexaf75.html?page=post&amp;id=4373">unless if you want to install an Ubuntu or Debian Linux virtual machine on VirtualBox or VMWare.</a><br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4388">
+		<tr>
+			<td class="side userlink">
+				<a href="index672a.html?page=profile&amp;id=105"><span style="color: #97ACEF;" class="userlink" title="RedStoneMattYT (105) [Normal user]">RedStoneMattYT</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4388">
+									Posted on 02-22-18, 12:40 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4388">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index8ae5.html?page=post&amp;id=4388">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4388									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/goomba.png" alt="" /><br>Goomba<br>					Normal user<br>
+										<img src="data/avatars/105_1518393237.jpg" alt=""><br>					<br>
+					Posts: 14/23<br>
+					Since: 02-11-18<br>
+										<br>
+					Last post: 87 days<br>
+					Last view: 22 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4388">
+				<img class="smiley" alt="" src="img/smilies/frown.png" /><br>_________________________<br><div class="signature">uh... this is a signature</div>
+			</td>
+		</tr>
+	</table>
+	<table class="custompost table104 margin" id="post4389">
+		<tr>
+			<td class="side userlink topbar104_1">
+				<a href="indexa5b1.html?page=profile&amp;id=104"><span style="color: #7C60B0;" class="userlink" title="Rotekoppen (104) [Normal user]">Rotekoppen</span></a>
+			</td>
+			<td class="meta right topbar104_2">
+				<div style="float: left;" id="meta_4389">
+									Posted on 02-22-18, 11:06 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4389">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index22ed.html?page=post&amp;id=4389">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4389									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side sidebar104">
+				<div class="smallFonts">
+					Newcomer<br>					Normal user<br>
+															<br>
+					Posts: 6/7<br>
+					Since: 02-11-18<br>
+										<br>
+					Last post: 163 days<br>
+					Last view: 124 days<br>
+					
+				</div>
+			</td>
+			<td class="post mainbar104" id="post_4389">
+				<style>
+ .mainbar104
+   {
+    background:url(../i.imgur.com/EFo77ze.png) center top !important;
+    background-width:100% !important;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    border: 6px solid white;
+    font-size: 110% !important;
+   }
+
+ .sidebar104
+  {
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-align: left;
+   border-left: 6px solid white;
+   border-bottom: 6px solid white;
+   background: rgba(0,0,0,0.5);
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   font-size: 120% !important;
+   padding-left: 3px;
+  }
+
+ .topbar104_1
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   text-align:left;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.25);
+  }
+
+ .topbar104_2
+  {
+   color:white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-shadow: -1px -1px black, 0px -1px black, 1px -1px black, 1px 0px black, 1px 1px black, 0px 1px black, -1px 1px black, -1px  0px black;
+   padding-left: 3px;
+   font-size: 120% !important;
+   border-top: 6px solid white;
+   border-right: 6px solid white;
+   border-left: 6px solid white;
+   background: rgba(0,0,0,0.5);
+  }
+
+
+  .mainbar104 .spoilerbutton
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.75);
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+  .mainbar104 .quoteheader
+  {
+   color: white;
+
+  }
+
+  .postbox104 .spoiled
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5) !important;
+   color: white;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   padding-left: 6px;
+   font-size: 100% !important;
+  }
+
+ .mainbar104 div.codeblock
+  {
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   color:white;
+   font-size: 110%;
+   font-family: "Lucida Console", Monaco, monospace;
+   padding-left: 6px;
+   font-size: 110% !important;
+  }
+ 
+ .postbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   border-top: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+   padding-left: 6px;
+  }
+
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+
+</style><br />
+<div class="postbox104"><div class='quote'><div class='quoteheader'><a href="index8ae5.html?page=post&amp;id=4388">Posted by RedStoneMattYT</a></div><div class='quotecontent'><img class="smiley" alt="" src="img/smilies/frown.png" /></div></div>It aint hard to do that!<br><style>
+s { 
+    text-decoration: line-through;
+}
+
+
+ .signbox104
+  {
+   color: white;
+   margin:20px;
+   border-left: 6px solid white;
+   background: rgba(0, 0, 0, 0.5);
+   font-size: 110% !important;
+  }
+
+
+.marquee {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 110% !important;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 45s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+</style></div> <div class="signbox104"><p class="marquee"><span>The marquee tag don't work anymore, instead you need to add like 20 lines of css, to get the exact same thing... That is pathetic! </span></p></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4390">
+		<tr>
+			<td class="side userlink">
+				<a href="index672a.html?page=profile&amp;id=105"><span style="color: #97ACEF;" class="userlink" title="RedStoneMattYT (105) [Normal user]">RedStoneMattYT</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4390">
+									Posted on 02-22-18, 02:06 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4390">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index0853.html?page=post&amp;id=4390">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4390									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/goomba.png" alt="" /><br>Goomba<br>					Normal user<br>
+										<img src="data/avatars/105_1518393237.jpg" alt=""><br>					<br>
+					Posts: 15/23<br>
+					Since: 02-11-18<br>
+										<br>
+					Last post: 87 days<br>
+					Last view: 22 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4390">
+				I've found a windows 10 computer! but i've a problem:<br />
+when i type the command <br />
+<u>wget -O - <a href="https://www.dropbox.com/s/7dkuz0vrh6mlsgo/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1">https://www.dropbox.com/s/7dkuz0vrh6mlsgo/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1</a></u> in "sh", I get this:<br />
+<br />
+<img class="imgtag" src="http://stock.redcraft.fr/upload/XBff8EJb" alt=""/><br />
+<br />
+and when i type <u>install</u>, i get this:<br />
+<br />
+<img class="imgtag" src="http://stock.redcraft.fr/upload/yMAPZ7vA" alt=""/><br />
+<br />
+is it normal ?<br />
+<br>_________________________<br><div class="signature">uh... this is a signature</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post4391">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4391">
+									Posted on 02-22-18, 04:02 pm
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 02-22-18, 04:05 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4391">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index0c01.html?page=post&amp;id=4391">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#4391									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 612/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_4391">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">No. If it shows text like that, and gives you an error when typing <code>"install"</code>, then that's not normal.<br />
+Are you typing the command correctly?<br />
+<br />
+It's <div class="codeblock">sh &lt;(wget -O - https://www.dropbox.com/s/7dkuz0vrh6mlsgo/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1)</div> not <div class="codeblock">wget -O - https://www.dropbox.com/s/7dkuz0vrh6mlsgo/NewerSMBWSrcSetup_WindowsWSL.sh?dl=1</div><br />
+If you're typing the command correctly, then I don't know the answer to your problem, because I never had issues like that before, and the compiling works for me perfectly on the WSL subsystem on my Windows 10 computer.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+		<div class="smallFonts pages">
+		Pages: <a class="pagelink firstpage" href="index4ee7.html?page=thread&amp;id=59">&#x00AB;</a> <a class="pagelink prevpage"  href="index4ee7.html?page=thread&amp;id=59">&#x2039;</a> <a class="pagelink"  href="index4ee7.html?page=thread&amp;id=59">1</a><span class="pagelink curpage">2</span><a class="pagelink"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">3</a> <a class="pagelink nextpage"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">&#x203A;</a> <a class="pagelink lastpage"  href="index4bd8.html?page=thread&amp;id=59&amp;from=40">&#x00BB;</a>
+	</div>
+	</div>
+    </td></tr>
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index4ee7.html?page=thread&amp;id=59">Setting Up and Compiling the Newer Sources</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+<td id="main-footer" colspan="2">
+ 
+    <table id="footer" class="outline">
+    <tr>
+    <td class="cell2">
+        <table class="layout-table" style="line-height: 1.4em;">
+            <tr>
+            <td style="text-align: left;">
+                <img src="img/poweredbyblarg.png" style="float: left; margin-right: 3px;">
+<a href="http://kuribo64.net/blargboard/" target="_blank">Blargboard 1.1</a> &middot; by StapleButter<br>
+Based off <a href="http://abxd.dirbaio.net/" target="_blank">ABXD</a> by Dirbaio, Kawa &amp; co.<br>
+                <!-- Page rendered in 0.031 seconds (with 39 SQL queries and 1039.094K of RAM) -->
+            </td>
+        </table>
+    </td>
+    </tr>
+    </table>
+ 
+</td>
+</tr>
+</table>
+</body>
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=59&from=20 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:45:55 GMT -->
+</html>
+

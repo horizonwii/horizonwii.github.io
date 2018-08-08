@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=152 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:48:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Horizon &raquo; RiiFS Usage Tutorial</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<meta name="description" content="RiiFS is a simple custom network protocol used by Riivolution to allow a computer to act like a disk filesystem. This allows for both public streamable releases as well as...">
+	<meta name="keywords" content="riifs usage tutorial">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" id="theme_css" href="themes/horizondark/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tricks.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd_0_5.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jscolor/jscolor.js"></script>
+	<script type="text/javascript">boardroot = "#\/";</script>
+
+		
+	</head>
+<body style="width:100%; font-size: 80%;">
+<form action="https://horizonwii.net/?page=login" method="post" id="logout" style="display:none;"><input type="hidden" name="action" value="logout"></form>
+<table id="main" class="layout-table">
+<tr>
+<td id="main-header" colspan="2">
+    <table id="header" class="outline">
+        <tr>
+            <td class="cell0 left">
+                <table class="layout-table">
+                <tr>
+                <td><center>
+                   <a href="index.html"><img id="theme_banner" src="img/logo.png" alt="Horizon" title="Horizon"></a> 
+				   </center>
+                </td>
+                <!-- Box Shit -->
+					
+                </tr>
+                </table>
+            </td>
+        </tr>
+		<tr class="header1">
+			<th id="navBar center">
+				<div style="display:inline-block;">
+                                        <span class="navButton">
+                        <a href="index6bf6.html?page=register">Register</a>
+					</span>
+                    <span class="navButton">
+                        <a href="index6f31.html?page=login">Log in</a>
+                    </span>
+                                    </div>
+			</th>
+		</tr>
+		<tr class="cell1">
+			<th id="cell2 center" style="float:left">
+				<font size="1.5"><span id="viewCount">1,121,746</span> views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font>
+			</th>
+			<th id="cell2 center" style="float:right">
+				<font size="1.5">08-07-18, 08:24 pm </font>
+			</th>
+		</tr>
+        <tr class="header1">
+			<th id="navBar center">
+                <div id="navMenuContainer">
+					
+                    <span class="navButton"><a href="index.html">Home</a></span>
+					<span class="navButton"><a href="index4650.html?page=board">Forums</a></span>
+                    
+					 <span class="navButton"><a href="index2ada.html?page=discord">Discord</a></span>
+                      <span class="navButton"> <a href="index8204.html?page=leveldepo">Level Depot</a></span>
+					 <span class="navButton"> <a href="index8689.html?page=youtube">Youtube</a></span>
+                </div>
+            </th>
+        </tr>
+        <tr class="cell0">
+            <td class="smallFonts center">
+                <div style="min-height:16px;" id="onlineUsers">0 users browsing Tutorials and Info. | 1 guest</div>
+		<script type="text/javascript">
+			onlineFID = 8;
+			window.addEventListener("load",  startOnlineUsers, false);
+		</script>
+	
+            </td>
+        </tr>
+        <tr class="header1"><th id="header-sep"></th></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+
+
+<td id="main-sidebar">
+
+	<table id="sidebar" class="outline">
+
+		<tr>
+
+			<td class="cell1">
+
+				<table class="outline margin">
+
+					
+					<tr class="header0"><th>Navigation Bar</th></tr>
+
+						
+							<tr class="cell2"><td><a href="index.html">Home page</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexbc7f.html?page=news">News</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index4650.html?page=board">Forums</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexfe9c.html?page=faq">FAQ</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index00ff.html?page=memberlist">Member list</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexcb8c.html?page=ranks">Ranks</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index06de.html?page=online">Online users</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexe1ae.html?page=lastposts">Last posts</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index062e.html?page=search">Search</a></td></tr>
+
+						
+					
+					<tr class="header0"><th>Quick Access</th></tr>
+
+						
+							<tr class="cell1"><td><a href="index8204.html?page=leveldepo">Level Depot</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index8689.html?page=youtube">Youtube</a></td></tr>
+
+						
+					
+				</table>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</td>
+
+ 
+<td id="main-page">
+    <table id="page-container" class="layout-table">
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="indexa69a.html?page=thread&amp;id=152">RiiFS Usage Tutorial</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+		<!---->
+    <tr><td class="contents-container">
+        <div id="page_contents"><script type="text/javascript">window.addEventListener("load", hookUpControls, false);</script>		<table class="post margin" id="post2531">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2531">
+									Posted on 09-02-17, 01:38 am
+										 (rev. 4 by <a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a> on 09-22-17, 10:24 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2531">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexf136.html?page=post&amp;id=2531">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2531									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 253/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_2531">
+				RiiFS is a simple custom network protocol used by Riivolution to allow a computer to act like a disk filesystem. This allows for both public streamable releases as well as private testing of modifications without needing to restart the game. It can speed up testing a LOT, especially if you simply need to do small fixes.<br />
+<br />
+<strong><u>Requirements :</u></strong><br />
+<br />
+- A PC (can be Windows, Mac or Linux)<br />
+- Wii connected to Wi-Fi<br />
+- Good Wi-Fi connection<br />
+- RiiFS (see below for download)<br />
+- Riivolution v1.03 or higher<br />
+<br />
+<u><strong>Downloading RiiFS</strong></u><br />
+<br />
+There are two different versions of RiiFS available, the C++ one and the C# one, and both have different features and whatnot.<br />
+<br />
+C++ Version :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Download <a href="https://drive.google.com/file/d/0B_E8LItP7gFeVHlHcWNUT21TY0k/view">here</a><br />
+<br />
+- Works with all the three major OSes<br />
+- Has an extra minor update</div></div><br />
+C# Version :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Download <a href="https://drive.google.com/file/d/0B_E8LItP7gFeX2Rqb3RsbmRNWEE/view">here</a><br />
+<br />
+- Has an extra "read-only" option<br />
+- Windows only<br />
+- Requires .NET Framework 2.0 or higher</div></div><br />
+<u><strong>Step 1 : Setting up the RiiFS folder</strong></u><br />
+<br />
+First of all, we need to set up the folders for RiiFS to work. Make a folder wherever you want, provided you can type the path later. This folder will work like the SD Card root, so there will be a folder called "riivolution" with XMLs inside, and the rest is up to you.<br />
+<br />
+- Make a folder (for this tutorial, i will use C:\WiiMods as a reference)<br />
+- Inside this folder, make a new folder and call it "riivolution" (NO capitals), and paste your XMLs there.<br />
+- After this, paste the actual mod files inside "WiiMods"<br />
+- Paste RiiFS inside this same folder<br />
+<br />
+<strong>Pro Tips</strong> :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">-  You can take a whole NSMBW hack and put it directly in the "WiiMods" folder, but loading times will be LONG, especially for bigger mods like NewerSMBW<br />
+- You can even host your mods on a remote server, provided you can run RiiFS on it. You can use it as an easy hub for hack testers, as they receive updates as soon as the files are updated on the server</div></div><br />
+<u><strong>Step 2 : Getting the IP Addresses</strong></u><br />
+<br />
+To make RiiFS work, you need both your PC and Wii's IP Addresses. This becomes much easier if both devices are connected to the same network. Make sure you note them !<br />
+<br />
+<strong>Wii</strong> :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- On the Wii Menu, go in Settings > System Settings (move to page 2) > Internet > Connection Status, the IP will be clearly shown<br />
+- Alternatively, open the Homebrew Channel and press the Home button, your IP will be shown near the options</div></div><br />
+<strong>PC (Windows)</strong> :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- Type Win+R and type cmd.exe to run the command prompt<br />
+- Type ipconfig, the PC's IP will be somewhere inbetween</div></div><br />
+<strong>PC (OS X)</strong> :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- Click on the Apple icon on the upper-left corner of the screen.<br />
+- Select System Preferences.<br />
+- Click Network.<br />
+- Your IP address will be listed directly beneath your connection status, in smaller print.</div></div><br />
+<strong>PC (Linux)</strong> :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- Open the Terminal and enter the command "ip addr show eth0"</div></div><br />
+<u><strong>Step 3 : Setting Up the RiiFS XML</strong></u><br />
+<br />
+As Riivolution will automatically connect to a RiiFS server on a local network, having both your Wii and PC on the same one allows you to skip this step. However, to get Riivolution to connect to a specific or external server it needs an XML file on the SD card to tell it to do so. In the spoiler below is an example and some tips (obviously edit the example to suit your needs) :<br />
+<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">   &lt;wiidisc version=&quot;1&quot;&gt;
+       &lt;id game=&quot;SMN&quot; /&gt;
+       &lt;network protocol=&quot;riifs&quot; address=&quot;192.168.X.X&quot; port=&quot;1137&quot; log=&quot;false&quot;/&gt;
+   &lt;/wiidisc&gt;
+</div><br />
+<strong>XML Explanations</strong> :<br />
+<br />
+- You can remove the Game ID restriction to always use RiiFS with every game, provided you have mods for it<br />
+- The only protocol available is "<em>riifs</em>", so changing that attribute is useless<br />
+- You can edit the port number if you need to, RiiFS defaults to 1137. Make sure to put the same port both on the XML and RiiFS itself !<br />
+<br />
+<strong>Pro Tips</strong> :<br />
+<br />
+- While you can point to an external server IP, you can also use a domain name (make sure you don't forget the "http://" prefix and point to the correct path !)<br />
+- You can add an addional debugging option after the port (<em>log="true"</em>), that will redirect stdout/fwrite and OSReport() over the network, showing these informations in the Terminal.</div></div><br />
+<strong><u>Step 4 : Starting RiiFS</u></strong><br />
+<br />
+Now it's time to run RiiFS. Simply double click on the application and it will start running. <br />
+<br />
+It will say "<em>RiiFS Server is now ready for connections on 0.0.0.0:1137</em>" (do not worry about the IP being 0.0.0.0, it will work). If at some point the program says "<em>Return -1</em>", it means that the Riivolution version you have is outdated and needs an update.<br />
+<br />
+You can turn on the Wii with the SD Card inserted and fire up Riivolution, which will now download the files from your PC.<br />
+<br />
+<strong>Pro Tips</strong> :<br />
+<br />
+- RiiFS can also be run from the Command Prompt/Terminal, with this command (all the options are optional) :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">riifs.exe -r [PATH] [PORT]</div><br />
+- <em>Path</em> : You can set the path to the "fake" SD Card root (in this case C:\WiiMods)<br />
+- <em>Port</em> : You can set anyone you want, provided it isn't blocked by the router or firewall, default is 1137<br />
+- <em>-r (C# Version ONLY)</em> : Enables read-only mode, which doesn't allow files to be changed while RiiFS is running</div></div>- To automatize this process, you can easily write a .bat/.sh script using the command inside the spoiler above.<br />
+<br />
+<strong><u>Step 5 : Usage Notes</u></strong><br />
+<br />
+Some more tips :<br />
+<br />
+- Make sure to not replace any file the game is currently using (e.g do not replace a level while you're playing it), or the game may freeze. To replace a level, first go back to the map and then do it<br />
+- This also applies to the rest of the game's content, so use your mind<br />
+<br />
+That's it ! I hope you enjoyed <img class="smiley" alt="" src="img/smilies/smile.png" /><br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2533">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2533">
+									Posted on 09-02-17, 03:02 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2533">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index4bf4.html?page=post&amp;id=2533">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2533									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 405/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_2533">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Great tutorial. It will be very useful!<br />
+<br />
+<div class='quote'><div class='quoteheader'><a href="indexf136.html?page=post&amp;id=2531">Posted by customlevelfan78</a></div><div class='quotecontent'>- You can add an addional debugging option after the port (<em>log="true"</em>), that will redirect stdout/fwrite over the network when set.</div></div>Also, if I recall correctly, any text printed in function <code>OSReport()</code> {inside the code of Wii games or Riivolution mods (like NewerSMBW)} will also be sent to the RiiFS cmd when putting <code>log="true"</code> in your XML.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2537">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2537">
+									Posted on 09-02-17, 10:51 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2537">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index07d9.html?page=post&amp;id=2537">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2537									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 254/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_2537">
+				Added, thanks.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2546">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2546">
+									Posted on 09-02-17, 03:00 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2546">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index96b7.html?page=post&amp;id=2546">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2546									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 408/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_2546">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">You're welcome.<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2554">
+		<tr>
+			<td class="side userlink">
+				<a href="index45c0.html?page=profile&amp;id=54"><span style="color: #97ACEF;" class="userlink" title="Chickensaver (54) [Normal user]">Chickensaver</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2554">
+									Posted on 09-02-17, 03:32 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2554">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexc23a.html?page=post&amp;id=2554">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2554									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/koopa.png" alt="" /><br>Koopa<br>					Sprite Ripper<br>
+										<img src="data/avatars/54_1518387639.png" alt=""><br>					<br>
+					Posts: 3/113<br>
+					Since: 08-31-17<br>
+										<br>
+					Last post: 21 days<br>
+					Last view: 3 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_2554">
+				Hi!  I had a giant problem trying to find the IP address of my Wii.  I could not find the IP anywhere until I opened the Homebrew channel.  If you have the Homebrew channel, you can hit the home button on your Wii-mote to get to an options pop-up and in the top left corner is the IP address.<br />
+I hope this helps!
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2556">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2556">
+									Posted on 09-02-17, 03:38 pm
+										 (rev. 2 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 09-02-17, 03:40 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2556">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index441d.html?page=post&amp;id=2556">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2556									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 412/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_2556">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">You couldn't find it until you went to the Homebrew Channel? Did you read the tutorial properly? You can easily find your Wii's IP address by going into the Wii System Settings without the need of the Homebrew Channel.<br />
+<br />
+<div class='quote'><div class='quoteheader'><a href="indexf136.html?page=post&amp;id=2531">Posted by customlevelfan78</a></div><div class='quotecontent'>- On the Wii Menu, go in Settings > System Settings (move to page 2) > Internet > Connection Status, the IP will be clearly shown</div></div><br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2560">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2560">
+									Posted on 09-02-17, 03:55 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2560">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexb804.html?page=post&amp;id=2560">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2560									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 260/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_2560">
+				Well, i added it. It's probably easier than going into the settings.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2586">
+		<tr>
+			<td class="side userlink">
+				<a href="indexed0b.html?page=profile&amp;id=20"><span style="color: #97ACEF;" class="userlink" title="Danster (20) [Normal user]">Danster64</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2586">
+									Posted on 09-03-17, 01:10 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2586">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexe8a3.html?page=post&amp;id=2586">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2586									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/redcheepcheep.png" alt="" /><br>Red Cheep-cheep<br>					Normal user<br>
+										<img src="data/avatars/20_1514168052.gif" alt=""><br>					<br>
+					Posts: 127/219<br>
+					Since: 07-01-17<br>
+										<br>
+					Last post: 45 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_2586">
+				Great tutorial! I managed to get this working in my Wii U's vWii mode. just thought I'd say that. <img class="smiley" alt="" src="img/smilies/smile.png" /><br />
+<br />
+This is actually my first time getting this to work. <img class="smiley" alt="" src="img/smilies/smile.png" /><br>_________________________<br><div class="signature">I need to make a signature...<br />
+<div class="spoiler"><button class="spoilerbutton named">The Story of Donkey Kong</button><div class="spoiled hidden">It all starts like this. Ganon captured Link. Then Zelda found out that the triforce had 4 pieces. not 3. She went to the triforce and threw the 3rd shard (that is black) at it. the shard went in the middle. Then she punched it for its power and then there was a gigantic explosion. Everyone died but zelda and ganon and link. Ganon and Link started fighting. Athend, Ganon hit link to the ground. Ganon was about to end it when captain falcon came out of somewhere i mean nowhere and used falcon punch. Then he exploded and died. Zelda said "wow Link sucks." Link heard, got pissed, Transformed into Dark Link and exploded. Ganon was so shocked he died out of laughter. zelda almost had the same fate but the triforce which is now black and Purple aura copied Zelda's apperance and then gained 4 heads and a dragon tail. Its name is dragon zelda. zelda acted like she was all and powerful. dragon zelda charged at zelda and she hit the floor. She started crying alot. then toon link and young link came out of nowhere i mean somewhere and went beside zelda. they screamed "AHHHHHH!!!" and exploded. then they reformed to a toon female link with pink hair. fink. fink acted like she was all and powerful. but then dragon zelda charged at fink and she hit the floor. this time she was actually dead. Now everyone was dead but dragon zelda. Now she turns into a shiek with a bigger dragon tail. she teleported to a dimension with everything normal. because she can. then she looked for zelda. she found her, killed her instanly and became the new zelda. <br />
+<br />
+The Ends.</div></div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post2590">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_2590">
+									Posted on 09-03-17, 01:11 am
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_2590">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index8ec3.html?page=post&amp;id=2590">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#2590									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 267/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_2590">
+				Looks like i wrote it the correct way then <img class="smiley" alt="" src="img/smilies/biggrin.png" /><br />
+<br />
+Glad i helped.<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	</div>
+    </td></tr>
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="indexa69a.html?page=thread&amp;id=152">RiiFS Usage Tutorial</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+<td id="main-footer" colspan="2">
+ 
+    <table id="footer" class="outline">
+    <tr>
+    <td class="cell2">
+        <table class="layout-table" style="line-height: 1.4em;">
+            <tr>
+            <td style="text-align: left;">
+                <img src="img/poweredbyblarg.png" style="float: left; margin-right: 3px;">
+<a href="http://kuribo64.net/blargboard/" target="_blank">Blargboard 1.1</a> &middot; by StapleButter<br>
+Based off <a href="http://abxd.dirbaio.net/" target="_blank">ABXD</a> by Dirbaio, Kawa &amp; co.<br>
+                <!-- Page rendered in 0.026 seconds (with 37 SQL queries and 868.969K of RAM) -->
+            </td>
+        </table>
+    </td>
+    </tr>
+    </table>
+ 
+</td>
+</tr>
+</table>
+</body>
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=152 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:48:21 GMT -->
+</html>
+

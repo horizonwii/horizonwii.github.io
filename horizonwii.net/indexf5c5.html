@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=287 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:46:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Horizon &raquo; Adding Randomization to Tiles</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<meta name="description" content="So, i finally figured it out. It wasn't really hard, it's just that nobody has ever tried it. This tutorial will teach you how to add randomization support to whatever...">
+	<meta name="keywords" content="adding randomization tiles newer only">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" id="theme_css" href="themes/horizondark/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tricks.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd_0_5.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jscolor/jscolor.js"></script>
+	<script type="text/javascript">boardroot = "#\/";</script>
+
+		
+	</head>
+<body style="width:100%; font-size: 80%;">
+<form action="https://horizonwii.net/?page=login" method="post" id="logout" style="display:none;"><input type="hidden" name="action" value="logout"></form>
+<table id="main" class="layout-table">
+<tr>
+<td id="main-header" colspan="2">
+    <table id="header" class="outline">
+        <tr>
+            <td class="cell0 left">
+                <table class="layout-table">
+                <tr>
+                <td><center>
+                   <a href="index.html"><img id="theme_banner" src="img/logo.png" alt="Horizon" title="Horizon"></a> 
+				   </center>
+                </td>
+                <!-- Box Shit -->
+					
+                </tr>
+                </table>
+            </td>
+        </tr>
+		<tr class="header1">
+			<th id="navBar center">
+				<div style="display:inline-block;">
+                                        <span class="navButton">
+                        <a href="index6bf6.html?page=register">Register</a>
+					</span>
+                    <span class="navButton">
+                        <a href="index6f31.html?page=login">Log in</a>
+                    </span>
+                                    </div>
+			</th>
+		</tr>
+		<tr class="cell1">
+			<th id="cell2 center" style="float:left">
+				<font size="1.5"><span id="viewCount">1,121,712</span> views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font>
+			</th>
+			<th id="cell2 center" style="float:right">
+				<font size="1.5">08-07-18, 08:24 pm </font>
+			</th>
+		</tr>
+        <tr class="header1">
+			<th id="navBar center">
+                <div id="navMenuContainer">
+					
+                    <span class="navButton"><a href="index.html">Home</a></span>
+					<span class="navButton"><a href="index4650.html?page=board">Forums</a></span>
+                    
+					 <span class="navButton"><a href="index2ada.html?page=discord">Discord</a></span>
+                      <span class="navButton"> <a href="index8204.html?page=leveldepo">Level Depot</a></span>
+					 <span class="navButton"> <a href="index8689.html?page=youtube">Youtube</a></span>
+                </div>
+            </th>
+        </tr>
+        <tr class="cell0">
+            <td class="smallFonts center">
+                <div style="min-height:16px;" id="onlineUsers">0 users browsing Tutorials and Info. | 1 guest</div>
+		<script type="text/javascript">
+			onlineFID = 8;
+			window.addEventListener("load",  startOnlineUsers, false);
+		</script>
+	
+            </td>
+        </tr>
+        <tr class="header1"><th id="header-sep"></th></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+
+
+<td id="main-sidebar">
+
+	<table id="sidebar" class="outline">
+
+		<tr>
+
+			<td class="cell1">
+
+				<table class="outline margin">
+
+					
+					<tr class="header0"><th>Navigation Bar</th></tr>
+
+						
+							<tr class="cell2"><td><a href="index.html">Home page</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexbc7f.html?page=news">News</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index4650.html?page=board">Forums</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexfe9c.html?page=faq">FAQ</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index00ff.html?page=memberlist">Member list</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexcb8c.html?page=ranks">Ranks</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index06de.html?page=online">Online users</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexe1ae.html?page=lastposts">Last posts</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index062e.html?page=search">Search</a></td></tr>
+
+						
+					
+					<tr class="header0"><th>Quick Access</th></tr>
+
+						
+							<tr class="cell1"><td><a href="index8204.html?page=leveldepo">Level Depot</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index8689.html?page=youtube">Youtube</a></td></tr>
+
+						
+					
+				</table>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</td>
+
+ 
+<td id="main-page">
+    <table id="page-container" class="layout-table">
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="indexf5c5.html?page=thread&amp;id=287">Adding Randomization to Tiles</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+		<!---->
+    <tr><td class="contents-container">
+        <div id="page_contents"><script type="text/javascript">window.addEventListener("load", hookUpControls, false);</script>		<table class="post margin" id="post4303">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_4303">
+									Posted on 02-04-18, 03:00 pm
+										 (rev. 4 by <a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a> on 02-05-18, 09:16 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_4303">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index1a14.html?page=post&amp;id=4303">Link</a>
+																									<li>
+					<li><font color="green" size="4">1</font>
+														<li>#4303									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 404/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_4303">
+				So, i finally figured it out. It wasn't really hard, it's just that nobody has ever tried it. This tutorial will teach you how to add randomization support to whatever tileset you need. This is as easy as i could put it, i removed some of the additional code options as no feature is lost.<br />
+<br />
+<strong><u>Requirements :</u></strong><br />
+<br />
+- Newer Sources (see <a href="index4ee7.html?page=thread&amp;id=59">this thread</a>)<br />
+- <a href="indexb55f.html?page=thread&amp;id=198">Puzzle</a><br />
+- <a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby</a><br />
+- Notepad++<br />
+<br />
+<strong><u>Pre-Steps :</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- Go in <em>NEWERSOURCES</em> > <em>Kamek</em> > <em>tools</em> and open <em>randtilegen.rb</em> in Notepad++<br />
+- Open your tileset in Puzzle, to have it ready and choose the tiles</div></div><br />
+<u><strong>Part 1 : Adding your tileset to the script</strong></u><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- This will add your tileset in the randomization list. For this example, i'll use <em>Pa1_obake_soto_u</em>.<br />
+- Scroll until the end of the file in Notepad++, then paste the following (DON'T forget the <em>PaX_</em> prefix)<br />
+<div class="codeblock">g.section('TILESETNAME', 'ANOTHERTILESETNAME') do
+end</div>- Edit this template as you wish (remove the second tileset, if you don't need it)<br />
+- When filled, it will look like this :<br />
+<div class="codeblock">g.section('Pa1_obake_soto_u') do
+end</div></div></div><br />
+<u><strong>Part 2 : Choosing tiles to randomize</strong></u><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- These steps will allow you to find what tiles will be randomized<br />
+- Go back to Puzzle (if it helps, toggle alpha by clicking on the related option in <em>Tasks</em>)<br />
+<br />
+<img class="imgtag" src="../s9.postimg.org/pajx5ikkf/image.png" alt=""/><br />
+<br />
+- Now you have to find the tiles' coordinates : to count the tiles, start from the top left edge, then go horizontally until the end of the line and then to the next line, and note the number when you've reached the tile in question, like in the image below (i did a mistake, there should be 80 where 78 is)<br />
+<br />
+<img class="imgtag" src="../s9.postimg.org/tc10b4ff3/image.png" alt=""/></div></div><br />
+<u><strong>Part 3 : Adding randomization to the code</strong></u><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- It's now time to add the randomization code to the newly-added tileset !<br />
+- Paste the following template in a new line inbetween the start and the end of the tileset code :<br />
+<div class="codeblock">g.random([TILE1, TILE2, TILE3, TILE4], :PARAMETER)</div>If you have many tiles that are next to each other, like in the first and second example, you can make it in a quicker way, using the following template (the first and last tiles are included) :<br />
+<div class="codeblock">g.random(FIRSTTILE..LASTTILE, :PARAMETER)</div><br />
+The parameters work like this :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">Parameters tell the game in which direction to randomize. Their usage depends on the tile's usage in Reggie :<br />
+<br />
+- <em>none</em> is for tiles that aren't expanded, and here the game will choose a random one between the given ones<br />
+- <em>horz</em> is for tiles that are only expanded horizontally<br />
+- <em>vert</em> is for tiles that are expanded vertically<br />
+- <em>both</em> is for tiles that are expanded in both directions<br />
+- <em>horz_vdouble_top</em> and <em>horz_vdouble_bottom</em> are for couples of tiles, as they allow to apply randomization to both while matching each top tile (where <em>horz_vdouble_top</em> is applied) to the respective bottom one (where <em>horz_vdouble_bottom</em> is applied ).<br />
+</div></div>In the spoiler below is the code for the examples :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- For example 1, we'll randomize the ground top tiles, so the code will be :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">g.random(3..5, :horz)</div></div></div>- For example 2, we'll randomize the inside ground (therefore expanded in both directions), so this time the code will be :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">g.random(19..22, :both)</div></div></div>- In example 3, the tiles are not next to each other, so they will have to be listed individually :<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">g.random([17, 33, 49, 65], :vert)</div></div></div><br />
+In the end, the whole code will be<br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden"><div class="codeblock">g.section('Pa1_obake_soto_u') do
+	g.random(3..5, :horz)
+	g.random([17, 33, 49, 65], :vert)
+	g.random(19..22, :both)
+end</div></div></div></div></div>- Repeat Part 2 and Part 3 to add other randomizations to your tileset, then save the file</div></div><br />
+<u><strong>Part 4 : Final Steps</strong></u><br />
+<div class="spoiler"><button class="spoilerbutton">Show spoiler</button><div class="spoiled hidden">- After editing the code, go back to Puzzle, and remove/shrink the objects which are going to be randomized, or randomization won't work properly<br />
+- Now open a terminal window from the script's folder, and type the following :<br />
+<div class="codeblock">ruby randtilegen.rb</div>- This will generate a RandTiles.bin ready to be used in-game</div></div><br />
+You're done !<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	</div>
+    </td></tr>
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="indexf5c5.html?page=thread&amp;id=287">Adding Randomization to Tiles</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+<td id="main-footer" colspan="2">
+ 
+    <table id="footer" class="outline">
+    <tr>
+    <td class="cell2">
+        <table class="layout-table" style="line-height: 1.4em;">
+            <tr>
+            <td style="text-align: left;">
+                <img src="img/poweredbyblarg.png" style="float: left; margin-right: 3px;">
+<a href="http://kuribo64.net/blargboard/" target="_blank">Blargboard 1.1</a> &middot; by StapleButter<br>
+Based off <a href="http://abxd.dirbaio.net/" target="_blank">ABXD</a> by Dirbaio, Kawa &amp; co.<br>
+                <!-- Page rendered in 0.018 seconds (with 34 SQL queries and 831.508K of RAM) -->
+            </td>
+        </table>
+    </td>
+    </tr>
+    </table>
+ 
+</td>
+</tr>
+</table>
+</body>
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=287 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:46:29 GMT -->
+</html>
+

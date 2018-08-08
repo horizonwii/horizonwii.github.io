@@ -1,0 +1,22 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.mediafire.com	TRUE	/	FALSE	1999999999	__cfduid	d69238522949f0a3d7ea829a665360fc61533673130
+.discordapp.com	TRUE	/	FALSE	1999999999	__cfduid	d5de73292abf50bfe418418d7819477641533673174
+.discordapp.net	TRUE	/	FALSE	1999999999	__cfduid	dd454e353f0f5551e71f320079a77770e1533673307
+dropbox.com	TRUE	/	FALSE	1999999999	locale	en
+www.dropbox.com	TRUE	/	FALSE	1999999999	gvc	MTgzODU1NzQ0MjI5Njg5NjczMDUzNzI3ODM5ODUwMjk5Mzc3Njg4
+dropbox.com	TRUE	/	FALSE	1999999999	t	LJilKYndO7Q1Pj99zKHp7wAl
+www.dropbox.com	TRUE	/	FALSE	1999999999	__Host-js_csrf	LJilKYndO7Q1Pj99zKHp7wAl
+.pi.gy	TRUE	/	FALSE	1999999999	__cfduid	df42bdc5106a0eb39489fb2be138fa0b41533674518
+.townnews.com	TRUE	/	FALSE	1999999999	__cfduid	dbe64536663fe69f02d9328acb76a153f1533674550
+.prntscr.com	TRUE	/	FALSE	1999999999	__cfduid	d12d3caee316d0a3dfa88a336ceb6d7781533674572
+.indiedb.com	TRUE	/	FALSE	1999999999	__cfduid	db065b74c589de7e979ce8b0423d6a8d31533674741
+dropboxusercontent.com	TRUE	/	FALSE	1999999999	uc_session	ESoczCcZKCgz2tDd3dvQT6HZxVEPXDNXrMWRFgRi9nc7iVimSkmWHaXukRMkq1ri
+.lensdump.com	TRUE	/	FALSE	1999999999	__cfduid	d022614eeea8a3c53e6fba4cd9d9882421533675488
+www.dropbox.com	TRUE	/	FALSE	1999999999	seen-sl-signup-modal	VHJ1ZQ%3D%3D
+.pbrd.co	TRUE	/	FALSE	1999999999	__cfduid	d22c310bfb9ec216f5401d2f01d1ef3551533676482
+www.dropbox.com	TRUE	/	FALSE	1999999999	seen-sl-download-modal	VHJ1ZQ%3D%3D
+.dropboxstatic.com	TRUE	/	FALSE	1999999999	__cfduid	d7b40ed4827a9196f77899c331e4bdf951533676530
+.mediafire.com	TRUE	/	FALSE	1999999999	ukey	4g3i68cvykfo86tjzsfq4hqj7e271jp5
+www.mediafire.com	TRUE	/	FALSE	1999999999	cf_use_ob	0
+

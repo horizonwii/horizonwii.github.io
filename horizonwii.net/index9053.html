@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=196 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:46:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Horizon &raquo; How to Edit Tileset Animations</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<meta name="description" content="After a long while, i finally found out how to edit tileset animations ! Don't get your hopes up though, you can only edit the graphics for each frame (and...">
+	<meta name="keywords" content="how edit tileset animations">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" id="theme_css" href="themes/horizondark/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tricks.js"></script>
+	<script type="text/javascript" src="js/jquery.tablednd_0_5.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jscolor/jscolor.js"></script>
+	<script type="text/javascript">boardroot = "#\/";</script>
+
+		
+	</head>
+<body style="width:100%; font-size: 80%;">
+<form action="https://horizonwii.net/?page=login" method="post" id="logout" style="display:none;"><input type="hidden" name="action" value="logout"></form>
+<table id="main" class="layout-table">
+<tr>
+<td id="main-header" colspan="2">
+    <table id="header" class="outline">
+        <tr>
+            <td class="cell0 left">
+                <table class="layout-table">
+                <tr>
+                <td><center>
+                   <a href="index.html"><img id="theme_banner" src="img/logo.png" alt="Horizon" title="Horizon"></a> 
+				   </center>
+                </td>
+                <!-- Box Shit -->
+					
+                </tr>
+                </table>
+            </td>
+        </tr>
+		<tr class="header1">
+			<th id="navBar center">
+				<div style="display:inline-block;">
+                                        <span class="navButton">
+                        <a href="index6bf6.html?page=register">Register</a>
+					</span>
+                    <span class="navButton">
+                        <a href="index6f31.html?page=login">Log in</a>
+                    </span>
+                                    </div>
+			</th>
+		</tr>
+		<tr class="cell1">
+			<th id="cell2 center" style="float:left">
+				<font size="1.5"><span id="viewCount">1,121,716</span> views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font>
+			</th>
+			<th id="cell2 center" style="float:right">
+				<font size="1.5">08-07-18, 08:24 pm </font>
+			</th>
+		</tr>
+        <tr class="header1">
+			<th id="navBar center">
+                <div id="navMenuContainer">
+					
+                    <span class="navButton"><a href="index.html">Home</a></span>
+					<span class="navButton"><a href="index4650.html?page=board">Forums</a></span>
+                    
+					 <span class="navButton"><a href="index2ada.html?page=discord">Discord</a></span>
+                      <span class="navButton"> <a href="index8204.html?page=leveldepo">Level Depot</a></span>
+					 <span class="navButton"> <a href="index8689.html?page=youtube">Youtube</a></span>
+                </div>
+            </th>
+        </tr>
+        <tr class="cell0">
+            <td class="smallFonts center">
+                <div style="min-height:16px;" id="onlineUsers">0 users browsing Tutorials and Info. | 1 guest</div>
+		<script type="text/javascript">
+			onlineFID = 8;
+			window.addEventListener("load",  startOnlineUsers, false);
+		</script>
+	
+            </td>
+        </tr>
+        <tr class="header1"><th id="header-sep"></th></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+
+
+<td id="main-sidebar">
+
+	<table id="sidebar" class="outline">
+
+		<tr>
+
+			<td class="cell1">
+
+				<table class="outline margin">
+
+					
+					<tr class="header0"><th>Navigation Bar</th></tr>
+
+						
+							<tr class="cell2"><td><a href="index.html">Home page</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexbc7f.html?page=news">News</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index4650.html?page=board">Forums</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexfe9c.html?page=faq">FAQ</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index00ff.html?page=memberlist">Member list</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexcb8c.html?page=ranks">Ranks</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index06de.html?page=online">Online users</a></td></tr>
+
+						
+							<tr class="cell1"><td><a href="indexe1ae.html?page=lastposts">Last posts</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index062e.html?page=search">Search</a></td></tr>
+
+						
+					
+					<tr class="header0"><th>Quick Access</th></tr>
+
+						
+							<tr class="cell1"><td><a href="index8204.html?page=leveldepo">Level Depot</a></td></tr>
+
+						
+							<tr class="cell2"><td><a href="index8689.html?page=youtube">Youtube</a></td></tr>
+
+						
+					
+				</table>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</td>
+
+ 
+<td id="main-page">
+    <table id="page-container" class="layout-table">
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index9053.html?page=thread&amp;id=196">How to Edit Tileset Animations</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+		<!---->
+    <tr><td class="contents-container">
+        <div id="page_contents"><script type="text/javascript">window.addEventListener("load", hookUpControls, false);</script>		<table class="post margin" id="post3736">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3736">
+									Posted on 11-22-17, 05:38 pm
+										 (rev. 7 by <a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a> on 02-09-18, 11:45 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3736">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexd57c.html?page=post&amp;id=3736">Link</a>
+																									<li>
+					<li><font color="green" size="4">1</font>
+														<li>#3736									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 367/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3736">
+				After a long while, i finally found out how to edit tileset animations ! Don't get your hopes up though, you can only edit the graphics for each frame (and not the number of frames or the tiles which are animated). Without further ado, let's go !<br />
+<br />
+<strong><u>Notes</u></strong><br />
+- When editing Pa1 images, refer to <a href="../s2.postimg.org/vp2m4s0ux/YES.png">this picture</a> to know which tiles will be replaced by animated ones in-game. In the higher row the animation frames will be played from top to bottom, while they will be played in the opposite direction in the lower row.<br />
+<br />
+<strong><u>Requirements :</u></strong><br />
+- A Pa0/Pa1 tileset with a working animation (it's recommended to use ones directly from the original game or NewerSMBW, as they are working properly. For this tutorial, i will be using <em>Pa0_jyotyu</em> as a Pa0 example and <em>Pa1_toride</em> as a Pa1 example. You can't add animations to Pa2 tilesets, but you can add them to Pa3 tilesets based off <em>Pa3_waterworks</em> and <em>Pa3_falls</em> (this won't be covered).<br />
+- The tileset you want to add animations to<br />
+- <a href="indexf8db.html?page=thread&amp;id=47">Jigsaw Puzzle</a><br />
+- <a href="indexf8db.html?page=thread&amp;id=47">BrawlBox</a> (v0.71 is recommended)<br />
+- <a href="index04fb.html?page%20=thread&amp;id=47">CTools</a><br />
+- A hex editor (i use <a href="https://mh-nexus.de/en/hxd/">HxD</a>)<br />
+<br />
+<strong><u>Step 1 : Exporting the Original Animations</u></strong><br />
+<div class="spoiler"><button class="spoilerbutton named">Pa0</button><div class="spoiled hidden">- Open <em>Pa0_jyotyu</em> in BrawlBox<br />
+- Go inside the <em>BG_tex</em> folder<br />
+- Export the three files : <em>block_anime.bin</em> (Brick Blocks), <em>hatena_anime.bin</em> (Question Blocks) and <em>tuka_coin_anime.bin</em> (Outline Coins)<br />
+- If you don't need to edit the graphics of any of these tiles, just export the related .bin files and skip Step 2<br />
+- Now open each of the exported .bin files with HxD<br />
+- Add the following hex data at the start of <em>block_anime.bin</em> (NOT in the column with gibberish text) :<br />
+<div class="codeblock">00 20 AF 30 00 00 00 01 00 00 00 0C 00 00 00 14 00 00 00 00 00 80 00 20 00 00 00 05 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</div>- Add the following in the same way to <em>hatena_anime.bin</em> ONLY :<br />
+<div class="codeblock">00 20 AF 30 00 00 00 01 00 00 00 0C 00 00 00 14 00 00 00 00 02 00 00 20 00 00 00 05 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</div>- Add the following in the same way to <em>tuka_coin_anime.bin</em> ONLY :<br />
+<div class="codeblock">00 20 AF 30 00 00 00 01 00 00 00 0C 00 00 00 14 00 00 00 00 01 00 00 20 00 00 00 05 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</div></div></div><div class="spoiler"><button class="spoilerbutton named">Pa1</button><div class="spoiled hidden">- Open <em>Pa1_toride</em> in BrawlBox<br />
+- Go inside the <em>BG_tex</em> folder<br />
+- Export the three files : <em>belt_conveyor_L.bin</em> (left part), <em>belt_conveyor_M.bin</em> (middle part) and <em>belt_conveyor_R.bin</em> (right part)<br />
+- If you don't need to edit the graphics of any of these tiles, just export the related .bin files and skip Step 2<br />
+- Now open each of the exported .bin files with HxD<br />
+- Add the following hex data at the start of each file (NOT in the column with gibberish text) :<br />
+<div class="codeblock">00 20 AF 30 00 00 00 01 00 00 00 0C 00 00 00 14 00 00 00 00 00 80 00 20 00 00 00 05 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</div>(this will add the missing TPL header to the file, so BrawlBox can read it correctly)</div></div>- Now save all of the files and open them in BrawlBox<br />
+- Export the textures and Step 1 is done !<br />
+<br />
+<strong><u>Step 2 : Editing Animations</u></strong><br />
+- Open the newly exported textures in your image editor of choice (just don't resize the texture)<br />
+- Each tile is 32x32, so keep that in mind when editing<br />
+- When you're done, save the textures<br />
+- Open the edited .bin files in BrawlBox and replace the textures, then save and close the program<br />
+- Open the .bin files in the Hex Editor, then remove the extra data you added in Step 1 in each file.<br />
+<br />
+<strong><u>Step 3 : Making a New Tileset</u></strong><br />
+- Open Jigsaw Puzzle (if you only have a tileset texture, skip the next point)<br />
+- Open your tileset and export the image (<em>File</em>><em>Export Image</em>)<br />
+- Now open Pa0_jyotyu/Pa1_toride (still in Jigsaw Puzzle)<br />
+- Import the tileset image, then remake the tileset as if you were doing it from scratch (see <a href="index8968.html?page=thread&amp;id=68">here</a> if you need help on this)<br />
+<br />
+<strong><u>Step 4 : Finalising</u></strong><br />
+- Open the saved tileset in CTools' SZS Explorer<br />
+- Now replace all the .bin files in and <em>BG_tex</em> with the ones you created at the end of Step 2 by right clicking and selecting <em>Replace</em> (or click <em>Import</em>><em>File</em> if they aren't already present)<br />
+- Save, and you're done !<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3738">
+		<tr>
+			<td class="side userlink">
+				<a href="index3a74.html?page=profile&amp;id=57"><span style="color: #97ACEF;" class="userlink" title="Gamer Boy (57) [Normal user]">Gamer&nbsp;Boy</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3738">
+									Posted on 11-22-17, 08:52 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3738">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index74f0.html?page=post&amp;id=3738">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3738									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/goomba.png" alt="" /><br>Goomba<br>					RiiMIXER<br>
+										<img src="data/avatars/57_1529609975.png" alt=""><br>					<br>
+					Posts: 14/31<br>
+					Since: 09-10-17<br>
+										<br>
+					Last post: 43 days<br>
+					Last view: 41 days<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3738">
+				This is a pretty big discovery! Thanks for posting and congrats on figuring this out. Going to put this information to good use. <img class="smiley" alt="" src="img/smilies/smile.png" /><br>_________________________<br><div class="signature"><a href="../i.imgur.com/4cx5zUV.png"><img class="imgtag" style="max-width:300px; max-height:300px;" src="../i.imgur.com/4cx5zUV.png" alt=""/></a><br />
+<a href="index7619.html?page=thread&amp;id=275">Thread</a> | <a href="https://discord.gg/5FAPvQf">Discord Server</a><br />
+<a href="https://www.youtube.com/channel/UCjCmKiR0MRQpteP3DHMgLmA">YouTube Channel</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3740">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3740">
+									Posted on 11-22-17, 09:19 pm
+										 (rev. 1 by <a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a> on 11-24-17, 04:26 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3740">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexee4c.html?page=post&amp;id=3740">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3740									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 368/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3740">
+				Tutorial fixed ! Gamer Boy, please try out this method (which should be the correct one)<br />
+<br />
+EDIT : Fixed again and corrected a bad mistake, thank you Chickensaver !<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3753">
+		<tr>
+			<td class="side userlink">
+				<a href="indexed0b.html?page=profile&amp;id=20"><span style="color: #97ACEF;" class="userlink" title="Danster (20) [Normal user]">Danster64</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3753">
+									Posted on 11-25-17, 02:31 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3753">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexf9a6.html?page=post&amp;id=3753">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3753									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/redcheepcheep.png" alt="" /><br>Red Cheep-cheep<br>					Normal user<br>
+										<img src="data/avatars/20_1514168052.gif" alt=""><br>					<br>
+					Posts: 180/219<br>
+					Since: 07-01-17<br>
+										<br>
+					Last post: 45 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3753">
+				Great tutorial! Though, how do you remove objects in Wart?<br>_________________________<br><div class="signature">I need to make a signature...<br />
+<div class="spoiler"><button class="spoilerbutton named">The Story of Donkey Kong</button><div class="spoiled hidden">It all starts like this. Ganon captured Link. Then Zelda found out that the triforce had 4 pieces. not 3. She went to the triforce and threw the 3rd shard (that is black) at it. the shard went in the middle. Then she punched it for its power and then there was a gigantic explosion. Everyone died but zelda and ganon and link. Ganon and Link started fighting. Athend, Ganon hit link to the ground. Ganon was about to end it when captain falcon came out of somewhere i mean nowhere and used falcon punch. Then he exploded and died. Zelda said "wow Link sucks." Link heard, got pissed, Transformed into Dark Link and exploded. Ganon was so shocked he died out of laughter. zelda almost had the same fate but the triforce which is now black and Purple aura copied Zelda's apperance and then gained 4 heads and a dragon tail. Its name is dragon zelda. zelda acted like she was all and powerful. dragon zelda charged at zelda and she hit the floor. She started crying alot. then toon link and young link came out of nowhere i mean somewhere and went beside zelda. they screamed "AHHHHHH!!!" and exploded. then they reformed to a toon female link with pink hair. fink. fink acted like she was all and powerful. but then dragon zelda charged at fink and she hit the floor. this time she was actually dead. Now everyone was dead but dragon zelda. Now she turns into a shiek with a bigger dragon tail. she teleported to a dimension with everything normal. because she can. then she looked for zelda. she found her, killed her instanly and became the new zelda. <br />
+<br />
+The Ends.</div></div></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3755">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3755">
+									Posted on 11-25-17, 03:09 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3755">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexec46.html?page=post&amp;id=3755">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3755									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 370/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3755">
+				You don't. You can overwrite the tiles on existing ones and resize them, but you cannot remove them. You may get extra useless objects, but it's not much of an issue (at least for me)<br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3766">
+		<tr>
+			<td class="side userlink">
+				<a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3766">
+									Posted on 11-25-17, 05:30 pm
+										 (rev. 1 by <a href="indexc5c8.html?page=profile&amp;id=34"><span style="color: #7C60B0;" class="userlink" title="9211tr (34) [Normal user]">9211tr</span></a> on 11-25-17, 05:31 pm)								</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3766">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="index8a3c.html?page=post&amp;id=3766">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3766									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+					<img src="ranksets/mario/pokey.png" alt="" /><br>Pokey<br>					An average person.<br><a href="https://google.com/search?q=%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be%c3%ae%c3%be">îþîþîþîþîþîþîþîþ</a><a href="http://forums.ogre3d.org/viewtopic.php?f=5&amp;t=52079" target="_blank">îþîþîþîþîþîþîþîþ</a><br>
+															<br>
+					Posts: 547/684<br>
+					Since: 07-07-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 1 hour<br>
+					
+				</div>
+			</td>
+			<td class="post haslayout" id="post_3766">
+				<style>
+@font-face
+{
+    font-family:"Paper Mario";
+    src:url("https://www.dl.dropboxusercontent.com/s/a1y7xoej1276p4t/PaperMarioText.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/mzvt78vumlbahjt/PaperMarioText.otf")  format("opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/wmphhhzot07n85v/PaperMarioText.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/9ifpet34ui40gn0/PaperMarioText.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/c8rrftbt0pm98qv/PaperMarioText.woff") format("woff");
+}
+@font-face
+{
+    font-family:"MS-DOS";
+    src:url("https://www.dl.dropboxusercontent.com/s/uw1doij751r5ep5/MS-DOS_Text.eot?#iefix") format("embedded-opentype"),
+        url("https://www.dl.dropboxusercontent.com/s/uo8na7wkhv052sw/MS-DOS_Text.svg") format("svg"),
+        url("https://www.dl.dropboxusercontent.com/s/h9m7x02au7hrioh/MS-DOS_Text.ttf")  format("truetype"),
+        url("https://www.dl.dropboxusercontent.com/s/i8r1jy9c4e51vyn/MS-DOS_Text.woff") format("woff");
+}
+
+.mainbar34
+{
+    padding:0 !important;
+    color:#0d0d0d !important;
+}
+
+.postbox34 code
+{
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 div.codeblock
+{
+    color:#AAAAAA;
+    background-color:#000000;
+    font-size:16px !important;
+    font-family:"MS-DOS", sans-serif;
+}
+
+.postbox34 button.spoilerbutton
+{
+    font-family:"Paper Mario", sans-serif;
+}
+
+.postbox34
+{
+    margin:16px;
+    font-size:120% !important;
+    font-family:"Paper Mario", sans-serif;
+}
+</style><div class="postbox34">Will you update the tutorial, for it to use <a href="indexb55f.html?page=thread&amp;id=198">Jigsaw Puzzle</a> (which supports tileset animations)?<br>_________________________<br>Don't expect me to be very active here, since I have plans, and many other things in my life.<br />
+</div>
+			</td>
+		</tr>
+	</table>
+	<table class="post margin" id="post3768">
+		<tr>
+			<td class="side userlink">
+				<a href="index3466.html?page=profile&amp;id=26"><span style="color: #7C60B0;" class="userlink" title="customlevelfan78 (26) [Normal user]">customlevelfan78</span></a>
+			</td>
+			<td class="meta right">
+				<div style="float: left;" id="meta_3768">
+									Posted on 11-25-17, 06:19 pm
+																		</div>
+				<div style="float: left; text-align:left; display: none;" id="dyna_3768">
+					blarg
+				</div>
+				<ul class="pipemenu">
+									<li><a href="indexd571.html?page=post&amp;id=3768">Link</a>
+																									<li>
+					<li><font color="green" size="4">0</font>
+														<li>#3768									</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="side">
+				<div class="smallFonts">
+										The veteran<br>
+															<br>
+					Posts: 371/436<br>
+					Since: 07-04-17<br>
+										<br>
+					Last post: 6 days<br>
+					Last view: 35 min.<br>
+					
+				</div>
+			</td>
+			<td class="post" id="post_3768">
+				Updated it <img class="smiley" alt="" src="img/smilies/smile.png" /><br>_________________________<br><div class="signature">Check out my YT <a href="https://www.youtube.com/channel/UC_mGifTsgW5NckdkyuHu0UA">here</a></div>
+			</td>
+		</tr>
+	</table>
+	</div>
+    </td></tr>
+    <tr><td class="crumb-container">
+                <table class="outline breadcrumbs"><tr class="header1">
+            <th>
+                                                <ul class="crumbLinks">
+                                    <li><a href="index.html">Horizon</a>
+                                    <li><a href="index4650.html?page=board">Forums</a>
+                                    <li><a href="index533f.html?page=forum&amp;id=8">Tutorials and Info</a>
+                                    <li><a href="index9053.html?page=thread&amp;id=196">How to Edit Tileset Animations</a>
+                                </ul>
+                            </th>
+        </tr></table>
+
+    </td></tr>
+    </table>
+</td>
+</tr>
+ 
+<tr>
+<td id="main-footer" colspan="2">
+ 
+    <table id="footer" class="outline">
+    <tr>
+    <td class="cell2">
+        <table class="layout-table" style="line-height: 1.4em;">
+            <tr>
+            <td style="text-align: left;">
+                <img src="img/poweredbyblarg.png" style="float: left; margin-right: 3px;">
+<a href="http://kuribo64.net/blargboard/" target="_blank">Blargboard 1.1</a> &middot; by StapleButter<br>
+Based off <a href="http://abxd.dirbaio.net/" target="_blank">ABXD</a> by Dirbaio, Kawa &amp; co.<br>
+                <!-- Page rendered in 0.026 seconds (with 37 SQL queries and 846.578K of RAM) -->
+            </td>
+        </table>
+    </td>
+    </tr>
+    </table>
+ 
+</td>
+</tr>
+</table>
+</body>
+
+<!-- Mirrored from horizonwii.net/?page=thread&id=196 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 20:46:35 GMT -->
+</html>
+
